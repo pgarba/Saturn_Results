@@ -1,0 +1,540 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001090: sub rsp, 0x158
+    1: 2: 0x140001097: lea rax, qword ptr [rsp + 0x40]
+    1: 3: 0x14000109c: mov dword ptr [rsp + 0x154], ecx
+    1: 4: 0x1400010a3: mov qword ptr [rsp + 0x38], rax
+    1: 5: 0x1400010a8: lea rax, qword ptr [rip + 0x1bf61]
+    1: 6: 0x1400010af: mov qword ptr [rsp + 0x30], rax
+    1: 7: 0x1400010b4: mov rax, qword ptr [rsp + 0x30]
+    1: 8: 0x1400010b9: movzx ecx, byte ptr [rax]
+    1: 9: 0x1400010bc: mov edx, ecx
+    1: 10: 0x1400010be: sub edx, 9
+    1: 11: 0x1400010c1: mov dword ptr [rsp + 0x2c], ecx
+    1: 12: 0x1400010c5: mov dword ptr [rsp + 0x28], edx
+    1: 13: 0x1400010c9: je 0x1400012bb
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0570s
+[*] Edges: 2
+(0x1400012bb) (0x1400010cf) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0570s
+[*] Edges: 2
+(0x1400012bb) (0x1400010cf) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0560s
+[*] Edges: 2
+(0x1400012bb) (0x1400010cf) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    2: 14: 0x1400012bb: mov rax, qword ptr [rsp + 0x30]
+    2: 15: 0x1400012c0: add rax, 1
+    2: 16: 0x1400012c4: mov qword ptr [rsp + 0x30], rax
+    2: 17: 0x1400012c9: mov rax, qword ptr [rsp + 0x30]
+    2: 18: 0x1400012ce: mov ecx, dword ptr [rax]
+    2: 19: 0x1400012d0: mov rax, qword ptr [rsp + 0x30]
+    2: 20: 0x1400012d5: movsxd rdx, ecx
+    2: 21: 0x1400012d8: add rax, rdx
+    2: 22: 0x1400012db: mov qword ptr [rsp + 0x30], rax
+    2: 23: 0x1400012e0: jmp 0x14000143e
+
+    3: 24: 0x1400010cf: jmp 0x1400010d4
+
+    4: 25: 0x14000143e: jmp 0x1400010b4
+
+    5: 26: 0x1400010d4: mov eax, dword ptr [rsp + 0x2c]
+    5: 27: 0x1400010d8: sub eax, 0xb
+    5: 28: 0x1400010db: mov dword ptr [rsp + 0x24], eax
+    5: 29: 0x1400010df: je 0x1400012e5
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x1400012e5) (0x1400010e5) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0550s
+[*] Edges: 2
+(0x1400012e5) (0x1400010e5) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x1400012e5) (0x1400010e5) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+[!] Splitting the basic block 0x140001090 at 0x1400010b4
+
+    5: 30: 0x1400012e5: mov rax, qword ptr [rsp + 0x30]
+    5: 31: 0x1400012ea: add rax, 1
+    5: 32: 0x1400012ee: mov qword ptr [rsp + 0x30], rax
+    5: 33: 0x1400012f3: mov rax, qword ptr [rsp + 0x38]
+    5: 34: 0x1400012f8: mov eax, dword ptr [rax]
+    5: 35: 0x1400012fa: add rsp, 0x158
+    5: 36: 0x140001301: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0270s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0270s
+[*] Edges: 0
+
+
+    6: 37: 0x1400010e5: jmp 0x1400010ea
+
+    7: 38: 0x140001090: sub rsp, 0x158
+    7: 39: 0x140001097: lea rax, qword ptr [rsp + 0x40]
+    7: 40: 0x14000109c: mov dword ptr [rsp + 0x154], ecx
+    7: 41: 0x1400010a3: mov qword ptr [rsp + 0x38], rax
+    7: 42: 0x1400010a8: lea rax, qword ptr [rip + 0x1bf61]
+    7: 43: 0x1400010af: mov qword ptr [rsp + 0x30], rax
+
+    8: 44: 0x1400010b4: mov rax, qword ptr [rsp + 0x30]
+    8: 45: 0x1400010b9: movzx ecx, byte ptr [rax]
+    8: 46: 0x1400010bc: mov edx, ecx
+    8: 47: 0x1400010be: sub edx, 9
+    8: 48: 0x1400010c1: mov dword ptr [rsp + 0x2c], ecx
+    8: 49: 0x1400010c5: mov dword ptr [rsp + 0x28], edx
+    8: 50: 0x1400010c9: je 0x1400012bb
+[*] Predecessors: 2
+0x1400010b4: (0x140001090 =>  1 ) (0x14000143e =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0670s
+[*] Edges: 2
+(0x1400012bb) (0x1400010cf) 
+[*] Opaquenes of 0x1400010b4 has changed to Non Opaque!
+[*] Predecessors: 2
+0x1400010b4: (0x140001090 =>  1 ) (0x14000143e =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x1400010b4: (0x140001090 =>  1 ) (0x14000143e =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 3 - 0 )
+
+    9: 51: 0x1400010ea: mov eax, dword ptr [rsp + 0x2c]
+    9: 52: 0x1400010ee: sub eax, 0x20
+    9: 53: 0x1400010f1: mov dword ptr [rsp + 0x20], eax
+    9: 54: 0x1400010f5: je 0x140001326
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x140001326) (0x1400010fb) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x140001326) (0x1400010fb) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x140001326) (0x1400010fb) 
+[!] We got 2 edges ... verify if this is ok! ( 4 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x1400012bb
+
+[!] Loop detected to the beginning of basic block 0x1400010cf
+
+   10: 55: 0x140001326: mov rax, qword ptr [rsp + 0x30]
+   10: 56: 0x14000132b: add rax, 1
+   10: 57: 0x14000132f: mov qword ptr [rsp + 0x30], rax
+   10: 58: 0x140001334: mov rax, qword ptr [rsp + 0x38]
+   10: 59: 0x140001339: mov ecx, dword ptr [rax - 8]
+   10: 60: 0x14000133c: mov rax, qword ptr [rsp + 0x38]
+   10: 61: 0x140001341: cmp ecx, dword ptr [rax]
+   10: 62: 0x140001343: setl dl
+   10: 63: 0x140001346: and dl, 1
+   10: 64: 0x140001349: movzx ecx, dl
+   10: 65: 0x14000134c: mov rax, qword ptr [rsp + 0x38]
+   10: 66: 0x140001351: mov dword ptr [rax - 8], ecx
+   10: 67: 0x140001354: mov rax, qword ptr [rsp + 0x38]
+   10: 68: 0x140001359: add rax, -8
+   10: 69: 0x14000135d: mov qword ptr [rsp + 0x38], rax
+   10: 70: 0x140001362: jmp 0x14000143e
+
+   11: 71: 0x1400010fb: jmp 0x140001100
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   12: 72: 0x140001100: mov eax, dword ptr [rsp + 0x2c]
+   12: 73: 0x140001104: sub eax, 0x2a
+   12: 74: 0x140001107: mov dword ptr [rsp + 0x1c], eax
+   12: 75: 0x14000110b: je 0x14000124a
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x14000124a) (0x140001111) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x14000124a) (0x140001111) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x14000124a) (0x140001111) 
+[!] We got 2 edges ... verify if this is ok! ( 5 - 0 )
+
+   13: 76: 0x14000124a: mov rax, qword ptr [rsp + 0x30]
+   13: 77: 0x14000124f: add rax, 1
+   13: 78: 0x140001253: mov qword ptr [rsp + 0x30], rax
+   13: 79: 0x140001258: mov rax, qword ptr [rsp + 0x30]
+   13: 80: 0x14000125d: mov ecx, dword ptr [rax]
+   13: 81: 0x14000125f: mov rax, qword ptr [rsp + 0x38]
+   13: 82: 0x140001264: mov dword ptr [rax + 8], ecx
+   13: 83: 0x140001267: mov rax, qword ptr [rsp + 0x38]
+   13: 84: 0x14000126c: add rax, 8
+   13: 85: 0x140001270: mov qword ptr [rsp + 0x38], rax
+   13: 86: 0x140001275: mov rax, qword ptr [rsp + 0x30]
+   13: 87: 0x14000127a: add rax, 4
+   13: 88: 0x14000127e: mov qword ptr [rsp + 0x30], rax
+   13: 89: 0x140001283: jmp 0x14000143e
+
+   14: 90: 0x140001111: jmp 0x140001116
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   15: 91: 0x140001116: mov eax, dword ptr [rsp + 0x2c]
+   15: 92: 0x14000111a: sub eax, 0xa1
+   15: 93: 0x14000111f: mov dword ptr [rsp + 0x18], eax
+   15: 94: 0x140001123: je 0x140001288
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001288) (0x140001129) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001288) (0x140001129) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001288) (0x140001129) 
+[!] We got 2 edges ... verify if this is ok! ( 6 - 0 )
+
+   16: 95: 0x140001288: mov rax, qword ptr [rsp + 0x30]
+   16: 96: 0x14000128d: add rax, 1
+   16: 97: 0x140001291: mov qword ptr [rsp + 0x30], rax
+   16: 98: 0x140001296: mov rax, qword ptr [rsp + 0x38]
+   16: 99: 0x14000129b: mov ecx, dword ptr [rax]
+   16: 100: 0x14000129d: mov rax, qword ptr [rsp + 0x38]
+   16: 101: 0x1400012a2: mov rax, qword ptr [rax - 8]
+   16: 102: 0x1400012a6: mov dword ptr [rax], ecx
+   16: 103: 0x1400012a8: mov rax, qword ptr [rsp + 0x38]
+   16: 104: 0x1400012ad: add rax, -0x10
+   16: 105: 0x1400012b1: mov qword ptr [rsp + 0x38], rax
+   16: 106: 0x1400012b6: jmp 0x14000143e
+
+   17: 107: 0x140001129: jmp 0x14000112e
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   18: 108: 0x14000112e: mov eax, dword ptr [rsp + 0x2c]
+   18: 109: 0x140001132: sub eax, 0xaf
+   18: 110: 0x140001137: mov dword ptr [rsp + 0x14], eax
+   18: 111: 0x14000113b: je 0x1400013c0
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x1400013c0) (0x140001141) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0490s
+[*] Edges: 2
+(0x1400013c0) (0x140001141) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x1400013c0) (0x140001141) 
+[!] We got 2 edges ... verify if this is ok! ( 7 - 0 )
+
+   19: 112: 0x1400013c0: mov rax, qword ptr [rsp + 0x30]
+   19: 113: 0x1400013c5: add rax, 1
+   19: 114: 0x1400013c9: mov qword ptr [rsp + 0x30], rax
+   19: 115: 0x1400013ce: mov rax, qword ptr [rsp + 0x38]
+   19: 116: 0x1400013d3: mov ecx, dword ptr [rax - 8]
+   19: 117: 0x1400013d6: mov rax, qword ptr [rsp + 0x38]
+   19: 118: 0x1400013db: add ecx, dword ptr [rax]
+   19: 119: 0x1400013dd: mov rax, qword ptr [rsp + 0x38]
+   19: 120: 0x1400013e2: mov dword ptr [rax - 8], ecx
+   19: 121: 0x1400013e5: mov rax, qword ptr [rsp + 0x38]
+   19: 122: 0x1400013ea: add rax, -8
+   19: 123: 0x1400013ee: mov qword ptr [rsp + 0x38], rax
+   19: 124: 0x1400013f3: jmp 0x14000143e
+
+   20: 125: 0x140001141: jmp 0x140001146
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   21: 126: 0x140001146: mov eax, dword ptr [rsp + 0x2c]
+   21: 127: 0x14000114a: sub eax, 0xb5
+   21: 128: 0x14000114f: mov dword ptr [rsp + 0x10], eax
+   21: 129: 0x140001153: je 0x1400013f8
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0490s
+[*] Edges: 2
+(0x1400013f8) (0x140001159) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x1400013f8) (0x140001159) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0490s
+[*] Edges: 2
+(0x1400013f8) (0x140001159) 
+[!] We got 2 edges ... verify if this is ok! ( 8 - 0 )
+
+   22: 130: 0x1400013f8: lea rax, qword ptr [rsp + 0x148]
+   22: 131: 0x140001400: mov rcx, qword ptr [rsp + 0x30]
+   22: 132: 0x140001405: add rcx, 1
+   22: 133: 0x140001409: mov qword ptr [rsp + 0x30], rcx
+   22: 134: 0x14000140e: mov rcx, qword ptr [rsp + 0x30]
+   22: 135: 0x140001413: movsxd rcx, dword ptr [rcx]
+   22: 136: 0x140001416: add rax, rcx
+   22: 137: 0x140001419: mov rcx, qword ptr [rsp + 0x38]
+   22: 138: 0x14000141e: mov qword ptr [rcx + 8], rax
+   22: 139: 0x140001422: mov rax, qword ptr [rsp + 0x38]
+   22: 140: 0x140001427: add rax, 8
+   22: 141: 0x14000142b: mov qword ptr [rsp + 0x38], rax
+   22: 142: 0x140001430: mov rax, qword ptr [rsp + 0x30]
+   22: 143: 0x140001435: add rax, 4
+   22: 144: 0x140001439: mov qword ptr [rsp + 0x30], rax
+
+   23: 145: 0x140001159: jmp 0x14000115e
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   24: 146: 0x14000115e: mov eax, dword ptr [rsp + 0x2c]
+   24: 147: 0x140001162: sub eax, 0xb8
+   24: 148: 0x140001167: mov dword ptr [rsp + 0xc], eax
+   24: 149: 0x14000116b: je 0x1400011bd
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0600s
+[*] Edges: 2
+(0x1400011bd) (0x140001171) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0560s
+[*] Edges: 2
+(0x1400011bd) (0x140001171) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0490s
+[*] Edges: 2
+(0x1400011bd) (0x140001171) 
+[!] We got 2 edges ... verify if this is ok! ( 9 - 0 )
+
+   25: 150: 0x1400011bd: mov rax, qword ptr [rsp + 0x30]
+   25: 151: 0x1400011c2: add rax, 1
+   25: 152: 0x1400011c6: mov qword ptr [rsp + 0x30], rax
+   25: 153: 0x1400011cb: mov rax, qword ptr [rsp + 0x30]
+   25: 154: 0x1400011d0: mov ecx, dword ptr [rax]
+   25: 155: 0x1400011d2: test ecx, ecx
+   25: 156: 0x1400011d4: jne 0x1400011f0
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x1400011f0) (0x1400011da) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0570s
+[*] Edges: 2
+(0x1400011f0) (0x1400011da) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x1400011f0) (0x1400011da) 
+[!] We got 2 edges ... verify if this is ok! ( 10 - 0 )
+
+   26: 157: 0x140001171: jmp 0x140001176
+
+   27: 158: 0x1400011f0: mov rax, qword ptr [rsp + 0x38]
+   27: 159: 0x1400011f5: add rax, 8
+   27: 160: 0x1400011f9: mov qword ptr [rsp + 0x38], rax
+   27: 161: 0x1400011fe: mov rax, qword ptr [rsp + 0x30]
+   27: 162: 0x140001203: add rax, 4
+   27: 163: 0x140001207: mov qword ptr [rsp + 0x30], rax
+   27: 164: 0x14000120c: jmp 0x14000143e
+
+   28: 165: 0x1400011da: jmp 0x1400011df
+
+   29: 166: 0x140001176: mov eax, dword ptr [rsp + 0x2c]
+   29: 167: 0x14000117a: sub eax, 0xc2
+   29: 168: 0x14000117f: mov dword ptr [rsp + 8], eax
+   29: 169: 0x140001183: je 0x140001211
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x140001211) (0x140001189) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0550s
+[*] Edges: 2
+(0x140001211) (0x140001189) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0710s
+[*] Edges: 2
+(0x140001211) (0x140001189) 
+[!] We got 2 edges ... verify if this is ok! ( 11 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   30: 170: 0x1400011df: lea rax, qword ptr [rsp + 0x154]
+   30: 171: 0x1400011e7: mov rcx, qword ptr [rsp + 0x38]
+   30: 172: 0x1400011ec: mov qword ptr [rcx + 8], rax
+
+   31: 173: 0x140001211: mov rax, qword ptr [rsp + 0x30]
+   31: 174: 0x140001216: add rax, 1
+   31: 175: 0x14000121a: mov qword ptr [rsp + 0x30], rax
+   31: 176: 0x14000121f: mov rax, qword ptr [rsp + 0x38]
+   31: 177: 0x140001224: mov ecx, dword ptr [rax]
+   31: 178: 0x140001226: mov rax, qword ptr [rsp + 0x38]
+   31: 179: 0x14000122b: imul ecx, dword ptr [rax - 8]
+   31: 180: 0x14000122f: mov rax, qword ptr [rsp + 0x38]
+   31: 181: 0x140001234: mov dword ptr [rax - 8], ecx
+   31: 182: 0x140001237: mov rax, qword ptr [rsp + 0x38]
+   31: 183: 0x14000123c: add rax, -8
+   31: 184: 0x140001240: mov qword ptr [rsp + 0x38], rax
+   31: 185: 0x140001245: jmp 0x14000143e
+
+   32: 186: 0x140001189: jmp 0x14000118e
+
+[!] Loop detected to the beginning of basic block 0x1400011f0
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+   33: 187: 0x14000118e: mov eax, dword ptr [rsp + 0x2c]
+   33: 188: 0x140001192: sub eax, 0xf2
+   33: 189: 0x140001197: mov dword ptr [rsp + 4], eax
+   33: 190: 0x14000119b: je 0x140001367
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001367) (0x1400011a1) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x140001367) (0x1400011a1) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0570s
+[*] Edges: 2
+(0x140001367) (0x1400011a1) 
+[!] We got 2 edges ... verify if this is ok! ( 12 - 0 )
+
+   34: 191: 0x140001367: mov rax, qword ptr [rsp + 0x30]
+   34: 192: 0x14000136c: add rax, 1
+   34: 193: 0x140001370: mov qword ptr [rsp + 0x30], rax
+   34: 194: 0x140001375: mov rax, qword ptr [rsp + 0x38]
+   34: 195: 0x14000137a: cmp dword ptr [rax], 0
+   34: 196: 0x14000137d: je 0x14000139f
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x14000139f) (0x140001383) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x14000139f) (0x140001383) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0540s
+[*] Edges: 2
+(0x14000139f) (0x140001383) 
+[!] We got 2 edges ... verify if this is ok! ( 13 - 0 )
+
+   35: 197: 0x1400011a1: jmp 0x1400011a6
+
+   36: 198: 0x14000139f: mov rax, qword ptr [rsp + 0x30]
+   36: 199: 0x1400013a4: add rax, 4
+   36: 200: 0x1400013a8: mov qword ptr [rsp + 0x30], rax
+   36: 201: 0x1400013ad: mov rax, qword ptr [rsp + 0x38]
+   36: 202: 0x1400013b2: add rax, -8
+   36: 203: 0x1400013b6: mov qword ptr [rsp + 0x38], rax
+   36: 204: 0x1400013bb: jmp 0x14000143e
+
+   37: 205: 0x140001383: mov rax, qword ptr [rsp + 0x30]
+   37: 206: 0x140001388: mov ecx, dword ptr [rax]
+   37: 207: 0x14000138a: mov rax, qword ptr [rsp + 0x30]
+   37: 208: 0x14000138f: movsxd rdx, ecx
+   37: 209: 0x140001392: add rax, rdx
+   37: 210: 0x140001395: mov qword ptr [rsp + 0x30], rax
+   37: 211: 0x14000139a: jmp 0x1400013ad
+
+   38: 212: 0x1400011a6: mov eax, dword ptr [rsp + 0x2c]
+   38: 213: 0x1400011aa: sub eax, 0xfe
+   38: 214: 0x1400011af: mov dword ptr [rsp], eax
+   38: 215: 0x1400011b2: je 0x140001302
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0540s
+[*] Edges: 2
+(0x140001302) (0x1400011b8) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0520s
+[*] Edges: 2
+(0x140001302) (0x1400011b8) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x140001302) (0x1400011b8) 
+[!] We got 2 edges ... verify if this is ok! ( 14 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+
+[!] Splitting the basic block 0x14000139f at 0x1400013ad
+
+   38: 216: 0x140001302: mov rax, qword ptr [rsp + 0x30]
+   38: 217: 0x140001307: add rax, 1
+   38: 218: 0x14000130b: mov qword ptr [rsp + 0x30], rax
+   38: 219: 0x140001310: mov rax, qword ptr [rsp + 0x38]
+   38: 220: 0x140001315: mov rax, qword ptr [rax]
+   38: 221: 0x140001318: mov ecx, dword ptr [rax]
+   38: 222: 0x14000131a: mov rax, qword ptr [rsp + 0x38]
+   38: 223: 0x14000131f: mov dword ptr [rax], ecx
+   38: 224: 0x140001321: jmp 0x14000143e
+
+   39: 225: 0x1400011b8: jmp 0x14000143e
+
+   40: 226: 0x14000139f: mov rax, qword ptr [rsp + 0x30]
+   40: 227: 0x1400013a4: add rax, 4
+   40: 228: 0x1400013a8: mov qword ptr [rsp + 0x30], rax
+
+   41: 229: 0x1400013ad: mov rax, qword ptr [rsp + 0x38]
+   41: 230: 0x1400013b2: add rax, -8
+   41: 231: 0x1400013b6: mov qword ptr [rsp + 0x38], rax
+   41: 232: 0x1400013bb: jmp 0x14000143e
+
+[!] Loop detected to the beginning of basic block 0x14000143e
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 2.3370s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 17 Stack Slots found
+-5000  1 uses - Size: 4656 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -344  AlignedSize: 4656  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-344  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -344  AlignedEnd: -336  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-340  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -344  AlignedEnd: -336  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-336  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -336  AlignedEnd: -328  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-332  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -336  AlignedEnd: -328  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-328  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -328  AlignedEnd: -320  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-324  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -328  AlignedEnd: -320  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-320  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -320  AlignedEnd: -312  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-316  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -320  AlignedEnd: -312  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-312  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -312  AlignedEnd: -304  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-308  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -312  AlignedEnd: -304  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-304  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -304  AlignedEnd: -296  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-300  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -304  AlignedEnd: -296  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-296  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -296  AlignedEnd: -288  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-288  1 uses - Size: 284 Aligned: 1 Overlapping: 0  AlignedStart: -288  AlignedEnd: 0  AlignedSize: 288  AlignedOverlapping: 1  AlignedOverlappingSize: 288 
+-4  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 288 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 1.0180s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 41
+[*] Recovered Opaque Predicates : 0

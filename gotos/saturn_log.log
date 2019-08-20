@@ -1,0 +1,196 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: sub rsp, 0x38
+    1: 2: 0x140001004: lea rax, qword ptr [rip + 0x1bff5]
+    1: 3: 0x14000100b: mov r9, rax
+    1: 4: 0x14000100e: mov r10, rax
+    1: 5: 0x140001011: mov dword ptr [rsp + 0x34], r8d
+    1: 6: 0x140001016: mov dword ptr [rsp + 0x30], edx
+    1: 7: 0x14000101a: mov dword ptr [rsp + 0x2c], ecx
+    1: 8: 0x14000101e: mov qword ptr [rsp + 0x20], rax
+    1: 9: 0x140001023: mov qword ptr [rsp + 0x18], r10
+    1: 10: 0x140001028: mov qword ptr [rsp + 0x10], r9
+    1: 11: 0x14000102d: mov dword ptr [rsp + 0xc], 0
+    1: 12: 0x140001035: cmp dword ptr [rsp + 0xc], 2
+    1: 13: 0x14000103a: jge 0x14000105a
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0280s
+[*] Edges: 1
+(0x140001040) 
+
+    2: 14: 0x140001040: mov rax, qword ptr [rsp + 0x10]
+    2: 15: 0x140001045: movsxd rcx, dword ptr [rsp + 0xc]
+    2: 16: 0x14000104a: mov edx, dword ptr [rax + rcx*4]
+    2: 17: 0x14000104d: add edx, dword ptr [rsp + 0x30]
+    2: 18: 0x140001051: mov dword ptr [rsp + 0x30], edx
+    2: 19: 0x140001055: jmp 0x140001074
+
+    3: 20: 0x140001074: mov dword ptr [rsp + 8], 0
+    3: 21: 0x14000107c: cmp dword ptr [rsp + 8], 4
+    3: 22: 0x140001081: jge 0x1400010a2
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0310s
+[*] Edges: 1
+(0x140001087) 
+
+    4: 23: 0x140001087: mov rax, qword ptr [rsp + 0x18]
+    4: 24: 0x14000108c: movsxd rcx, dword ptr [rsp + 8]
+    4: 25: 0x140001091: movzx edx, word ptr [rax + rcx*2]
+    4: 26: 0x140001095: add edx, dword ptr [rsp + 0x30]
+    4: 27: 0x140001099: mov dword ptr [rsp + 0x30], edx
+    4: 28: 0x14000109d: jmp 0x140001150
+
+    5: 29: 0x140001150: movzx eax, byte ptr [rip + 0x1beae]
+    5: 30: 0x140001157: add eax, dword ptr [rsp + 0x30]
+    5: 31: 0x14000115b: mov dword ptr [rsp + 0x30], eax
+    5: 32: 0x14000115f: movzx eax, byte ptr [rip + 0x1bea0]
+    5: 33: 0x140001166: add eax, dword ptr [rsp + 0x30]
+    5: 34: 0x14000116a: mov dword ptr [rsp + 0x30], eax
+    5: 35: 0x14000116e: movzx eax, byte ptr [rip + 0x1be92]
+    5: 36: 0x140001175: add eax, dword ptr [rsp + 0x30]
+    5: 37: 0x140001179: mov dword ptr [rsp + 0x30], eax
+    5: 38: 0x14000117d: movzx eax, word ptr [rip + 0x1be7c]
+    5: 39: 0x140001184: add eax, dword ptr [rsp + 0x30]
+    5: 40: 0x140001188: mov dword ptr [rsp + 0x30], eax
+    5: 41: 0x14000118c: movzx eax, word ptr [rip + 0x1be6f]
+    5: 42: 0x140001193: add eax, dword ptr [rsp + 0x30]
+    5: 43: 0x140001197: mov dword ptr [rsp + 0x30], eax
+    5: 44: 0x14000119b: movzx eax, word ptr [rip + 0x1be62]
+    5: 45: 0x1400011a2: add eax, dword ptr [rsp + 0x30]
+    5: 46: 0x1400011a6: mov dword ptr [rsp + 0x30], eax
+    5: 47: 0x1400011aa: movzx eax, word ptr [rip + 0x1be55]
+    5: 48: 0x1400011b1: add eax, dword ptr [rsp + 0x30]
+    5: 49: 0x1400011b5: mov dword ptr [rsp + 0x30], eax
+    5: 50: 0x1400011b9: jmp 0x14000105f
+
+    6: 51: 0x14000105f: jmp 0x140001064
+
+    7: 52: 0x140001064: cmp dword ptr [rsp + 0x34], 0
+    7: 53: 0x140001069: jne 0x1400011be
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0670s
+[*] Edges: 2
+(0x1400011be) (0x14000106f) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0480s
+[*] Edges: 2
+(0x1400011be) (0x14000106f) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0660s
+[*] Edges: 2
+(0x1400011be) (0x14000106f) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    8: 54: 0x1400011be: jmp 0x1400011c3
+
+    9: 55: 0x14000106f: jmp 0x140001074
+
+   10: 56: 0x1400011c3: cmp dword ptr [rsp + 0x34], 0
+   10: 57: 0x1400011c8: je 0x14000102d
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x14000102d) (0x1400011ce) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0530s
+[*] Edges: 2
+(0x14000102d) (0x1400011ce) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0480s
+[*] Edges: 2
+(0x14000102d) (0x1400011ce) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001074
+
+[!] Splitting the basic block 0x140001000 at 0x14000102d
+
+   10: 58: 0x1400011ce: mov eax, dword ptr [rsp + 0x30]
+   10: 59: 0x1400011d2: add eax, dword ptr [rsp + 0x34]
+   10: 60: 0x1400011d6: mov ecx, dword ptr [rsp + 0x30]
+   10: 61: 0x1400011da: xor ecx, dword ptr [rsp + 0x34]
+   10: 62: 0x1400011de: mov edx, dword ptr [rsp + 0x30]
+   10: 63: 0x1400011e2: and edx, dword ptr [rsp + 0x34]
+   10: 64: 0x1400011e6: shl edx, 1
+   10: 65: 0x1400011e9: add ecx, edx
+   10: 66: 0x1400011eb: cmp eax, ecx
+   10: 67: 0x1400011ed: jne 0x1400011ff
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 1
+(0x1400011f3) 
+
+   11: 68: 0x140001000: sub rsp, 0x38
+   11: 69: 0x140001004: lea rax, qword ptr [rip + 0x1bff5]
+   11: 70: 0x14000100b: mov r9, rax
+   11: 71: 0x14000100e: mov r10, rax
+   11: 72: 0x140001011: mov dword ptr [rsp + 0x34], r8d
+   11: 73: 0x140001016: mov dword ptr [rsp + 0x30], edx
+   11: 74: 0x14000101a: mov dword ptr [rsp + 0x2c], ecx
+   11: 75: 0x14000101e: mov qword ptr [rsp + 0x20], rax
+   11: 76: 0x140001023: mov qword ptr [rsp + 0x18], r10
+   11: 77: 0x140001028: mov qword ptr [rsp + 0x10], r9
+
+   12: 78: 0x14000102d: mov dword ptr [rsp + 0xc], 0
+   12: 79: 0x140001035: cmp dword ptr [rsp + 0xc], 2
+   12: 80: 0x14000103a: jge 0x14000105a
+[*] Predecessors: 2
+0x14000102d: (0x140001000 =>  1 ) (0x1400011c3 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0230s
+[*] Edges: 1
+(0x140001040) 
+
+   13: 81: 0x1400011f3: imul eax, dword ptr [rsp + 0x30], 0x309
+   13: 82: 0x1400011fb: mov dword ptr [rsp + 0x30], eax
+   13: 83: 0x1400011ff: mov eax, dword ptr [rsp + 0x30]
+   13: 84: 0x140001203: add rsp, 0x38
+   13: 85: 0x140001207: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0280s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0290s
+[*] Edges: 0
+
+
+[!] Loop detected to the beginning of basic block 0x140001040
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 0.5990s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 10 Stack Slots found
+-5000  1 uses - Size: 4952 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -48  AlignedSize: 4952  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-48  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-44  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-40  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-32  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-24  1 uses - Size: 12 Aligned: 1 Overlapping: 0  AlignedStart: -24  AlignedEnd: -8  AlignedSize: 16  AlignedOverlapping: 1  AlignedOverlappingSize: 16 
+-12  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 16 
+-8  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-4  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 0.5640s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 3
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 13
+[*] Recovered Opaque Predicates : 3

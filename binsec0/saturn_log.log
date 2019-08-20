@@ -1,0 +1,880 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: sub rsp, 0x38
+    1: 2: 0x140001004: mov qword ptr [rsp + 0x30], rcx
+    1: 3: 0x140001009: mov dword ptr [rsp + 0x2c], 0
+    1: 4: 0x140001011: mov dword ptr [rsp + 0x28], 0
+    1: 5: 0x140001019: cmp dword ptr [rsp + 0x28], 0x10
+    1: 6: 0x14000101e: jge 0x14000103e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0380s
+[*] Edges: 1
+(0x140001024) 
+
+    2: 7: 0x140001024: movsxd rax, dword ptr [rsp + 0x28]
+    2: 8: 0x140001029: mov byte ptr [rsp + rax + 0x10], 0
+    2: 9: 0x14000102e: mov eax, dword ptr [rsp + 0x28]
+    2: 10: 0x140001032: add eax, 1
+    2: 11: 0x140001035: mov dword ptr [rsp + 0x28], eax
+    2: 12: 0x140001039: jmp 0x140001019
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[!] Splitting the basic block 0x140001000 at 0x140001019
+
+    2: 13: 0x140001000: sub rsp, 0x38
+    2: 14: 0x140001004: mov qword ptr [rsp + 0x30], rcx
+    2: 15: 0x140001009: mov dword ptr [rsp + 0x2c], 0
+    2: 16: 0x140001011: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0030s
+
+    3: 17: 0x140001019: cmp dword ptr [rsp + 0x28], 0x10
+    3: 18: 0x14000101e: jge 0x14000103e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Predecessors: 2
+0x140001019: (0x140001000 =>  1 ) (0x140001024 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0760s
+[*] Edges: 2
+(0x14000103e) (0x140001024) 
+[*] Opaquenes of 0x140001019 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001019: (0x140001000 =>  1 ) (0x140001024 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x140001019: (0x140001000 =>  1 ) (0x140001024 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    4: 19: 0x14000103e: mov byte ptr [rsp + 0x20], 0
+    4: 20: 0x140001043: mov dword ptr [rsp + 0x28], 0
+    4: 21: 0x14000104b: mov eax, dword ptr [rsp + 0x28]
+    4: 22: 0x14000104f: mov rcx, qword ptr [rsp + 0x30]
+    4: 23: 0x140001054: movsx edx, byte ptr [rcx]
+    4: 24: 0x140001057: cmp eax, edx
+    4: 25: 0x140001059: jge 0x140001079
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x140001079) (0x14000105f) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0770s
+[*] Edges: 2
+(0x140001079) (0x14000105f) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0780s
+[*] Edges: 2
+(0x140001079) (0x14000105f) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001024
+
+    5: 26: 0x140001079: mov dword ptr [rsp + 0x28], 0
+    5: 27: 0x140001081: mov eax, dword ptr [rsp + 0x28]
+    5: 28: 0x140001085: mov rcx, qword ptr [rsp + 0x30]
+    5: 29: 0x14000108a: movsx edx, byte ptr [rcx + 1]
+    5: 30: 0x14000108e: cmp eax, edx
+    5: 31: 0x140001090: jge 0x1400010b0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0730s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0940s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+[!] We got 2 edges ... verify if this is ok! ( 3 - 0 )
+
+    6: 32: 0x14000105f: mov al, byte ptr [rsp + 0x10]
+    6: 33: 0x140001063: add al, 1
+    6: 34: 0x140001065: mov byte ptr [rsp + 0x10], al
+    6: 35: 0x140001069: mov eax, dword ptr [rsp + 0x28]
+    6: 36: 0x14000106d: add eax, 1
+    6: 37: 0x140001070: mov dword ptr [rsp + 0x28], eax
+    6: 38: 0x140001074: jmp 0x14000104b
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+    7: 39: 0x1400010b0: mov dword ptr [rsp + 0x28], 0
+    7: 40: 0x1400010b8: mov eax, dword ptr [rsp + 0x28]
+    7: 41: 0x1400010bc: mov rcx, qword ptr [rsp + 0x30]
+    7: 42: 0x1400010c1: movsx edx, byte ptr [rcx + 2]
+    7: 43: 0x1400010c5: cmp eax, edx
+    7: 44: 0x1400010c7: jge 0x1400010e7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0790s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+[!] We got 2 edges ... verify if this is ok! ( 4 - 0 )
+
+    8: 45: 0x140001096: mov al, byte ptr [rsp + 0x11]
+    8: 46: 0x14000109a: add al, 1
+    8: 47: 0x14000109c: mov byte ptr [rsp + 0x11], al
+    8: 48: 0x1400010a0: mov eax, dword ptr [rsp + 0x28]
+    8: 49: 0x1400010a4: add eax, 1
+    8: 50: 0x1400010a7: mov dword ptr [rsp + 0x28], eax
+    8: 51: 0x1400010ab: jmp 0x140001081
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[!] Splitting the basic block 0x14000103e at 0x14000104b
+
+    8: 52: 0x1400010e7: mov dword ptr [rsp + 0x28], 0
+    8: 53: 0x1400010ef: mov eax, dword ptr [rsp + 0x28]
+    8: 54: 0x1400010f3: mov rcx, qword ptr [rsp + 0x30]
+    8: 55: 0x1400010f8: movsx edx, byte ptr [rcx + 3]
+    8: 56: 0x1400010fc: cmp eax, edx
+    8: 57: 0x1400010fe: jge 0x14000111e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0770s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0780s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+[!] We got 2 edges ... verify if this is ok! ( 5 - 0 )
+
+    9: 58: 0x1400010cd: mov al, byte ptr [rsp + 0x12]
+    9: 59: 0x1400010d1: add al, 1
+    9: 60: 0x1400010d3: mov byte ptr [rsp + 0x12], al
+    9: 61: 0x1400010d7: mov eax, dword ptr [rsp + 0x28]
+    9: 62: 0x1400010db: add eax, 1
+    9: 63: 0x1400010de: mov dword ptr [rsp + 0x28], eax
+    9: 64: 0x1400010e2: jmp 0x1400010b8
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[!] Splitting the basic block 0x140001079 at 0x140001081
+
+    9: 65: 0x14000103e: mov byte ptr [rsp + 0x20], 0
+    9: 66: 0x140001043: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   10: 67: 0x14000104b: mov eax, dword ptr [rsp + 0x28]
+   10: 68: 0x14000104f: mov rcx, qword ptr [rsp + 0x30]
+   10: 69: 0x140001054: movsx edx, byte ptr [rcx]
+   10: 70: 0x140001057: cmp eax, edx
+   10: 71: 0x140001059: jge 0x140001079
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Predecessors: 2
+0x14000104b: (0x14000103e =>  1 ) (0x14000105f =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 2
+(0x140001079) (0x14000105f) 
+[*] Opaquenes of 0x14000104b has changed to Non Opaque!
+[*] Opaquenes of 0x14000104b has changed to Non Opaque!
+[*] Predecessors: 2
+0x14000104b: (0x14000103e =>  1 ) (0x14000105f =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x14000104b: (0x14000103e =>  1 ) (0x14000105f =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 6 - 0 )
+
+   11: 72: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+   11: 73: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   11: 74: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   11: 75: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   11: 76: 0x140001133: cmp eax, edx
+   11: 77: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0770s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[!] We got 2 edges ... verify if this is ok! ( 7 - 0 )
+
+   12: 78: 0x140001104: mov al, byte ptr [rsp + 0x13]
+   12: 79: 0x140001108: add al, 1
+   12: 80: 0x14000110a: mov byte ptr [rsp + 0x13], al
+   12: 81: 0x14000110e: mov eax, dword ptr [rsp + 0x28]
+   12: 82: 0x140001112: add eax, 1
+   12: 83: 0x140001115: mov dword ptr [rsp + 0x28], eax
+   12: 84: 0x140001119: jmp 0x1400010ef
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[!] Splitting the basic block 0x1400010b0 at 0x1400010b8
+
+   12: 85: 0x140001079: mov dword ptr [rsp + 0x28], 0
+   12: 86: 0x140001081: mov eax, dword ptr [rsp + 0x28]
+   12: 87: 0x140001085: mov rcx, qword ptr [rsp + 0x30]
+   12: 88: 0x14000108a: movsx edx, byte ptr [rcx + 1]
+   12: 89: 0x14000108e: cmp eax, edx
+   12: 90: 0x140001090: jge 0x1400010b0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+[!] We got 2 edges ... verify if this is ok! ( 8 - 0 )
+
+[!] Splitting the basic block 0x140001079 at 0x140001081
+
+[!] Loop detected to the beginning of basic block 0x14000105f
+
+   12: 91: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   12: 92: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   12: 93: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0370s
+[*] Edges: 1
+(0x140001168) 
+
+   13: 94: 0x14000113b: mov al, byte ptr [rsp + 0x14]
+   13: 95: 0x14000113f: add al, 1
+   13: 96: 0x140001141: mov byte ptr [rsp + 0x14], al
+   13: 97: 0x140001145: mov eax, dword ptr [rsp + 0x28]
+   13: 98: 0x140001149: add eax, 1
+   13: 99: 0x14000114c: mov dword ptr [rsp + 0x28], eax
+   13: 100: 0x140001150: jmp 0x140001126
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[!] Splitting the basic block 0x1400010e7 at 0x1400010ef
+
+   13: 101: 0x1400010b0: mov dword ptr [rsp + 0x28], 0
+   13: 102: 0x1400010b8: mov eax, dword ptr [rsp + 0x28]
+   13: 103: 0x1400010bc: mov rcx, qword ptr [rsp + 0x30]
+   13: 104: 0x1400010c1: movsx edx, byte ptr [rcx + 2]
+   13: 105: 0x1400010c5: cmp eax, edx
+   13: 106: 0x1400010c7: jge 0x1400010e7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0790s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0830s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+[!] We got 2 edges ... verify if this is ok! ( 9 - 0 )
+
+[!] Splitting the basic block 0x1400010b0 at 0x1400010b8
+
+[!] Loop detected to the beginning of basic block 0x140001096
+
+   13: 107: 0x140001079: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   14: 108: 0x140001081: mov eax, dword ptr [rsp + 0x28]
+   14: 109: 0x140001085: mov rcx, qword ptr [rsp + 0x30]
+   14: 110: 0x14000108a: movsx edx, byte ptr [rcx + 1]
+   14: 111: 0x14000108e: cmp eax, edx
+   14: 112: 0x140001090: jge 0x1400010b0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Predecessors: 2
+0x140001081: (0x140001079 =>  1 ) (0x140001096 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0760s
+[*] Edges: 2
+(0x1400010b0) (0x140001096) 
+[*] Opaquenes of 0x140001081 has changed to Non Opaque!
+[*] Opaquenes of 0x140001081 has changed to Non Opaque!
+[*] Opaquenes of 0x140001081 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001081: (0x140001079 =>  1 ) (0x140001096 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x140001081: (0x140001079 =>  1 ) (0x140001096 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 10 - 0 )
+
+   15: 113: 0x140001168: mov rax, qword ptr [rsp + 0x30]
+   15: 114: 0x14000116d: movsxd rcx, dword ptr [rsp + 0x24]
+   15: 115: 0x140001172: mov dl, byte ptr [rax + rcx]
+   15: 116: 0x140001175: movsxd rax, dword ptr [rsp + 0x24]
+   15: 117: 0x14000117a: mov byte ptr [rsp + rax + 0x10], dl
+   15: 118: 0x14000117e: mov eax, dword ptr [rsp + 0x24]
+   15: 119: 0x140001182: add eax, 1
+   15: 120: 0x140001185: mov dword ptr [rsp + 0x24], eax
+   15: 121: 0x140001189: jmp 0x14000115d
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[!] Splitting the basic block 0x14000111e at 0x140001126
+
+   15: 122: 0x1400010e7: mov dword ptr [rsp + 0x28], 0
+   15: 123: 0x1400010ef: mov eax, dword ptr [rsp + 0x28]
+   15: 124: 0x1400010f3: mov rcx, qword ptr [rsp + 0x30]
+   15: 125: 0x1400010f8: movsx edx, byte ptr [rcx + 3]
+   15: 126: 0x1400010fc: cmp eax, edx
+   15: 127: 0x1400010fe: jge 0x14000111e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0670s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+[!] We got 2 edges ... verify if this is ok! ( 11 - 0 )
+
+[!] Splitting the basic block 0x1400010e7 at 0x1400010ef
+
+[!] Loop detected to the beginning of basic block 0x1400010cd
+
+   15: 128: 0x1400010b0: mov dword ptr [rsp + 0x28], 0
+   15: 129: 0x1400010b8: mov eax, dword ptr [rsp + 0x28]
+   15: 130: 0x1400010bc: mov rcx, qword ptr [rsp + 0x30]
+   15: 131: 0x1400010c1: movsx edx, byte ptr [rcx + 2]
+   15: 132: 0x1400010c5: cmp eax, edx
+   15: 133: 0x1400010c7: jge 0x1400010e7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0740s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+[!] We got 2 edges ... verify if this is ok! ( 12 - 0 )
+
+[!] Splitting the basic block 0x1400010b0 at 0x1400010b8
+
+[!] Loop detected to the beginning of basic block 0x140001096
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+   14: 134: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+   14: 135: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   14: 136: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   14: 137: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   14: 138: 0x140001133: cmp eax, edx
+   14: 139: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0850s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0750s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[!] We got 2 edges ... verify if this is ok! ( 13 - 0 )
+
+[!] Splitting the basic block 0x14000111e at 0x140001126
+
+[!] Loop detected to the beginning of basic block 0x140001104
+
+   14: 140: 0x1400010e7: mov dword ptr [rsp + 0x28], 0
+   14: 141: 0x1400010ef: mov eax, dword ptr [rsp + 0x28]
+   14: 142: 0x1400010f3: mov rcx, qword ptr [rsp + 0x30]
+   14: 143: 0x1400010f8: movsx edx, byte ptr [rcx + 3]
+   14: 144: 0x1400010fc: cmp eax, edx
+   14: 145: 0x1400010fe: jge 0x14000111e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0710s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+[!] We got 2 edges ... verify if this is ok! ( 14 - 0 )
+
+[!] Splitting the basic block 0x1400010e7 at 0x1400010ef
+
+[!] Loop detected to the beginning of basic block 0x1400010cd
+
+   14: 146: 0x1400010b0: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   15: 147: 0x1400010b8: mov eax, dword ptr [rsp + 0x28]
+   15: 148: 0x1400010bc: mov rcx, qword ptr [rsp + 0x30]
+   15: 149: 0x1400010c1: movsx edx, byte ptr [rcx + 2]
+   15: 150: 0x1400010c5: cmp eax, edx
+   15: 151: 0x1400010c7: jge 0x1400010e7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+[*] Predecessors: 2
+0x1400010b8: (0x1400010b0 =>  1 ) (0x1400010cd =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0830s
+[*] Edges: 2
+(0x1400010e7) (0x1400010cd) 
+[*] Opaquenes of 0x1400010b8 has changed to Non Opaque!
+[*] Opaquenes of 0x1400010b8 has changed to Non Opaque!
+[*] Opaquenes of 0x1400010b8 has changed to Non Opaque!
+[*] Predecessors: 2
+0x1400010b8: (0x1400010b0 =>  1 ) (0x1400010cd =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x1400010b8: (0x1400010b0 =>  1 ) (0x1400010cd =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 15 - 0 )
+
+   16: 152: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   16: 153: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   16: 154: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0420s
+[*] Edges: 1
+(0x140001168) 
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+[!] Loop detected to the beginning of basic block 0x14000113b
+
+   16: 155: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+   16: 156: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   16: 157: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   16: 158: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   16: 159: 0x140001133: cmp eax, edx
+   16: 160: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0700s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[!] We got 2 edges ... verify if this is ok! ( 16 - 0 )
+
+[!] Splitting the basic block 0x14000111e at 0x140001126
+
+[!] Loop detected to the beginning of basic block 0x140001104
+
+   16: 161: 0x1400010e7: mov dword ptr [rsp + 0x28], 0
+   16: 162: 0x1400010ef: mov eax, dword ptr [rsp + 0x28]
+   16: 163: 0x1400010f3: mov rcx, qword ptr [rsp + 0x30]
+   16: 164: 0x1400010f8: movsx edx, byte ptr [rcx + 3]
+   16: 165: 0x1400010fc: cmp eax, edx
+   16: 166: 0x1400010fe: jge 0x14000111e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0970s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0800s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0770s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+[!] We got 2 edges ... verify if this is ok! ( 17 - 0 )
+
+[!] Splitting the basic block 0x1400010e7 at 0x1400010ef
+
+[!] Loop detected to the beginning of basic block 0x1400010cd
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   16: 167: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   16: 168: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   16: 169: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0350s
+[*] Edges: 1
+(0x140001168) 
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+[!] Loop detected to the beginning of basic block 0x14000113b
+
+   16: 170: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+   16: 171: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   16: 172: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   16: 173: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   16: 174: 0x140001133: cmp eax, edx
+   16: 175: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0730s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0780s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0710s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[!] We got 2 edges ... verify if this is ok! ( 18 - 0 )
+
+[!] Splitting the basic block 0x14000111e at 0x140001126
+
+[!] Loop detected to the beginning of basic block 0x140001104
+
+   16: 176: 0x1400010e7: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   17: 177: 0x1400010ef: mov eax, dword ptr [rsp + 0x28]
+   17: 178: 0x1400010f3: mov rcx, qword ptr [rsp + 0x30]
+   17: 179: 0x1400010f8: movsx edx, byte ptr [rcx + 3]
+   17: 180: 0x1400010fc: cmp eax, edx
+   17: 181: 0x1400010fe: jge 0x14000111e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+[*] Predecessors: 2
+0x1400010ef: (0x1400010e7 =>  1 ) (0x140001104 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0760s
+[*] Edges: 2
+(0x14000111e) (0x140001104) 
+[*] Opaquenes of 0x1400010ef has changed to Non Opaque!
+[*] Opaquenes of 0x1400010ef has changed to Non Opaque!
+[*] Opaquenes of 0x1400010ef has changed to Non Opaque!
+[*] Predecessors: 2
+0x1400010ef: (0x1400010e7 =>  1 ) (0x140001104 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x1400010ef: (0x1400010e7 =>  1 ) (0x140001104 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 19 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   18: 182: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   18: 183: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   18: 184: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0390s
+[*] Edges: 1
+(0x140001168) 
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+[!] Loop detected to the beginning of basic block 0x14000113b
+
+   18: 185: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+   18: 186: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   18: 187: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   18: 188: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   18: 189: 0x140001133: cmp eax, edx
+   18: 190: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0710s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0690s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[!] We got 2 edges ... verify if this is ok! ( 20 - 0 )
+
+[!] Splitting the basic block 0x14000111e at 0x140001126
+
+[!] Loop detected to the beginning of basic block 0x140001104
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   18: 191: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   18: 192: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   18: 193: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0340s
+[*] Edges: 1
+(0x140001168) 
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+[!] Loop detected to the beginning of basic block 0x14000113b
+
+   18: 194: 0x14000111e: mov dword ptr [rsp + 0x28], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   19: 195: 0x140001126: mov eax, dword ptr [rsp + 0x28]
+   19: 196: 0x14000112a: mov rcx, qword ptr [rsp + 0x30]
+   19: 197: 0x14000112f: movsx edx, byte ptr [rcx + 4]
+   19: 198: 0x140001133: cmp eax, edx
+   19: 199: 0x140001135: jge 0x140001155
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+[*] Predecessors: 2
+0x140001126: (0x14000111e =>  1 ) (0x14000113b =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0760s
+[*] Edges: 2
+(0x140001155) (0x14000113b) 
+[*] Opaquenes of 0x140001126 has changed to Non Opaque!
+[*] Opaquenes of 0x140001126 has changed to Non Opaque!
+[*] Opaquenes of 0x140001126 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001126: (0x14000111e =>  1 ) (0x14000113b =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x140001126: (0x14000111e =>  1 ) (0x14000113b =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 21 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   20: 200: 0x140001155: mov dword ptr [rsp + 0x24], 5
+   20: 201: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   20: 202: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0350s
+[*] Edges: 1
+(0x140001168) 
+
+[!] Splitting the basic block 0x140001155 at 0x14000115d
+
+[!] Loop detected to the beginning of basic block 0x14000113b
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   20: 203: 0x140001155: mov dword ptr [rsp + 0x24], 5
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   21: 204: 0x14000115d: cmp dword ptr [rsp + 0x24], 0x10
+   21: 205: 0x140001162: jge 0x14000118e
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Predecessors: 2
+0x14000115d: (0x140001155 =>  1 ) (0x140001168 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0740s
+[*] Edges: 2
+(0x14000118e) (0x140001168) 
+[*] Opaquenes of 0x14000115d has changed to Non Opaque!
+[*] Predecessors: 2
+0x14000115d: (0x140001155 =>  1 ) (0x140001168 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x14000115d: (0x140001155 =>  1 ) (0x140001168 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 22 - 0 )
+
+   22: 206: 0x14000118e: lea rax, qword ptr [rsp + 0x10]
+   22: 207: 0x140001193: mov qword ptr [rsp], rax
+   22: 208: 0x140001197: mov rax, qword ptr [rsp]
+   22: 209: 0x14000119b: cmp byte ptr [rax], 0
+   22: 210: 0x14000119e: je 0x1400011c4
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0610s
+[*] Edges: 2
+(0x1400011c4) (0x1400011a4) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0610s
+[*] Edges: 2
+(0x1400011c4) (0x1400011a4) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0610s
+[*] Edges: 2
+(0x1400011c4) (0x1400011a4) 
+[!] We got 2 edges ... verify if this is ok! ( 23 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001168
+
+   23: 211: 0x1400011c4: mov eax, dword ptr [rsp + 0x2c]
+   23: 212: 0x1400011c8: add rsp, 0x38
+   23: 213: 0x1400011cc: ret 
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0030s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0380s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0410s
+[*] Edges: 0
+
+
+   24: 214: 0x1400011a4: mov rax, qword ptr [rsp]
+   24: 215: 0x1400011a8: movsx ecx, byte ptr [rax]
+   24: 216: 0x1400011ab: add ecx, dword ptr [rsp + 0x2c]
+   24: 217: 0x1400011af: mov dword ptr [rsp + 0x2c], ecx
+   24: 218: 0x1400011b3: mov rax, qword ptr [rsp]
+   24: 219: 0x1400011b7: add rax, 1
+   24: 220: 0x1400011bb: mov qword ptr [rsp], rax
+   24: 221: 0x1400011bf: jmp 0x140001197
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+[!] Splitting the basic block 0x14000118e at 0x140001197
+
+   24: 222: 0x14000118e: lea rax, qword ptr [rsp + 0x10]
+   24: 223: 0x140001193: mov qword ptr [rsp], rax
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+   25: 224: 0x140001197: mov rax, qword ptr [rsp]
+   25: 225: 0x14000119b: cmp byte ptr [rax], 0
+   25: 226: 0x14000119e: je 0x1400011c4
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+[*] Predecessors: 2
+0x140001197: (0x14000118e =>  1 ) (0x1400011a4 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0710s
+[*] Edges: 2
+(0x1400011c4) (0x1400011a4) 
+[*] Opaquenes of 0x140001197 has changed to Non Opaque!
+[*] Opaquenes of 0x140001197 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001197: (0x14000118e =>  1 ) (0x1400011a4 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x140001197: (0x14000118e =>  1 ) (0x1400011a4 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 24 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x1400011c4
+
+[!] Loop detected to the beginning of basic block 0x1400011a4
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 4.7850s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 19 Stack Slots found
+-5000  1 uses - Size: 4944 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -56  AlignedSize: 4944  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-56  1 uses - Size: 16 Aligned: 1 Overlapping: 0  AlignedStart: -56  AlignedEnd: -40  AlignedSize: 16  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-40  2 uses - Size: 1 Aligned: 1 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-39  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-38  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-37  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-36  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-35  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-34  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-33  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-32  1 uses - Size: 1 Aligned: 1 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-31  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-30  1 uses - Size: 6 Aligned: 0 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-24  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-20  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-16  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-12  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-8  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 1.1440s
+[*] Applying custom post translation optimization ...
+[*] Running Souper Optimizer ...
+[*] Time taken to souper optimize the function: 0.0070s
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 25
+[*] Recovered Opaque Predicates : 0

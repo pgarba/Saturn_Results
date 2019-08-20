@@ -1,0 +1,113 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: push rax
+    1: 2: 0x140001001: mov dword ptr [rsp + 4], ecx
+    1: 3: 0x140001005: mov dword ptr [rsp], 0
+    1: 4: 0x14000100c: cmp dword ptr [rsp + 4], 1
+    1: 5: 0x140001011: jne 0x14000101c
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0560s
+[*] Edges: 2
+(0x14000101c) (0x140001017) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0540s
+[*] Edges: 2
+(0x14000101c) (0x140001017) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0550s
+[*] Edges: 2
+(0x14000101c) (0x140001017) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    2: 6: 0x14000101c: jmp 0x140001021
+
+    3: 7: 0x140001017: jmp 0x140001042
+
+    4: 8: 0x140001021: cmp dword ptr [rsp + 4], 2
+    4: 9: 0x140001026: jne 0x140001031
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001031) (0x14000102c) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0510s
+[*] Edges: 2
+(0x140001031) (0x14000102c) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0500s
+[*] Edges: 2
+(0x140001031) (0x14000102c) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+    5: 10: 0x140001042: mov dword ptr [rsp], 1
+    5: 11: 0x140001049: mov eax, dword ptr [rsp]
+    5: 12: 0x14000104c: pop rcx
+    5: 13: 0x14000104d: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0210s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0210s
+[*] Edges: 0
+
+
+    6: 14: 0x140001031: jmp 0x140001036
+
+    7: 15: 0x14000102c: jmp 0x140001042
+
+    8: 16: 0x140001036: mov dword ptr [rsp], 2
+    8: 17: 0x14000103d: jmp 0x140001049
+
+[!] Loop detected to the beginning of basic block 0x140001042
+
+[!] Splitting the basic block 0x140001042 at 0x140001049
+
+    8: 18: 0x140001042: mov dword ptr [rsp], 1
+
+    9: 19: 0x140001049: mov eax, dword ptr [rsp]
+    9: 20: 0x14000104c: pop rcx
+    9: 21: 0x14000104d: ret 
+[*] Predecessors: 2
+0x140001049: (0x140001036 =>  ? ) (0x140001042 =>  1 ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0200s
+[*] Edges: 0
+
+[*] Opaquenes of 0x140001049 has changed to Non Opaque!
+[*] Opaquenes of 0x140001049 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001049: (0x140001036 =>  0 ) (0x140001042 =>  1 ) 
+[*] All edges are resolved nothing to do here!
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 0.4050s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 4 Stack Slots found
+-5000  1 uses - Size: 4992 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -8  AlignedSize: 4992  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-8  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-4  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 0.2510s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 9
+[*] Recovered Opaque Predicates : 0

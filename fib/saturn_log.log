@@ -1,0 +1,112 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: sub rsp, 0x10
+    1: 2: 0x140001004: mov dword ptr [rsp + 0xc], ecx
+    1: 3: 0x140001008: mov dword ptr [rsp + 4], 1
+    1: 4: 0x140001010: mov dword ptr [rsp + 8], 1
+    1: 5: 0x140001018: mov eax, dword ptr [rsp + 0xc]
+    1: 6: 0x14000101c: mov ecx, eax
+    1: 7: 0x14000101e: add ecx, -1
+    1: 8: 0x140001021: mov dword ptr [rsp + 0xc], ecx
+    1: 9: 0x140001025: cmp eax, 0
+    1: 10: 0x140001028: jle 0x14000104d
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0590s
+[*] Edges: 2
+(0x14000104d) (0x14000102e) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0560s
+[*] Edges: 2
+(0x14000104d) (0x14000102e) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0600s
+[*] Edges: 2
+(0x14000104d) (0x14000102e) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    2: 11: 0x14000104d: mov eax, dword ptr [rsp]
+    2: 12: 0x140001050: add rsp, 0x10
+    2: 13: 0x140001054: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0260s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0250s
+[*] Edges: 0
+
+
+    3: 14: 0x14000102e: mov eax, dword ptr [rsp + 8]
+    3: 15: 0x140001032: add eax, dword ptr [rsp + 4]
+    3: 16: 0x140001036: mov dword ptr [rsp], eax
+    3: 17: 0x140001039: mov eax, dword ptr [rsp + 8]
+    3: 18: 0x14000103d: mov dword ptr [rsp + 4], eax
+    3: 19: 0x140001041: mov eax, dword ptr [rsp]
+    3: 20: 0x140001044: mov dword ptr [rsp + 8], eax
+    3: 21: 0x140001048: jmp 0x140001018
+
+[!] Splitting the basic block 0x140001000 at 0x140001018
+
+    3: 22: 0x140001000: sub rsp, 0x10
+    3: 23: 0x140001004: mov dword ptr [rsp + 0xc], ecx
+    3: 24: 0x140001008: mov dword ptr [rsp + 4], 1
+    3: 25: 0x140001010: mov dword ptr [rsp + 8], 1
+
+    4: 26: 0x140001018: mov eax, dword ptr [rsp + 0xc]
+    4: 27: 0x14000101c: mov ecx, eax
+    4: 28: 0x14000101e: add ecx, -1
+    4: 29: 0x140001021: mov dword ptr [rsp + 0xc], ecx
+    4: 30: 0x140001025: cmp eax, 0
+    4: 31: 0x140001028: jle 0x14000104d
+[*] Predecessors: 2
+0x140001018: (0x140001000 =>  1 ) (0x14000102e =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0600s
+[*] Edges: 2
+(0x14000104d) (0x14000102e) 
+[*] Opaquenes of 0x140001018 has changed to Non Opaque!
+[*] Predecessors: 2
+0x140001018: (0x140001000 =>  1 ) (0x14000102e =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x140001018: (0x140001000 =>  1 ) (0x14000102e =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x14000104d
+
+[!] Loop detected to the beginning of basic block 0x14000102e
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 0.3090s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 6 Stack Slots found
+-5000  1 uses - Size: 4984 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -16  AlignedSize: 4984  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-16  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-12  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-8  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-4  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 0.2870s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 4
+[*] Recovered Opaque Predicates : 0
