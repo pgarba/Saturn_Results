@@ -1,0 +1,2232 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x7b7ff8: pushfq 
+    1: 2: 0x7b7ff9: push rcx
+    1: 3: 0x7b7ffa: mov rcx, rsp
+    1: 4: 0x7b7ffd: add rcx, 8
+    1: 5: 0x7b8001: push rax
+    1: 6: 0x7b8002: movabs rax, 0x7d338a0e
+    1: 7: 0x7b800c: neg rax
+    1: 8: 0x7b800f: sub rax, 0x4ce62d3f
+    1: 9: 0x7b8015: push r15
+    1: 10: 0x7b8017: movabs r15, 0xca19b755
+    1: 11: 0x7b8021: add rax, r15
+    1: 12: 0x7b8024: pop r15
+    1: 13: 0x7b8026: sub rcx, rax
+    1: 14: 0x7b8029: pop rax
+    1: 15: 0x7b802a: xchg qword ptr [rsp], rcx
+    1: 16: 0x7b802e: pop rsp
+    1: 17: 0x7b802f: mov qword ptr [rsp], rcx
+    1: 18: 0x7b8033: mov rcx, rcx
+    1: 19: 0x7b8036: push rcx
+    1: 20: 0x7b8037: movabs rcx, 0x76f
+    1: 21: 0x7b8041: mov qword ptr [rsp + 8], rcx
+    1: 22: 0x7b8046: pop rcx
+    1: 23: 0x7b8047: push 0x70accfb
+    1: 24: 0x7b804c: push r13
+    1: 25: 0x7b804e: pop qword ptr [rsp]
+    1: 26: 0x7b8051: push r10
+    1: 27: 0x7b8053: mov r10, r13
+    1: 28: 0x7b8056: push r12
+    1: 29: 0x7b8058: mov r12, r10
+    1: 30: 0x7b805b: mov r13, r12
+    1: 31: 0x7b805e: pop r12
+    1: 32: 0x7b8060: pop r10
+    1: 33: 0x7b8062: mov qword ptr [rsp], 0x3b7be8
+    1: 34: 0x7b806a: push 0x5e17366
+    1: 35: 0x7b806f: push 0x2fb2d1fe
+    1: 36: 0x7b8074: push rbp
+    1: 37: 0x7b8075: push rsi
+    1: 38: 0x7b8076: mov rsi, rax
+    1: 39: 0x7b8079: mov rbp, rsi
+    1: 40: 0x7b807c: pop rsi
+    1: 41: 0x7b807d: mov qword ptr [rsp + 8], rbp
+    1: 42: 0x7b8082: pop rbp
+    1: 43: 0x7b8083: pop qword ptr [rsp]
+    1: 44: 0x7b8086: sub rsp, 8
+    1: 45: 0x7b808a: push 0x6f13438d
+    1: 46: 0x7b808f: push rbx
+    1: 47: 0x7b8090: pop qword ptr [rsp]
+    1: 48: 0x7b8093: pop qword ptr [rsp]
+    1: 49: 0x7b8096: push qword ptr [rsp + 0x20]
+    1: 50: 0x7b809a: mov rax, qword ptr [rsp]
+    1: 51: 0x7b809e: push r15
+    1: 52: 0x7b80a0: mov r15, rsp
+    1: 53: 0x7b80a3: add r15, 8
+    1: 54: 0x7b80a7: push r11
+    1: 55: 0x7b80a9: movabs r11, 8
+    1: 56: 0x7b80b3: add r15, r11
+    1: 57: 0x7b80b6: pop r11
+    1: 58: 0x7b80b8: xchg qword ptr [rsp], r15
+    1: 59: 0x7b80bc: mov rsp, qword ptr [rsp]
+    1: 60: 0x7b80c0: push qword ptr [rsp + 0x10]
+    1: 61: 0x7b80c4: push qword ptr [rsp]
+    1: 62: 0x7b80c7: pop rbx
+    1: 63: 0x7b80c8: push r10
+    1: 64: 0x7b80ca: push rsp
+    1: 65: 0x7b80cb: pop r10
+    1: 66: 0x7b80cd: add r10, 8
+    1: 67: 0x7b80d1: add r10, 8
+    1: 68: 0x7b80d8: xchg qword ptr [rsp], r10
+    1: 69: 0x7b80dc: pop rsp
+    1: 70: 0x7b80dd: push 0x169ead38
+    1: 71: 0x7b80e2: sub rsp, 8
+    1: 72: 0x7b80e9: push rax
+    1: 73: 0x7b80ea: pop qword ptr [rsp]
+    1: 74: 0x7b80ed: pop qword ptr [rsp]
+    1: 75: 0x7b80f0: pop qword ptr [rsp + 0x10]
+    1: 76: 0x7b80f4: push 0x4e0bdd71
+    1: 77: 0x7b80f9: sub rsp, 8
+    1: 78: 0x7b8100: mov qword ptr [rsp], rbx
+    1: 79: 0x7b8104: pop qword ptr [rsp]
+    1: 80: 0x7b8107: pop qword ptr [rsp + 0x20]
+    1: 81: 0x7b810b: mov rbx, qword ptr [rsp]
+    1: 82: 0x7b810f: push 0x4b20ef0a
+    1: 83: 0x7b8114: mov qword ptr [rsp], r12
+    1: 84: 0x7b8118: mov r12, rsp
+    1: 85: 0x7b811b: add r12, 8
+    1: 86: 0x7b811f: push r10
+    1: 87: 0x7b8121: push r14
+    1: 88: 0x7b8123: movabs r14, 8
+    1: 89: 0x7b812d: mov r10, r14
+    1: 90: 0x7b8130: pop r14
+    1: 91: 0x7b8132: add r12, r10
+    1: 92: 0x7b8135: pop r10
+    1: 93: 0x7b8137: xchg qword ptr [rsp], r12
+    1: 94: 0x7b813b: pop rsp
+    1: 95: 0x7b813c: push qword ptr [rsp]
+    1: 96: 0x7b813f: mov rax, qword ptr [rsp]
+    1: 97: 0x7b8143: push rdi
+    1: 98: 0x7b8144: mov rdi, rsp
+    1: 99: 0x7b8147: add rdi, 8
+    1: 100: 0x7b814b: push r10
+    1: 101: 0x7b814d: movabs r10, 8
+    1: 102: 0x7b8157: add rdi, r10
+    1: 103: 0x7b815a: pop r10
+    1: 104: 0x7b815c: xchg qword ptr [rsp], rdi
+    1: 105: 0x7b8160: pop rsp
+    1: 106: 0x7b8161: add rsp, 8
+    1: 107: 0x7b8165: jmp 0x7ad4c1
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0080s
+
+    2: 108: 0x7ad4c1: call 0x7ad4c6
+    2: 109: 0x7ad4c6: sub rsp, 8
+    2: 110: 0x7ad4ca: push 0x1a2d7b44
+    2: 111: 0x7ad4cf: push 0x4d2def00
+    2: 112: 0x7ad4d4: mov qword ptr [rsp], rdi
+    2: 113: 0x7ad4d8: push rsp
+    2: 114: 0x7ad4d9: pop rdi
+    2: 115: 0x7ad4da: add rdi, 8
+    2: 116: 0x7ad4de: sub rdi, 8
+    2: 117: 0x7ad4e5: xchg qword ptr [rsp], rdi
+    2: 118: 0x7ad4e9: mov rsp, qword ptr [rsp]
+    2: 119: 0x7ad4ed: push 0x25d15890
+    2: 120: 0x7ad4f2: mov qword ptr [rsp], rcx
+    2: 121: 0x7ad4f6: pop qword ptr [rsp]
+    2: 122: 0x7ad4f9: pop qword ptr [rsp]
+    2: 123: 0x7ad4fc: pop qword ptr [rsp]
+    2: 124: 0x7ad4ff: push 0x133f4a9d
+    2: 125: 0x7ad504: push r13
+    2: 126: 0x7ad506: sub rsp, 8
+    2: 127: 0x7ad50a: mov qword ptr [rsp], rsp
+    2: 128: 0x7ad50e: add qword ptr [rsp], 8
+    2: 129: 0x7ad513: push qword ptr [rsp]
+    2: 130: 0x7ad516: mov r13, qword ptr [rsp]
+    2: 131: 0x7ad51a: add rsp, 8
+    2: 132: 0x7ad521: add rsp, 8
+    2: 133: 0x7ad528: add r13, 8
+    2: 134: 0x7ad52c: sub r13, 8
+    2: 135: 0x7ad533: push r13
+    2: 136: 0x7ad535: push qword ptr [rsp + 8]
+    2: 137: 0x7ad539: pop r13
+    2: 138: 0x7ad53b: pop qword ptr [rsp]
+    2: 139: 0x7ad53e: mov rsp, qword ptr [rsp]
+    2: 140: 0x7ad542: push rdx
+    2: 141: 0x7ad543: pop qword ptr [rsp]
+    2: 142: 0x7ad546: pop qword ptr [rsp]
+    2: 143: 0x7ad549: push r11
+    2: 144: 0x7ad54b: sub rsp, 8
+    2: 145: 0x7ad552: mov qword ptr [rsp], rsp
+    2: 146: 0x7ad556: add qword ptr [rsp], 8
+    2: 147: 0x7ad55b: mov r11, qword ptr [rsp]
+    2: 148: 0x7ad55f: add rsp, 8
+    2: 149: 0x7ad563: add r11, 8
+    2: 150: 0x7ad567: push rbp
+    2: 151: 0x7ad568: push rdi
+    2: 152: 0x7ad569: push rsi
+    2: 153: 0x7ad56a: movabs rsi, 0x6f5f7a23
+    2: 154: 0x7ad574: movabs rdi, 0xfffffffff47d0884
+    2: 155: 0x7ad57e: add rdi, rsi
+    2: 156: 0x7ad581: pop rsi
+    2: 157: 0x7ad582: movabs rbp, 0x63dc82af
+    2: 158: 0x7ad58c: xor rbp, rdi
+    2: 159: 0x7ad58f: pop rdi
+    2: 160: 0x7ad590: sub r11, rbp
+    2: 161: 0x7ad593: pop rbp
+    2: 162: 0x7ad594: push r11
+    2: 163: 0x7ad596: push qword ptr [rsp + 8]
+    2: 164: 0x7ad59a: pop r11
+    2: 165: 0x7ad59c: pop qword ptr [rsp]
+    2: 166: 0x7ad59f: mov rsp, qword ptr [rsp]
+    2: 167: 0x7ad5a3: sub rsp, 8
+    2: 168: 0x7ad5a7: mov qword ptr [rsp], rbx
+    2: 169: 0x7ad5ab: pop qword ptr [rsp]
+    2: 170: 0x7ad5ae: sub rsp, 8
+    2: 171: 0x7ad5b2: push 0x2954da7c
+    2: 172: 0x7ad5b7: sub rsp, 8
+    2: 173: 0x7ad5be: mov qword ptr [rsp], r11
+    2: 174: 0x7ad5c2: pop qword ptr [rsp]
+    2: 175: 0x7ad5c5: push rsp
+    2: 176: 0x7ad5c6: pop r11
+    2: 177: 0x7ad5c8: add r11, 8
+    2: 178: 0x7ad5cc: sub r11, 8
+    2: 179: 0x7ad5d3: sub rsp, 8
+    2: 180: 0x7ad5da: mov qword ptr [rsp], r11
+    2: 181: 0x7ad5de: push qword ptr [rsp + 8]
+    2: 182: 0x7ad5e2: pop r11
+    2: 183: 0x7ad5e4: pop qword ptr [rsp]
+    2: 184: 0x7ad5e7: mov rsp, qword ptr [rsp]
+    2: 185: 0x7ad5eb: push rbx
+    2: 186: 0x7ad5ec: pop qword ptr [rsp]
+    2: 187: 0x7ad5ef: pop qword ptr [rsp]
+    2: 188: 0x7ad5f2: sub rsp, 8
+    2: 189: 0x7ad5f6: push 0x23ddb0d0
+    2: 190: 0x7ad5fb: push 0x9e0288f
+    2: 191: 0x7ad600: sub rsp, 8
+    2: 192: 0x7ad607: push 0x1a618e8
+    2: 193: 0x7ad60c: sub rsp, 8
+    2: 194: 0x7ad613: mov qword ptr [rsp], rdx
+    2: 195: 0x7ad617: pop qword ptr [rsp]
+    2: 196: 0x7ad61a: push rbx
+    2: 197: 0x7ad61b: mov rbx, rbp
+    2: 198: 0x7ad61e: mov rdx, rbx
+    2: 199: 0x7ad621: pop rbx
+    2: 200: 0x7ad622: mov qword ptr [rsp + 8], rdx
+    2: 201: 0x7ad627: pop rdx
+    2: 202: 0x7ad628: pop qword ptr [rsp]
+    2: 203: 0x7ad62b: pop qword ptr [rsp]
+    2: 204: 0x7ad62e: pop qword ptr [rsp]
+    2: 205: 0x7ad631: sub rsp, 8
+    2: 206: 0x7ad635: mov qword ptr [rsp], rsi
+    2: 207: 0x7ad639: sub rsp, 8
+    2: 208: 0x7ad640: mov qword ptr [rsp], rsp
+    2: 209: 0x7ad644: add qword ptr [rsp], 8
+    2: 210: 0x7ad649: pop rsi
+    2: 211: 0x7ad64a: add rsi, 8
+    2: 212: 0x7ad64e: sub rsi, 8
+    2: 213: 0x7ad655: xchg qword ptr [rsp], rsi
+    2: 214: 0x7ad659: mov rsp, qword ptr [rsp]
+    2: 215: 0x7ad65d: sub rsp, 8
+    2: 216: 0x7ad661: push rcx
+    2: 217: 0x7ad662: pop qword ptr [rsp]
+    2: 218: 0x7ad665: push r11
+    2: 219: 0x7ad667: mov r11, rsi
+    2: 220: 0x7ad66a: mov rcx, r11
+    2: 221: 0x7ad66d: pop r11
+    2: 222: 0x7ad66f: push 0x19d6f681
+    2: 223: 0x7ad674: mov qword ptr [rsp], rcx
+    2: 224: 0x7ad678: pop qword ptr [rsp + 8]
+    2: 225: 0x7ad67c: pop rcx
+    2: 226: 0x7ad67d: sub rsp, 8
+    2: 227: 0x7ad684: sub rsp, 8
+    2: 228: 0x7ad68b: push r11
+    2: 229: 0x7ad68d: pop qword ptr [rsp]
+    2: 230: 0x7ad690: push rdi
+    2: 231: 0x7ad691: push r8
+    2: 232: 0x7ad693: movabs r8, 0x6dfca2a6
+    2: 233: 0x7ad69d: sub qword ptr [rsp + 8], r8
+    2: 234: 0x7ad6a2: pop r8
+    2: 235: 0x7ad6a4: pop r11
+    2: 236: 0x7ad6a6: add r11, 0x6dfca2a6
+    2: 237: 0x7ad6ad: push r11
+    2: 238: 0x7ad6af: pop qword ptr [rsp + 8]
+    2: 239: 0x7ad6b3: push qword ptr [rsp]
+    2: 240: 0x7ad6b6: mov r11, qword ptr [rsp]
+    2: 241: 0x7ad6ba: add rsp, 8
+    2: 242: 0x7ad6be: push rbx
+    2: 243: 0x7ad6bf: mov rbx, rsp
+    2: 244: 0x7ad6c2: add rbx, 8
+    2: 245: 0x7ad6c6: add rbx, 8
+    2: 246: 0x7ad6cd: push rbx
+    2: 247: 0x7ad6ce: push qword ptr [rsp + 8]
+    2: 248: 0x7ad6d2: pop rbx
+    2: 249: 0x7ad6d3: pop qword ptr [rsp]
+    2: 250: 0x7ad6d6: pop rsp
+    2: 251: 0x7ad6d7: sub rsp, 8
+    2: 252: 0x7ad6db: push 0x32d6d3b2
+    2: 253: 0x7ad6e0: mov qword ptr [rsp], rax
+    2: 254: 0x7ad6e4: push rsp
+    2: 255: 0x7ad6e5: pop rax
+    2: 256: 0x7ad6e6: add rax, 8
+    2: 257: 0x7ad6ea: sub rax, 8
+    2: 258: 0x7ad6f0: xor rax, qword ptr [rsp]
+    2: 259: 0x7ad6f4: push 0x5110d45f
+    2: 260: 0x7ad6f9: mov qword ptr [rsp], r9
+    2: 261: 0x7ad6fd: mov r9, rax
+    2: 262: 0x7ad700: xor qword ptr [rsp + 8], r9
+    2: 263: 0x7ad705: mov r9, qword ptr [rsp]
+    2: 264: 0x7ad709: add rsp, 8
+    2: 265: 0x7ad710: xor rax, qword ptr [rsp]
+    2: 266: 0x7ad714: mov rsp, qword ptr [rsp]
+    2: 267: 0x7ad718: push r15
+    2: 268: 0x7ad71a: pop qword ptr [rsp]
+    2: 269: 0x7ad71d: pop qword ptr [rsp]
+    2: 270: 0x7ad720: sub rsp, 8
+    2: 271: 0x7ad724: push 0x487c4f76
+    2: 272: 0x7ad729: push r10
+    2: 273: 0x7ad72b: pop qword ptr [rsp]
+    2: 274: 0x7ad72e: push r15
+    2: 275: 0x7ad730: mov r15, r14
+    2: 276: 0x7ad733: push rbx
+    2: 277: 0x7ad734: mov rbx, r15
+    2: 278: 0x7ad737: mov r10, rbx
+    2: 279: 0x7ad73a: pop rbx
+    2: 280: 0x7ad73b: mov r15, qword ptr [rsp]
+    2: 281: 0x7ad73f: push rbx
+    2: 282: 0x7ad740: mov rbx, rsp
+    2: 283: 0x7ad743: add rbx, 8
+    2: 284: 0x7ad747: add rbx, 8
+    2: 285: 0x7ad74e: xor rbx, qword ptr [rsp]
+    2: 286: 0x7ad752: xor qword ptr [rsp], rbx
+    2: 287: 0x7ad756: xor rbx, qword ptr [rsp]
+    2: 288: 0x7ad75a: mov rsp, qword ptr [rsp]
+    2: 289: 0x7ad75e: push r15
+    2: 290: 0x7ad760: mov r15, r10
+    2: 291: 0x7ad763: mov qword ptr [rsp + 0x10], r15
+    2: 292: 0x7ad768: pop r15
+    2: 293: 0x7ad76a: mov r10, qword ptr [rsp]
+    2: 294: 0x7ad76e: add rsp, 8
+    2: 295: 0x7ad775: push 0x6663052b
+    2: 296: 0x7ad77a: push 0x376cc909
+    2: 297: 0x7ad77f: sub rsp, 8
+    2: 298: 0x7ad783: push 0x60efee29
+    2: 299: 0x7ad788: push 0x36eb136a
+    2: 300: 0x7ad78d: sub rsp, 8
+    2: 301: 0x7ad791: mov qword ptr [rsp], r14
+    2: 302: 0x7ad795: mov r14, r13
+    2: 303: 0x7ad798: push r14
+    2: 304: 0x7ad79a: pop qword ptr [rsp + 8]
+    2: 305: 0x7ad79e: pop r14
+    2: 306: 0x7ad7a0: pop qword ptr [rsp]
+    2: 307: 0x7ad7a3: pop qword ptr [rsp]
+    2: 308: 0x7ad7a6: pop qword ptr [rsp]
+    2: 309: 0x7ad7a9: pop qword ptr [rsp]
+    2: 310: 0x7ad7ac: push 0x207bd71f
+    2: 311: 0x7ad7b1: sub rsp, 8
+    2: 312: 0x7ad7b5: push 0x7f1e299c
+    2: 313: 0x7ad7ba: mov qword ptr [rsp], rcx
+    2: 314: 0x7ad7be: push r12
+    2: 315: 0x7ad7c0: mov rcx, qword ptr [rsp]
+    2: 316: 0x7ad7c4: add rsp, 8
+    2: 317: 0x7ad7cb: push rcx
+    2: 318: 0x7ad7cc: pop qword ptr [rsp + 8]
+    2: 319: 0x7ad7d0: push qword ptr [rsp]
+    2: 320: 0x7ad7d3: pop rcx
+    2: 321: 0x7ad7d4: push r9
+    2: 322: 0x7ad7d6: mov r9, rsp
+    2: 323: 0x7ad7d9: add r9, 8
+    2: 324: 0x7ad7dd: add r9, 8
+    2: 325: 0x7ad7e4: xchg qword ptr [rsp], r9
+    2: 326: 0x7ad7e8: mov rsp, qword ptr [rsp]
+    2: 327: 0x7ad7ec: pop qword ptr [rsp]
+    2: 328: 0x7ad7ef: push r10
+    2: 329: 0x7ad7f1: push rsp
+    2: 330: 0x7ad7f2: pop r10
+    2: 331: 0x7ad7f4: add r10, 8
+    2: 332: 0x7ad7f8: sub r10, 8
+    2: 333: 0x7ad7ff: xor r10, qword ptr [rsp]
+    2: 334: 0x7ad803: sub rsp, 8
+    2: 335: 0x7ad807: mov qword ptr [rsp], rcx
+    2: 336: 0x7ad80b: push r12
+    2: 337: 0x7ad80d: mov r12, r10
+    2: 338: 0x7ad810: mov rcx, r12
+    2: 339: 0x7ad813: pop r12
+    2: 340: 0x7ad815: sub rsp, 8
+    2: 341: 0x7ad819: mov qword ptr [rsp], r12
+    2: 342: 0x7ad81d: push rcx
+    2: 343: 0x7ad81e: add qword ptr [rsp], 0x56df8f63
+    2: 344: 0x7ad826: mov r12, qword ptr [rsp]
+    2: 345: 0x7ad82a: add rsp, 8
+    2: 346: 0x7ad831: sub r12, 0x56df8f63
+    2: 347: 0x7ad838: xor qword ptr [rsp + 0x10], r12
+    2: 348: 0x7ad83d: pop r12
+    2: 349: 0x7ad83f: pop rcx
+    2: 350: 0x7ad840: xor r10, qword ptr [rsp]
+    2: 351: 0x7ad844: mov rsp, qword ptr [rsp]
+    2: 352: 0x7ad848: mov qword ptr [rsp], r11
+    2: 353: 0x7ad84c: push 0x7f108765
+    2: 354: 0x7ad851: push r15
+    2: 355: 0x7ad853: sub rsp, 8
+    2: 356: 0x7ad857: mov qword ptr [rsp], rsp
+    2: 357: 0x7ad85b: add qword ptr [rsp], 8
+    2: 358: 0x7ad860: pop r15
+    2: 359: 0x7ad862: add r15, 8
+    2: 360: 0x7ad866: sub rsp, 8
+    2: 361: 0x7ad86d: mov qword ptr [rsp], r8
+    2: 362: 0x7ad871: movabs r8, 0x32ffbe46
+    2: 363: 0x7ad87b: shl r8, 8
+    2: 364: 0x7ad87f: push rbp
+    2: 365: 0x7ad880: movabs rbp, 0x32ffbe45f8
+    2: 366: 0x7ad88a: sub r8, rbp
+    2: 367: 0x7ad88d: pop rbp
+    2: 368: 0x7ad88e: sub r15, r8
+    2: 369: 0x7ad891: mov r8, qword ptr [rsp]
+    2: 370: 0x7ad895: add rsp, 8
+    2: 371: 0x7ad89c: xchg qword ptr [rsp], r15
+    2: 372: 0x7ad8a0: mov rsp, qword ptr [rsp]
+    2: 373: 0x7ad8a4: sub rsp, 8
+    2: 374: 0x7ad8a8: mov qword ptr [rsp], r10
+    2: 375: 0x7ad8ac: pop qword ptr [rsp]
+    2: 376: 0x7ad8af: pop qword ptr [rsp]
+    2: 377: 0x7ad8b2: push rbx
+    2: 378: 0x7ad8b3: push rsp
+    2: 379: 0x7ad8b4: push qword ptr [rsp]
+    2: 380: 0x7ad8b7: pop rbx
+    2: 381: 0x7ad8b8: add rsp, 8
+    2: 382: 0x7ad8bc: add rbx, 8
+    2: 383: 0x7ad8c0: push rcx
+    2: 384: 0x7ad8c1: push r13
+    2: 385: 0x7ad8c3: movabs r13, 0x7fffedf1
+    2: 386: 0x7ad8cd: mov rcx, r13
+    2: 387: 0x7ad8d0: pop r13
+    2: 388: 0x7ad8d2: dec rcx
+    2: 389: 0x7ad8d5: push rdx
+    2: 390: 0x7ad8d6: movabs rdx, 0x77dcf4ab
+    2: 391: 0x7ad8e0: sub rdx, 0x6c1cad80
+    2: 392: 0x7ad8e7: xor rdx, 0x54b3a3fa
+    2: 393: 0x7ad8ee: sub rcx, rdx
+    2: 394: 0x7ad8f1: pop rdx
+    2: 395: 0x7ad8f2: xor rcx, 0x208c0917
+    2: 396: 0x7ad8f9: sub rbx, rcx
+    2: 397: 0x7ad8fc: pop rcx
+    2: 398: 0x7ad8fd: xor rbx, qword ptr [rsp]
+    2: 399: 0x7ad901: push rdi
+    2: 400: 0x7ad902: mov rdi, rbx
+    2: 401: 0x7ad905: xor qword ptr [rsp + 8], rdi
+    2: 402: 0x7ad90a: pop rdi
+    2: 403: 0x7ad90b: xor rbx, qword ptr [rsp]
+    2: 404: 0x7ad90f: pop rsp
+    2: 405: 0x7ad910: sub rsp, 8
+    2: 406: 0x7ad914: mov qword ptr [rsp], r9
+    2: 407: 0x7ad918: pop qword ptr [rsp]
+    2: 408: 0x7ad91b: push 0x84d185d
+    2: 409: 0x7ad920: push 0x10aba3c8
+    2: 410: 0x7ad925: push r13
+    2: 411: 0x7ad927: mov r13, r14
+    2: 412: 0x7ad92a: mov qword ptr [rsp + 8], r13
+    2: 413: 0x7ad92f: pop r13
+    2: 414: 0x7ad931: push r12
+    2: 415: 0x7ad933: mov r12, r8
+    2: 416: 0x7ad936: push r12
+    2: 417: 0x7ad938: xor qword ptr [rsp], 0x5f7d2197
+    2: 418: 0x7ad940: pop r14
+    2: 419: 0x7ad942: xor r14, 0x5f7d2197
+    2: 420: 0x7ad949: pop r12
+    2: 421: 0x7ad94b: sub rsp, 8
+    2: 422: 0x7ad952: mov qword ptr [rsp], r14
+    2: 423: 0x7ad956: pop qword ptr [rsp + 8]
+    2: 424: 0x7ad95a: push qword ptr [rsp]
+    2: 425: 0x7ad95d: mov r14, qword ptr [rsp]
+    2: 426: 0x7ad961: add rsp, 8
+    2: 427: 0x7ad965: add rsp, 8
+    2: 428: 0x7ad96c: push qword ptr [rsp + 0x78]
+    2: 429: 0x7ad970: push qword ptr [rsp]
+    2: 430: 0x7ad973: pop rcx
+    2: 431: 0x7ad974: push 0x7fa899c7
+    2: 432: 0x7ad979: mov qword ptr [rsp], rcx
+    2: 433: 0x7ad97d: push rsp
+    2: 434: 0x7ad97e: mov rcx, qword ptr [rsp]
+    2: 435: 0x7ad982: add rsp, 8
+    2: 436: 0x7ad986: add rcx, 8
+    2: 437: 0x7ad98a: add rcx, 8
+    2: 438: 0x7ad991: xor rcx, qword ptr [rsp]
+    2: 439: 0x7ad995: push rdi
+    2: 440: 0x7ad996: push rcx
+    2: 441: 0x7ad997: push r8
+    2: 442: 0x7ad999: movabs r8, 0x6a6b85c1
+    2: 443: 0x7ad9a3: xor qword ptr [rsp + 8], r8
+    2: 444: 0x7ad9a8: pop r8
+    2: 445: 0x7ad9aa: pop rdi
+    2: 446: 0x7ad9ab: xor rdi, 0x6a6b85c1
+    2: 447: 0x7ad9b2: xor qword ptr [rsp + 8], rdi
+    2: 448: 0x7ad9b7: pop rdi
+    2: 449: 0x7ad9b8: xor rcx, qword ptr [rsp]
+    2: 450: 0x7ad9bc: mov rsp, qword ptr [rsp]
+    2: 451: 0x7ad9c0: push 0x378b7ba
+    2: 452: 0x7ad9c5: sub rsp, 8
+    2: 453: 0x7ad9c9: push 0x631121bb
+    2: 454: 0x7ad9ce: sub rsp, 8
+    2: 455: 0x7ad9d2: push r11
+    2: 456: 0x7ad9d4: mov r11, rax
+    2: 457: 0x7ad9d7: mov qword ptr [rsp + 8], r11
+    2: 458: 0x7ad9dc: mov r11, qword ptr [rsp]
+    2: 459: 0x7ad9e0: push r9
+    2: 460: 0x7ad9e2: mov r9, rsp
+    2: 461: 0x7ad9e5: add r9, 8
+    2: 462: 0x7ad9e9: add r9, 8
+    2: 463: 0x7ad9f0: xchg qword ptr [rsp], r9
+    2: 464: 0x7ad9f4: pop rsp
+    2: 465: 0x7ad9f5: pop qword ptr [rsp]
+    2: 466: 0x7ad9f8: pop qword ptr [rsp]
+    2: 467: 0x7ad9fb: pop qword ptr [rsp]
+    2: 468: 0x7ad9fe: pop qword ptr [rsp + 0x78]
+    2: 469: 0x7ada02: push 0x70cdfe36
+    2: 470: 0x7ada07: push rdi
+    2: 471: 0x7ada08: pop qword ptr [rsp]
+    2: 472: 0x7ada0b: movabs rdi, 0x7e36a92e
+    2: 473: 0x7ada15: inc rdi
+    2: 474: 0x7ada18: add rdi, 0x36632720
+    2: 475: 0x7ada1f: or rdi, 0x7b53d4b7
+    2: 476: 0x7ada26: push rax
+    2: 477: 0x7ada27: movabs rax, 0xa012332d
+    2: 478: 0x7ada31: sub rdi, rax
+    2: 479: 0x7ada34: pop rax
+    2: 480: 0x7ada35: push rax
+    2: 481: 0x7ada36: movabs rax, 0x5fc9a1d7
+    2: 482: 0x7ada40: xor rdi, rax
+    2: 483: 0x7ada43: pop rax
+    2: 484: 0x7ada44: sub rcx, 0xffffe50
+    2: 485: 0x7ada4b: sub rcx, 0xe4bb825
+    2: 486: 0x7ada52: sub rcx, 0x9d3a581
+    2: 487: 0x7ada59: add rcx, 0xb7cb4e8
+    2: 488: 0x7ada60: sub rcx, 0xad787bd
+    2: 489: 0x7ada67: sub rcx, rdi
+    2: 490: 0x7ada6a: add rcx, 0xad787bd
+    2: 491: 0x7ada71: sub rcx, 0xb7cb4e8
+    2: 492: 0x7ada78: add rcx, 0x9d3a581
+    2: 493: 0x7ada7f: add rcx, 0xe4bb825
+    2: 494: 0x7ada86: add rcx, 0xffffe50
+    2: 495: 0x7ada8d: push qword ptr [rsp]
+    2: 496: 0x7ada90: pop rdi
+    2: 497: 0x7ada91: add rsp, 8
+    2: 498: 0x7ada95: sub rsp, 8
+    2: 499: 0x7ada99: mov qword ptr [rsp], rax
+    2: 500: 0x7ada9d: movabs rax, 0x5bf35560
+    2: 501: 0x7adaa7: or rax, 0x7fe2896c
+    2: 502: 0x7adaad: shl rax, 2
+    2: 503: 0x7adab1: not rax
+    2: 504: 0x7adab4: push 0x662e016e
+    2: 505: 0x7adab9: mov qword ptr [rsp], rax
+    2: 506: 0x7adabd: add qword ptr [rsp], 1
+    2: 507: 0x7adac2: push qword ptr [rsp]
+    2: 508: 0x7adac5: pop rax
+    2: 509: 0x7adac6: push rdx
+    2: 510: 0x7adac7: mov rdx, rsp
+    2: 511: 0x7adaca: add rdx, 8
+    2: 512: 0x7adace: add rdx, 8
+    2: 513: 0x7adad5: xchg qword ptr [rsp], rdx
+    2: 514: 0x7adad9: pop rsp
+    2: 515: 0x7adada: xor rax, 0x7ef38500
+    2: 516: 0x7adae0: push rbx
+    2: 517: 0x7adae1: movabs rbx, 0x18177c571
+    2: 518: 0x7adaeb: sub rax, 0x47f757ba
+    2: 519: 0x7adaf1: add rax, rbx
+    2: 520: 0x7adaf4: add rax, 0x47f757ba
+    2: 521: 0x7adafa: pop rbx
+    2: 522: 0x7adafb: sub rcx, rax
+    2: 523: 0x7adafe: push qword ptr [rsp]
+    2: 524: 0x7adb01: pop rax
+    2: 525: 0x7adb02: add rsp, 8
+    2: 526: 0x7adb06: push rdi
+    2: 527: 0x7adb07: push rdx
+    2: 528: 0x7adb08: mov edx, 0x5fab1f7a
+    2: 529: 0x7adb0d: and edx, 0x7efd9702
+    2: 530: 0x7adb13: add edx, 1
+    2: 531: 0x7adb16: shl edx, 3
+    2: 532: 0x7adb19: add edx, 0x77ff7eaf
+    2: 533: 0x7adb1f: shl edx, 8
+    2: 534: 0x7adb22: add edx, 0xefb6e01c
+    2: 535: 0x7adb28: mov edi, edx
+    2: 536: 0x7adb2a: pop rdx
+    2: 537: 0x7adb2b: push rdx
+    2: 538: 0x7adb2c: push rcx
+    2: 539: 0x7adb2d: mov ecx, 0x73bf7875
+    2: 540: 0x7adb32: neg ecx
+    2: 541: 0x7adb34: sub ecx, 0x6c52f92a
+    2: 542: 0x7adb3a: push rcx
+    2: 543: 0x7adb3b: xor dword ptr [rsp], 0x5bfb8435
+    2: 544: 0x7adb42: pop rdx
+    2: 545: 0x7adb43: xor edx, 0x5bfb8435
+    2: 546: 0x7adb49: pop rcx
+    2: 547: 0x7adb4a: mov ebp, 0x7fef1484
+    2: 548: 0x7adb4f: push rbx
+    2: 549: 0x7adb50: push r15
+    2: 550: 0x7adb52: push 0x7f754599
+    2: 551: 0x7adb57: pop r15
+    2: 552: 0x7adb59: shr r15d, 3
+    2: 553: 0x7adb5d: not r15d
+    2: 554: 0x7adb60: sub r15d, 0xbc1e4810
+    2: 555: 0x7adb67: mov ebx, r15d
+    2: 556: 0x7adb6a: pop r15
+    2: 557: 0x7adb6c: shr ebx, 5
+    2: 558: 0x7adb6f: xor ebx, 0x5f7eb901
+    2: 559: 0x7adb75: add ebx, 0x4fc8e5f
+    2: 560: 0x7adb7b: add ebp, ebx
+    2: 561: 0x7adb7d: pop rbx
+    2: 562: 0x7adb7e: inc ebp
+    2: 563: 0x7adb80: or ebp, 0x3eee3900
+    2: 564: 0x7adb86: or ebp, 0x26eb1201
+    2: 565: 0x7adb8c: shl ebp, 7
+    2: 566: 0x7adb8f: add ebp, 0xdffed205
+    2: 567: 0x7adb95: xor ebp, edx
+    2: 568: 0x7adb97: pop rdx
+    2: 569: 0x7adb98: sub ebp, 0x1fbf54c9
+    2: 570: 0x7adb9e: sub ebp, 0x3fbbf751
+    2: 571: 0x7adba4: add ebp, edi
+    2: 572: 0x7adba6: add ebp, 0x3fbbf751
+    2: 573: 0x7adbac: add ebp, 0x1fbf54c9
+    2: 574: 0x7adbb2: mov rdi, qword ptr [rsp]
+    2: 575: 0x7adbb6: add rsp, 8
+    2: 576: 0x7adbbd: sub rbp, 0x6ffffd17
+    2: 577: 0x7adbc4: sub rbp, 0x33fbbd49
+    2: 578: 0x7adbcb: sub rbp, 0x5ff5dbf1
+    2: 579: 0x7adbd2: add rbp, 0x3fff2204
+    2: 580: 0x7adbd9: sub rbp, 0x7bf9d033
+    2: 581: 0x7adbe0: add rbp, 0x6d3d2746
+    2: 582: 0x7adbe7: sub rbp, 0x3fcfc293
+    2: 583: 0x7adbee: add rbp, 0x4fff1321
+    2: 584: 0x7adbf5: add rbp, 0x7bc4b672
+    2: 585: 0x7adbfc: add rbp, 0x72fffd95
+    2: 586: 0x7adc03: sub rbp, 0x7f99c900
+    2: 587: 0x7adc0a: add rbp, rcx
+    2: 588: 0x7adc0d: add rbp, 0x7f99c900
+    2: 589: 0x7adc14: sub rbp, 0x72fffd95
+    2: 590: 0x7adc1b: sub rbp, 0x7bc4b672
+    2: 591: 0x7adc22: sub rbp, 0x4fff1321
+    2: 592: 0x7adc29: add rbp, 0x3fcfc293
+    2: 593: 0x7adc30: sub rbp, 0x6d3d2746
+    2: 594: 0x7adc37: add rbp, 0x7bf9d033
+    2: 595: 0x7adc3e: sub rbp, 0x3fff2204
+    2: 596: 0x7adc45: add rbp, 0x5ff5dbf1
+    2: 597: 0x7adc4c: add rbp, 0x33fbbd49
+    2: 598: 0x7adc53: add rbp, 0x6ffffd17
+    2: 599: 0x7adc5a: push 0x1a77a1be
+    2: 600: 0x7adc5f: mov qword ptr [rsp], rcx
+    2: 601: 0x7adc63: push rsp
+    2: 602: 0x7adc64: pop rcx
+    2: 603: 0x7adc65: add rcx, 8
+    2: 604: 0x7adc69: sub rcx, 8
+    2: 605: 0x7adc70: xchg qword ptr [rsp], rcx
+    2: 606: 0x7adc74: pop rsp
+    2: 607: 0x7adc75: push rcx
+    2: 608: 0x7adc76: pop qword ptr [rsp]
+    2: 609: 0x7adc79: mov rcx, rsp
+    2: 610: 0x7adc7c: add rcx, 8
+    2: 611: 0x7adc80: push rbp
+    2: 612: 0x7adc81: movabs rbp, 8
+    2: 613: 0x7adc8b: sub rcx, rbp
+    2: 614: 0x7adc8e: pop rbp
+    2: 615: 0x7adc8f: push rcx
+    2: 616: 0x7adc90: push qword ptr [rsp + 8]
+    2: 617: 0x7adc94: pop rcx
+    2: 618: 0x7adc95: pop qword ptr [rsp]
+    2: 619: 0x7adc98: mov rsp, qword ptr [rsp]
+    2: 620: 0x7adc9c: sub rsp, 8
+    2: 621: 0x7adca0: mov qword ptr [rsp], rcx
+    2: 622: 0x7adca4: pop qword ptr [rsp]
+    2: 623: 0x7adca7: sub rsp, 8
+    2: 624: 0x7adcab: mov qword ptr [rsp], rax
+    2: 625: 0x7adcaf: sub rsp, 8
+    2: 626: 0x7adcb3: mov qword ptr [rsp], r15
+    2: 627: 0x7adcb7: mov r15, r15
+    2: 628: 0x7adcba: mov qword ptr [rsp], 0x7b46799f
+    2: 629: 0x7adcc2: mov rax, qword ptr [rsp]
+    2: 630: 0x7adcc6: add rsp, 8
+    2: 631: 0x7adccd: shl eax, 4
+    2: 632: 0x7adcd0: and eax, 0x79f52c7f
+    2: 633: 0x7adcd5: sub rsp, 8
+    2: 634: 0x7adcdc: push rbx
+    2: 635: 0x7adcdd: pop qword ptr [rsp]
+    2: 636: 0x7adce0: push r10
+    2: 637: 0x7adce2: push 0x7afeb7e7
+    2: 638: 0x7adce7: pop r10
+    2: 639: 0x7adce9: xor r10d, 0x35cf66f0
+    2: 640: 0x7adcf0: xor r10d, 0x57bb6a06
+    2: 641: 0x7adcf7: push rbx
+    2: 642: 0x7adcf8: mov ebx, 0x37f62f4e
+    2: 643: 0x7adcfd: add r10d, 0x6dba0178
+    2: 644: 0x7add04: add r10d, ebx
+    2: 645: 0x7add07: sub r10d, 0x6dba0178
+    2: 646: 0x7add0e: pop rbx
+    2: 647: 0x7add0f: add r10d, 0x7f1a0d32
+    2: 648: 0x7add16: mov ebx, r10d
+    2: 649: 0x7add19: pop r10
+    2: 650: 0x7add1b: add eax, ebx
+    2: 651: 0x7add1d: mov rbx, qword ptr [rsp]
+    2: 652: 0x7add21: add rsp, 8
+    2: 653: 0x7add28: mov ecx, eax
+    2: 654: 0x7add2a: pop rax
+    2: 655: 0x7add2b: push r9
+    2: 656: 0x7add2d: mov r9d, 0x7efb3d3d
+    2: 657: 0x7add33: dec r9d
+    2: 658: 0x7add36: not r9d
+    2: 659: 0x7add39: sub r9d, 0x7cbc7c6e
+    2: 660: 0x7add40: or r9d, 0x76d7e65a
+    2: 661: 0x7add47: shl r9d, 8
+    2: 662: 0x7add4b: neg r9d
+    2: 663: 0x7add4e: push r10
+    2: 664: 0x7add50: push 0x36d1bf32
+    2: 665: 0x7add55: mov qword ptr [rsp], r11
+    2: 666: 0x7add59: mov r11d, 0x56d15831
+    2: 667: 0x7add5f: inc r11d
+    2: 668: 0x7add62: shl r11d, 3
+    2: 669: 0x7add66: add r11d, 0xc6747837
+    2: 670: 0x7add6d: push r8
+    2: 671: 0x7add6f: mov r8d, 0x7ebe7b46
+    2: 672: 0x7add75: mov r10d, 0x245adeb3
+    2: 673: 0x7add7b: sub r10d, 0x3f3ed280
+    2: 674: 0x7add82: add r10d, r8d
+    2: 675: 0x7add85: add r10d, 0x3f3ed280
+    2: 676: 0x7add8c: pop r8
+    2: 677: 0x7add8e: xor r10d, r11d
+    2: 678: 0x7add91: pop r11
+    2: 679: 0x7add93: add r9d, r10d
+    2: 680: 0x7add96: pop r10
+    2: 681: 0x7add98: push r9
+    2: 682: 0x7add9a: push r15
+    2: 683: 0x7add9c: mov r15d, 0x69ec3fe1
+    2: 684: 0x7adda2: add dword ptr [rsp + 8], r15d
+    2: 685: 0x7adda7: pop r15
+    2: 686: 0x7adda9: mov rbx, qword ptr [rsp]
+    2: 687: 0x7addad: add rsp, 8
+    2: 688: 0x7addb4: push r13
+    2: 689: 0x7addb6: mov r13d, 0x69ec3fe1
+    2: 690: 0x7addbc: sub ebx, r13d
+    2: 691: 0x7addbf: pop r13
+    2: 692: 0x7addc1: pop r9
+    2: 693: 0x7addc3: xor eax, eax
+    2: 694: 0x7addc5: lock cmpxchg dword ptr [rbx + rbp], ecx
+    2: 695: 0x7addca: je 0x7addd7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0140s
+
+[*] Tried to recover Opaque Predicate/Edges in 4.9830s
+[*] Edges: 2
+(0x7addd7) (0x7addd0) 
+
+[*] Tried to recover Opaque Predicate/Edges in 4.9370s
+[*] Edges: 2
+(0x7addd7) (0x7addd0) 
+
+[*] Tried to recover Opaque Predicate/Edges in 5.0540s
+[*] Edges: 2
+(0x7addd7) (0x7addd0) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    3: 696: 0x7addd7: push qword ptr [rsp]
+    3: 697: 0x7addda: push qword ptr [rsp]
+    3: 698: 0x7adddd: push qword ptr [rsp]
+    3: 699: 0x7adde0: push qword ptr [rsp]
+    3: 700: 0x7adde3: pop rcx
+    3: 701: 0x7adde4: add rsp, 8
+    3: 702: 0x7adde8: sub rsp, 8
+    3: 703: 0x7addec: mov qword ptr [rsp], rcx
+    3: 704: 0x7addf0: sub rsp, 8
+    3: 705: 0x7addf4: mov qword ptr [rsp], rsp
+    3: 706: 0x7addf8: add qword ptr [rsp], 8
+    3: 707: 0x7addfd: pop rcx
+    3: 708: 0x7addfe: add rcx, 8
+    3: 709: 0x7ade02: add rcx, 8
+    3: 710: 0x7ade09: xchg qword ptr [rsp], rcx
+    3: 711: 0x7ade0d: pop rsp
+    3: 712: 0x7ade0e: add rsp, 8
+    3: 713: 0x7ade12: add rsp, 8
+    3: 714: 0x7ade16: push r14
+    3: 715: 0x7ade18: push rdx
+    3: 716: 0x7ade19: push 0x7efe9739
+    3: 717: 0x7ade1e: push qword ptr [rsp]
+    3: 718: 0x7ade21: pop rdx
+    3: 719: 0x7ade22: add rsp, 8
+    3: 720: 0x7ade26: shl edx, 1
+    3: 721: 0x7ade29: sub rsp, 8
+    3: 722: 0x7ade2d: mov qword ptr [rsp], rdi
+    3: 723: 0x7ade31: mov edi, 0x5b3d82c1
+    3: 724: 0x7ade36: neg edi
+    3: 725: 0x7ade38: push rdx
+    3: 726: 0x7ade39: mov edx, 0x16914987
+    3: 727: 0x7ade3e: push r12
+    3: 728: 0x7ade40: mov r12d, 0x292dc1fc
+    3: 729: 0x7ade46: sub edx, 0x5afd5b96
+    3: 730: 0x7ade4c: add edx, r12d
+    3: 731: 0x7ade4f: add edx, 0x5afd5b96
+    3: 732: 0x7ade55: mov r12, qword ptr [rsp]
+    3: 733: 0x7ade59: add rsp, 8
+    3: 734: 0x7ade60: sub edi, edx
+    3: 735: 0x7ade62: pop rdx
+    3: 736: 0x7ade63: add edi, 0x98f9bcdb
+    3: 737: 0x7ade69: xor edx, edi
+    3: 738: 0x7ade6b: pop rdi
+    3: 739: 0x7ade6c: push rdx
+    3: 740: 0x7ade6d: xor dword ptr [rsp], 0x7afb95df
+    3: 741: 0x7ade74: pop r14
+    3: 742: 0x7ade76: xor r14d, 0x7afb95df
+    3: 743: 0x7ade7d: pop rdx
+    3: 744: 0x7ade7e: push r14
+    3: 745: 0x7ade80: xor dword ptr [rsp], 0x37ff245b
+    3: 746: 0x7ade87: pop rbx
+    3: 747: 0x7ade88: xor ebx, 0x37ff245b
+    3: 748: 0x7ade8e: pop r14
+    3: 749: 0x7ade90: push 0x50fb03a8
+    3: 750: 0x7ade95: sub rsp, 8
+    3: 751: 0x7ade99: push r15
+    3: 752: 0x7ade9b: pop qword ptr [rsp]
+    3: 753: 0x7ade9e: pop qword ptr [rsp]
+    3: 754: 0x7adea1: push 0x31f591a4
+    3: 755: 0x7adea6: mov qword ptr [rsp], rcx
+    3: 756: 0x7adeaa: push r15
+    3: 757: 0x7adeac: movabs r15, 0x5f3b3fb6
+    3: 758: 0x7adeb6: sub qword ptr [rsp + 8], r15
+    3: 759: 0x7adebb: pop r15
+    3: 760: 0x7adebd: pop r15
+    3: 761: 0x7adebf: push 0x6c0d21c1
+    3: 762: 0x7adec4: mov qword ptr [rsp], r12
+    3: 763: 0x7adec8: movabs r12, 0x3e974000
+    3: 764: 0x7aded2: xor r12, 0x61ac7fb6
+    3: 765: 0x7aded9: add r15, r12
+    3: 766: 0x7adedc: pop r12
+    3: 767: 0x7adede: push r15
+    3: 768: 0x7adee0: pop qword ptr [rbx + rbp]
+    3: 769: 0x7adee3: mov r15, qword ptr [rsp]
+    3: 770: 0x7adee7: add rsp, 8
+    3: 771: 0x7adeee: sub rsp, 8
+    3: 772: 0x7adef2: mov qword ptr [rsp], r11
+    3: 773: 0x7adef6: push 0x7efc8834
+    3: 774: 0x7adefb: push qword ptr [rsp]
+    3: 775: 0x7adefe: pop r11
+    3: 776: 0x7adf00: push rcx
+    3: 777: 0x7adf01: mov rcx, rsp
+    3: 778: 0x7adf04: add rcx, 8
+    3: 779: 0x7adf08: add rcx, 8
+    3: 780: 0x7adf0f: xchg qword ptr [rsp], rcx
+    3: 781: 0x7adf13: mov rsp, qword ptr [rsp]
+    3: 782: 0x7adf17: push rcx
+    3: 783: 0x7adf18: mov ecx, 0x1ffd4186
+    3: 784: 0x7adf1d: dec ecx
+    3: 785: 0x7adf1f: add ecx, 0x7efef663
+    3: 786: 0x7adf25: and ecx, 0x57fef562
+    3: 787: 0x7adf2b: dec ecx
+    3: 788: 0x7adf2d: add ecx, 0x56f14201
+    3: 789: 0x7adf33: sub r11d, 0xf572598
+    3: 790: 0x7adf3a: sub r11d, ecx
+    3: 791: 0x7adf3d: add r11d, 0xf572598
+    3: 792: 0x7adf44: pop rcx
+    3: 793: 0x7adf45: push 0x607c5e7a
+    3: 794: 0x7adf4a: mov qword ptr [rsp], r9
+    3: 795: 0x7adf4e: push rdx
+    3: 796: 0x7adf4f: mov edx, 0x110f10c4
+    3: 797: 0x7adf54: mov r9d, edx
+    3: 798: 0x7adf57: pop rdx
+    3: 799: 0x7adf58: xor r11d, r9d
+    3: 800: 0x7adf5b: pop r9
+    3: 801: 0x7adf5d: mov ebx, r11d
+    3: 802: 0x7adf60: pop r11
+    3: 803: 0x7adf62: push qword ptr [rsp + 0x50]
+    3: 804: 0x7adf66: push qword ptr [rsp]
+    3: 805: 0x7adf69: push qword ptr [rsp]
+    3: 806: 0x7adf6c: mov rax, qword ptr [rsp]
+    3: 807: 0x7adf70: push 0x339edc18
+    3: 808: 0x7adf75: mov qword ptr [rsp], rbx
+    3: 809: 0x7adf79: mov rbx, rsp
+    3: 810: 0x7adf7c: add rbx, 8
+    3: 811: 0x7adf80: add rbx, 8
+    3: 812: 0x7adf87: xor rbx, qword ptr [rsp]
+    3: 813: 0x7adf8b: xor qword ptr [rsp], rbx
+    3: 814: 0x7adf8f: xor rbx, qword ptr [rsp]
+    3: 815: 0x7adf93: pop rsp
+    3: 816: 0x7adf94: add rsp, 8
+    3: 817: 0x7adf98: add rsp, 8
+    3: 818: 0x7adf9c: push r9
+    3: 819: 0x7adf9e: push rsp
+    3: 820: 0x7adf9f: pop r9
+    3: 821: 0x7adfa1: add r9, 8
+    3: 822: 0x7adfa5: sub rsp, 8
+    3: 823: 0x7adfac: mov qword ptr [rsp], rcx
+    3: 824: 0x7adfb0: movabs rcx, 0x4b790000
+    3: 825: 0x7adfba: shr rcx, 4
+    3: 826: 0x7adfbe: dec rcx
+    3: 827: 0x7adfc1: add rcx, 0x7f9f0ac1
+    3: 828: 0x7adfc8: and rcx, 0x6ae0bb00
+    3: 829: 0x7adfcf: push rbx
+    3: 830: 0x7adfd0: movabs rbx, 0x36b2a01b
+    3: 831: 0x7adfda: xor rbx, 0x36f23a13
+    3: 832: 0x7adfe1: xor rcx, rbx
+    3: 833: 0x7adfe4: pop rbx
+    3: 834: 0x7adfe5: sub r9, 0xe7f63be
+    3: 835: 0x7adfec: sub r9, rcx
+    3: 836: 0x7adfef: add r9, 0xe7f63be
+    3: 837: 0x7adff6: pop rcx
+    3: 838: 0x7adff7: xchg qword ptr [rsp], r9
+    3: 839: 0x7adffb: pop rsp
+    3: 840: 0x7adffc: push rax
+    3: 841: 0x7adffd: pop qword ptr [rsp]
+    3: 842: 0x7ae000: sub qword ptr [rsp], 0x5efa1292
+    3: 843: 0x7ae008: pop qword ptr [rbx + rbp]
+    3: 844: 0x7ae00b: push rax
+    3: 845: 0x7ae00c: movabs rax, 0x5efa1292
+    3: 846: 0x7ae016: add qword ptr [rbx + rbp], rax
+    3: 847: 0x7ae01a: mov rax, qword ptr [rsp]
+    3: 848: 0x7ae01e: add rsp, 8
+    3: 849: 0x7ae022: push rdx
+    3: 850: 0x7ae023: mov rdx, rsp
+    3: 851: 0x7ae026: add rdx, 8
+    3: 852: 0x7ae02a: sub rdx, 8
+    3: 853: 0x7ae031: xor rdx, qword ptr [rsp]
+    3: 854: 0x7ae035: xor qword ptr [rsp], rdx
+    3: 855: 0x7ae039: xor rdx, qword ptr [rsp]
+    3: 856: 0x7ae03d: pop rsp
+    3: 857: 0x7ae03e: push 0x449e8d8b
+    3: 858: 0x7ae043: push rdi
+    3: 859: 0x7ae044: pop qword ptr [rsp]
+    3: 860: 0x7ae047: pop qword ptr [rsp]
+    3: 861: 0x7ae04a: push 0x7e316f70
+    3: 862: 0x7ae04f: push qword ptr [rsp]
+    3: 863: 0x7ae052: pop rdi
+    3: 864: 0x7ae053: push rdi
+    3: 865: 0x7ae054: mov rdi, rsp
+    3: 866: 0x7ae057: add rdi, 8
+    3: 867: 0x7ae05b: add rdi, 8
+    3: 868: 0x7ae062: xchg qword ptr [rsp], rdi
+    3: 869: 0x7ae066: pop rsp
+    3: 870: 0x7ae067: add edi, 0x81ce91eb
+    3: 871: 0x7ae06d: push rdi
+    3: 872: 0x7ae06e: sub dword ptr [rsp], 0x3bbe758b
+    3: 873: 0x7ae075: pop rbx
+    3: 874: 0x7ae076: add ebx, 0x3bbe758b
+    3: 875: 0x7ae07c: mov rdi, qword ptr [rsp]
+    3: 876: 0x7ae080: add rsp, 8
+    3: 877: 0x7ae084: push qword ptr [rsp + 0x90]
+    3: 878: 0x7ae08b: push qword ptr [rsp]
+    3: 879: 0x7ae08e: push qword ptr [rsp]
+    3: 880: 0x7ae091: push qword ptr [rsp]
+    3: 881: 0x7ae094: push qword ptr [rsp]
+    3: 882: 0x7ae097: pop rax
+    3: 883: 0x7ae098: add rsp, 8
+    3: 884: 0x7ae09c: push 0x55429daf
+    3: 885: 0x7ae0a1: mov qword ptr [rsp], rbx
+    3: 886: 0x7ae0a5: push rsp
+    3: 887: 0x7ae0a6: pop rbx
+    3: 888: 0x7ae0a7: add rbx, 8
+    3: 889: 0x7ae0ab: add rbx, 8
+    3: 890: 0x7ae0b2: xchg qword ptr [rsp], rbx
+    3: 891: 0x7ae0b6: pop rsp
+    3: 892: 0x7ae0b7: add rsp, 8
+    3: 893: 0x7ae0bb: add rsp, 8
+    3: 894: 0x7ae0bf: add rax, 0x77c7130d
+    3: 895: 0x7ae0c5: sub rax, 0x56b3c91c
+    3: 896: 0x7ae0cb: add rax, 0x7bf9f247
+    3: 897: 0x7ae0d1: add rax, 0x5e7fb0b0
+    3: 898: 0x7ae0d7: sub rax, 0x2e4e57f5
+    3: 899: 0x7ae0dd: add rax, 0x6fd25261
+    3: 900: 0x7ae0e3: sub rax, 0x5654bb9f
+    3: 901: 0x7ae0e9: add rax, 0xf9f1954
+    3: 902: 0x7ae0ef: add rax, 0x4c7693bf
+    3: 903: 0x7ae0f5: add rax, 0x3f95cf32
+    3: 904: 0x7ae0fb: add rax, 0x77dfe3a6
+    3: 905: 0x7ae101: add rax, rcx
+    3: 906: 0x7ae104: sub rax, 0x77dfe3a6
+    3: 907: 0x7ae10a: sub rax, 0x3f95cf32
+    3: 908: 0x7ae110: sub rax, 0x4c7693bf
+    3: 909: 0x7ae116: sub rax, 0xf9f1954
+    3: 910: 0x7ae11c: add rax, 0x5654bb9f
+    3: 911: 0x7ae122: sub rax, 0x6fd25261
+    3: 912: 0x7ae128: add rax, 0x2e4e57f5
+    3: 913: 0x7ae12e: sub rax, 0x5e7fb0b0
+    3: 914: 0x7ae134: sub rax, 0x7bf9f247
+    3: 915: 0x7ae13a: add rax, 0x56b3c91c
+    3: 916: 0x7ae140: sub rax, 0x77c7130d
+    3: 917: 0x7ae146: push 0x65a494f9
+    3: 918: 0x7ae14b: push 0x7dab565a
+    3: 919: 0x7ae150: mov qword ptr [rsp], rax
+    3: 920: 0x7ae154: pop qword ptr [rsp]
+    3: 921: 0x7ae157: push 0x1abde5a2
+    3: 922: 0x7ae15c: push 0x7aa14840
+    3: 923: 0x7ae161: push r9
+    3: 924: 0x7ae163: pop qword ptr [rsp]
+    3: 925: 0x7ae166: pop qword ptr [rsp]
+    3: 926: 0x7ae169: movabs r9, 0x6fef675e
+    3: 927: 0x7ae173: neg r9
+    3: 928: 0x7ae176: push rax
+    3: 929: 0x7ae177: movabs rax, 0xd56ab4bc
+    3: 930: 0x7ae181: add r9, rax
+    3: 931: 0x7ae184: pop rax
+    3: 932: 0x7ae185: sub qword ptr [rsp + 8], r9
+    3: 933: 0x7ae18a: mov r9, qword ptr [rsp]
+    3: 934: 0x7ae18e: add rsp, 8
+    3: 935: 0x7ae195: pop qword ptr [rbx + rbp]
+    3: 936: 0x7ae198: push r9
+    3: 937: 0x7ae19a: movabs r9, 0x7ee4e476
+    3: 938: 0x7ae1a4: add r9, 0x7df39985
+    3: 939: 0x7ae1ab: shl r9, 7
+    3: 940: 0x7ae1af: add r9, 0x76e8a168
+    3: 941: 0x7ae1b6: sub r9, 0x1be53066
+    3: 942: 0x7ae1bd: push r13
+    3: 943: 0x7ae1bf: movabs r13, 0x7e61c72124
+    3: 944: 0x7ae1c9: sub r9, r13
+    3: 945: 0x7ae1cc: pop r13
+    3: 946: 0x7ae1ce: add qword ptr [rbx + rbp], r9
+    3: 947: 0x7ae1d2: pop r9
+    3: 948: 0x7ae1d4: sub rsp, 8
+    3: 949: 0x7ae1d8: push r12
+    3: 950: 0x7ae1da: mov r12, r10
+    3: 951: 0x7ae1dd: mov qword ptr [rsp + 8], r12
+    3: 952: 0x7ae1e2: pop r12
+    3: 953: 0x7ae1e4: sub rsp, 8
+    3: 954: 0x7ae1e8: mov qword ptr [rsp], r8
+    3: 955: 0x7ae1ec: mov r8d, 0x5fef6633
+    3: 956: 0x7ae1f2: mov r10d, 0xa04ac6f4
+    3: 957: 0x7ae1f8: add r10d, r8d
+    3: 958: 0x7ae1fb: pop r8
+    3: 959: 0x7ae1fd: push r10
+    3: 960: 0x7ae1ff: sub dword ptr [rsp], 0x5aee70a7
+    3: 961: 0x7ae206: pop rax
+    3: 962: 0x7ae207: push rcx
+    3: 963: 0x7ae208: mov ecx, 0x3ffb6986
+    3: 964: 0x7ae20d: shr ecx, 2
+    3: 965: 0x7ae210: and ecx, 0x6bdfa530
+    3: 966: 0x7ae216: neg ecx
+    3: 967: 0x7ae218: not ecx
+    3: 968: 0x7ae21a: push rbp
+    3: 969: 0x7ae21b: mov ebp, 0x6ec720ae
+    3: 970: 0x7ae220: and ebp, 0x7cc7b737
+    3: 971: 0x7ae226: inc ebp
+    3: 972: 0x7ae228: and ebp, 0x7bf97720
+    3: 973: 0x7ae22e: sub ebp, 0x7aff5119
+    3: 974: 0x7ae234: sub ebp, 0x7de2b499
+    3: 975: 0x7ae23a: sub ecx, 0xfb656ff
+    3: 976: 0x7ae240: sub ecx, 0xe7f65ad
+    3: 977: 0x7ae246: sub ecx, ebp
+    3: 978: 0x7ae248: add ecx, 0xe7f65ad
+    3: 979: 0x7ae24e: add ecx, 0xfb656ff
+    3: 980: 0x7ae254: pop rbp
+    3: 981: 0x7ae255: sub ecx, 0x4110f50a
+    3: 982: 0x7ae25b: sub eax, 0x7fce1c98
+    3: 983: 0x7ae260: add eax, ecx
+    3: 984: 0x7ae262: add eax, 0x7fce1c98
+    3: 985: 0x7ae267: pop rcx
+    3: 986: 0x7ae268: mov r10, qword ptr [rsp]
+    3: 987: 0x7ae26c: add rsp, 8
+    3: 988: 0x7ae273: add rax, 0x7fff1e86
+    3: 989: 0x7ae279: add rax, 0x5fb7e604
+    3: 990: 0x7ae27f: add rax, 0x6badf60c
+    3: 991: 0x7ae285: sub rax, 0x6e3ba6c3
+    3: 992: 0x7ae28b: add rax, 0x7fff60a9
+    3: 993: 0x7ae291: add rax, 0x7637669e
+    3: 994: 0x7ae297: add rax, 0x6e9f545c
+    3: 995: 0x7ae29d: add rax, 0x7cb70d36
+    3: 996: 0x7ae2a3: add rax, 0x5bf77d38
+    3: 997: 0x7ae2a9: sub rax, 0x797cbe35
+    3: 998: 0x7ae2af: add rax, rcx
+    3: 999: 0x7ae2b2: add rax, 0x797cbe35
+    3: 1000: 0x7ae2b8: sub rax, 0x5bf77d38
+    3: 1001: 0x7ae2be: sub rax, 0x7cb70d36
+    3: 1002: 0x7ae2c4: sub rax, 0x6e9f545c
+    3: 1003: 0x7ae2ca: sub rax, 0x7637669e
+    3: 1004: 0x7ae2d0: sub rax, 0x7fff60a9
+    3: 1005: 0x7ae2d6: add rax, 0x6e3ba6c3
+    3: 1006: 0x7ae2dc: sub rax, 0x6badf60c
+    3: 1007: 0x7ae2e2: sub rax, 0x5fb7e604
+    3: 1008: 0x7ae2e8: sub rax, 0x7fff1e86
+    3: 1009: 0x7ae2ee: push 0x1e8038f5
+    3: 1010: 0x7ae2f3: push rbx
+    3: 1011: 0x7ae2f4: mov rbx, rcx
+    3: 1012: 0x7ae2f7: mov qword ptr [rsp + 8], rbx
+    3: 1013: 0x7ae2fc: pop rbx
+    3: 1014: 0x7ae2fd: push rdx
+    3: 1015: 0x7ae2fe: mov edx, 0x76bfe642
+    3: 1016: 0x7ae303: dec edx
+    3: 1017: 0x7ae305: inc edx
+    3: 1018: 0x7ae307: not edx
+    3: 1019: 0x7ae309: inc edx
+    3: 1020: 0x7ae30b: and edx, 0x6fef2a48
+    3: 1021: 0x7ae311: sub edx, 0xaf400c49
+    3: 1022: 0x7ae317: mov ecx, 0x2450ac5d
+    3: 1023: 0x7ae31c: xor ecx, edx
+    3: 1024: 0x7ae31e: pop rdx
+    3: 1025: 0x7ae31f: push r9
+    3: 1026: 0x7ae321: mov r9d, 0x3f5d5f77
+    3: 1027: 0x7ae327: push rdx
+    3: 1028: 0x7ae328: push rbp
+    3: 1029: 0x7ae329: push 0x3bf5af59
+    3: 1030: 0x7ae32e: mov rbp, qword ptr [rsp]
+    3: 1031: 0x7ae332: push rbx
+    3: 1032: 0x7ae333: mov rbx, rsp
+    3: 1033: 0x7ae336: add rbx, 8
+    3: 1034: 0x7ae33a: add rbx, 8
+    3: 1035: 0x7ae341: xchg qword ptr [rsp], rbx
+    3: 1036: 0x7ae345: pop rsp
+    3: 1037: 0x7ae346: add ebp, 0x7e3f63ae
+    3: 1038: 0x7ae34c: sub ebp, 0x3c611a00
+    3: 1039: 0x7ae352: mov edx, ebp
+    3: 1040: 0x7ae354: pop rbp
+    3: 1041: 0x7ae355: add edx, 0x7af6f662
+    3: 1042: 0x7ae35b: not edx
+    3: 1043: 0x7ae35d: add edx, 0x1f76cb32
+    3: 1044: 0x7ae363: shr edx, 3
+    3: 1045: 0x7ae366: shr edx, 4
+    3: 1046: 0x7ae369: add edx, 0x3e04a0e0
+    3: 1047: 0x7ae36f: add r9d, edx
+    3: 1048: 0x7ae372: mov rdx, qword ptr [rsp]
+    3: 1049: 0x7ae376: add rsp, 8
+    3: 1050: 0x7ae37a: mov ebx, r9d
+    3: 1051: 0x7ae37d: pop r9
+    3: 1052: 0x7ae37f: sub ebx, ecx
+    3: 1053: 0x7ae381: mov rcx, qword ptr [rsp]
+    3: 1054: 0x7ae385: add rsp, 8
+    3: 1055: 0x7ae389: push qword ptr [rbx + rbp]
+    3: 1056: 0x7ae38c: xor qword ptr [rsp], 0x7ffe7900
+    3: 1057: 0x7ae394: push qword ptr [rsp]
+    3: 1058: 0x7ae397: mov rdx, qword ptr [rsp]
+    3: 1059: 0x7ae39b: sub rsp, 8
+    3: 1060: 0x7ae39f: mov qword ptr [rsp], rsi
+    3: 1061: 0x7ae3a3: mov rsi, rsp
+    3: 1062: 0x7ae3a6: add rsi, 8
+    3: 1063: 0x7ae3aa: add rsi, 8
+    3: 1064: 0x7ae3b1: xchg qword ptr [rsp], rsi
+    3: 1065: 0x7ae3b5: pop rsp
+    3: 1066: 0x7ae3b6: push r11
+    3: 1067: 0x7ae3b8: mov r11, rsp
+    3: 1068: 0x7ae3bb: add r11, 8
+    3: 1069: 0x7ae3bf: push r12
+    3: 1070: 0x7ae3c1: movabs r12, 0x5ecfc673
+    3: 1071: 0x7ae3cb: push r10
+    3: 1072: 0x7ae3cd: movabs r10, 0x7effe2c5
+    3: 1073: 0x7ae3d7: add r10, 0x379a0de9
+    3: 1074: 0x7ae3de: sub r10, 0x57fdc3eb
+    3: 1075: 0x7ae3e5: xor r10, 0x53eab8
+    3: 1076: 0x7ae3ec: xor r12, r10
+    3: 1077: 0x7ae3ef: pop r10
+    3: 1078: 0x7ae3f1: add r11, 0x4fff6dc9
+    3: 1079: 0x7ae3f8: add r11, r12
+    3: 1080: 0x7ae3fb: sub r11, 0x4fff6dc9
+    3: 1081: 0x7ae402: mov r12, qword ptr [rsp]
+    3: 1082: 0x7ae406: add rsp, 8
+    3: 1083: 0x7ae40a: push r11
+    3: 1084: 0x7ae40c: push qword ptr [rsp + 8]
+    3: 1085: 0x7ae410: pop r11
+    3: 1086: 0x7ae412: pop qword ptr [rsp]
+    3: 1087: 0x7ae415: pop rsp
+    3: 1088: 0x7ae416: xor rdx, 0x7ffe7900
+    3: 1089: 0x7ae41d: cmp rdx, rax
+    3: 1090: 0x7ae420: je 0x7ae7d7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0110s
+
+[*] Tried to recover Opaque Predicate/Edges in 1.4160s
+[*] Edges: 2
+(0x7ae7d7) (0x7ae426) 
+
+[*] Tried to recover Opaque Predicate/Edges in 1.4100s
+[*] Edges: 2
+(0x7ae7d7) (0x7ae426) 
+
+[*] Tried to recover Opaque Predicate/Edges in 1.4240s
+[*] Edges: 2
+(0x7ae7d7) (0x7ae426) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+    4: 1091: 0x7addd0: pause 
+    4: 1092: 0x7addd2: jmp 0x7addc3
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+    5: 1093: 0x7ae7d7: push qword ptr [rsp + 0x88]
+    5: 1094: 0x7ae7de: push qword ptr [rsp]
+    5: 1095: 0x7ae7e1: push qword ptr [rsp]
+    5: 1096: 0x7ae7e4: mov rbx, qword ptr [rsp]
+    5: 1097: 0x7ae7e8: add rsp, 8
+    5: 1098: 0x7ae7ec: push r9
+    5: 1099: 0x7ae7ee: mov r9, rsp
+    5: 1100: 0x7ae7f1: add r9, 8
+    5: 1101: 0x7ae7f5: add r9, 8
+    5: 1102: 0x7ae7fc: xchg qword ptr [rsp], r9
+    5: 1103: 0x7ae800: mov rsp, qword ptr [rsp]
+    5: 1104: 0x7ae804: push rax
+    5: 1105: 0x7ae805: push rsp
+    5: 1106: 0x7ae806: pop rax
+    5: 1107: 0x7ae807: add rax, 8
+    5: 1108: 0x7ae80b: add rax, 8
+    5: 1109: 0x7ae811: xor rax, qword ptr [rsp]
+    5: 1110: 0x7ae815: xor qword ptr [rsp], rax
+    5: 1111: 0x7ae819: xor rax, qword ptr [rsp]
+    5: 1112: 0x7ae81d: mov rsp, qword ptr [rsp]
+    5: 1113: 0x7ae821: shl rbx, 3
+    5: 1114: 0x7ae825: add rax, 0x5ffdbdb2
+    5: 1115: 0x7ae82b: add rax, 0x7ad31bec
+    5: 1116: 0x7ae831: add rax, 0x5de7eb01
+    5: 1117: 0x7ae837: sub rax, 0x6fef0c40
+    5: 1118: 0x7ae83d: sub rax, 0x757fed9a
+    5: 1119: 0x7ae843: add rax, 0x7725cb81
+    5: 1120: 0x7ae849: sub rax, 0x6b658e67
+    5: 1121: 0x7ae84f: sub rax, 0x670a5e20
+    5: 1122: 0x7ae855: add rax, 0x7ecf6351
+    5: 1123: 0x7ae85b: sub rax, 0x7d7fbea0
+    5: 1124: 0x7ae861: add rax, rbx
+    5: 1125: 0x7ae864: add rax, 0x7d7fbea0
+    5: 1126: 0x7ae86a: sub rax, 0x7ecf6351
+    5: 1127: 0x7ae870: add rax, 0x670a5e20
+    5: 1128: 0x7ae876: add rax, 0x6b658e67
+    5: 1129: 0x7ae87c: sub rax, 0x7725cb81
+    5: 1130: 0x7ae882: add rax, 0x757fed9a
+    5: 1131: 0x7ae888: add rax, 0x6fef0c40
+    5: 1132: 0x7ae88e: sub rax, 0x5de7eb01
+    5: 1133: 0x7ae894: sub rax, 0x7ad31bec
+    5: 1134: 0x7ae89a: sub rax, 0x5ffdbdb2
+    5: 1135: 0x7ae8a0: jmp qword ptr [rax]
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0660s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0640s
+[*] Edges: 0
+
+
+    6: 1136: 0x7ae426: push 0x67f7026
+    6: 1137: 0x7ae42b: sub rsp, 8
+    6: 1138: 0x7ae42f: push 0x37924fb8
+    6: 1139: 0x7ae434: sub rsp, 8
+    6: 1140: 0x7ae438: push 0x379613ad
+    6: 1141: 0x7ae43d: mov qword ptr [rsp], r13
+    6: 1142: 0x7ae441: mov r13, r14
+    6: 1143: 0x7ae444: push r9
+    6: 1144: 0x7ae446: mov r9, r13
+    6: 1145: 0x7ae449: mov qword ptr [rsp + 0x10], r9
+    6: 1146: 0x7ae44e: pop r9
+    6: 1147: 0x7ae450: pop r13
+    6: 1148: 0x7ae452: push rbx
+    6: 1149: 0x7ae453: xor qword ptr [rsp], 0x1ff7d789
+    6: 1150: 0x7ae45b: pop r14
+    6: 1151: 0x7ae45d: xor r14, 0x1ff7d789
+    6: 1152: 0x7ae464: push r14
+    6: 1153: 0x7ae466: pop qword ptr [rsp + 8]
+    6: 1154: 0x7ae46a: pop r14
+    6: 1155: 0x7ae46c: pop qword ptr [rsp]
+    6: 1156: 0x7ae46f: pop qword ptr [rsp]
+    6: 1157: 0x7ae472: push rbp
+    6: 1158: 0x7ae473: push 0x5fc8a52d
+    6: 1159: 0x7ae478: pop rbp
+    6: 1160: 0x7ae479: push r8
+    6: 1161: 0x7ae47b: push rsi
+    6: 1162: 0x7ae47c: mov esi, 0x7ffcc8d7
+    6: 1163: 0x7ae481: add esi, 0x96f2ba27
+    6: 1164: 0x7ae487: push rsi
+    6: 1165: 0x7ae488: sub dword ptr [rsp], 0x6f7ede0a
+    6: 1166: 0x7ae48f: pop r8
+    6: 1167: 0x7ae491: add r8d, 0x6f7ede0a
+    6: 1168: 0x7ae498: pop rsi
+    6: 1169: 0x7ae499: not r8d
+    6: 1170: 0x7ae49c: shr r8d, 8
+    6: 1171: 0x7ae4a0: add r8d, 1
+    6: 1172: 0x7ae4a4: push rdi
+    6: 1173: 0x7ae4a5: mov edi, 0x5ff57141
+    6: 1174: 0x7ae4aa: and r8d, edi
+    6: 1175: 0x7ae4ad: pop rdi
+    6: 1176: 0x7ae4ae: xor r8d, 0x331a5d8a
+    6: 1177: 0x7ae4b5: xor ebp, r8d
+    6: 1178: 0x7ae4b8: pop r8
+    6: 1179: 0x7ae4ba: push r10
+    6: 1180: 0x7ae4bc: mov r10d, 0x797f9cf2
+    6: 1181: 0x7ae4c2: not r10d
+    6: 1182: 0x7ae4c5: and r10d, 0x6fbe21ee
+    6: 1183: 0x7ae4cc: neg r10d
+    6: 1184: 0x7ae4cf: add r10d, 0x84fb5a77
+    6: 1185: 0x7ae4d6: add r10d, 0xff83c56d
+    6: 1186: 0x7ae4dd: xor ebp, r10d
+    6: 1187: 0x7ae4e0: pop r10
+    6: 1188: 0x7ae4e2: push 0x108f6fe2
+    6: 1189: 0x7ae4e7: mov qword ptr [rsp], r12
+    6: 1190: 0x7ae4eb: mov r12d, 0x76ffac00
+    6: 1191: 0x7ae4f1: add r12d, -1
+    6: 1192: 0x7ae4f5: and r12d, 0x5cf54187
+    6: 1193: 0x7ae4fc: shr r12d, 4
+    6: 1194: 0x7ae500: sub r12d, 0xb75155a4
+    6: 1195: 0x7ae507: or ebp, r12d
+    6: 1196: 0x7ae50a: pop r12
+    6: 1197: 0x7ae50c: add ebp, 0xa2024041
+    6: 1198: 0x7ae512: mov ebx, ebp
+    6: 1199: 0x7ae514: mov rbp, qword ptr [rsp]
+    6: 1200: 0x7ae518: add rsp, 8
+    6: 1201: 0x7ae51c: shr ebx, 3
+    6: 1202: 0x7ae51f: sub rsp, 8
+    6: 1203: 0x7ae523: push 0x77fd5687
+    6: 1204: 0x7ae528: push rax
+    6: 1205: 0x7ae529: mov rax, rsp
+    6: 1206: 0x7ae52c: add rax, 8
+    6: 1207: 0x7ae530: sub rax, 8
+    6: 1208: 0x7ae536: xchg qword ptr [rsp], rax
+    6: 1209: 0x7ae53a: mov rsp, qword ptr [rsp]
+    6: 1210: 0x7ae53e: push r15
+    6: 1211: 0x7ae540: pop qword ptr [rsp]
+    6: 1212: 0x7ae543: mov r15, rsp
+    6: 1213: 0x7ae546: add r15, 8
+    6: 1214: 0x7ae54a: sub r15, 8
+    6: 1215: 0x7ae551: xchg qword ptr [rsp], r15
+    6: 1216: 0x7ae555: pop rsp
+    6: 1217: 0x7ae556: push rax
+    6: 1218: 0x7ae557: pop qword ptr [rsp]
+    6: 1219: 0x7ae55a: pop qword ptr [rsp]
+    6: 1220: 0x7ae55d: pop qword ptr [rsp]
+    6: 1221: 0x7ae560: test rbx, rbx
+    6: 1222: 0x7ae563: je 0x7ae6c0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0060s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.1170s
+[*] Edges: 1
+(0x7ae569) 
+
+[!] Splitting the basic block 0x7ad4c1 at 0x7addc3
+
+    6: 1223: 0x7ae569: sub rsp, 8
+    6: 1224: 0x7ae56d: mov qword ptr [rsp], r14
+    6: 1225: 0x7ae571: sub rsp, 8
+    6: 1226: 0x7ae578: mov qword ptr [rsp], rbp
+    6: 1227: 0x7ae57c: movabs rbp, 0x6ffdfd48
+    6: 1228: 0x7ae586: and rbp, 0x459e310d
+    6: 1229: 0x7ae58d: add rbp, -0x459c3108
+    6: 1230: 0x7ae594: push rbp
+    6: 1231: 0x7ae595: pop r14
+    6: 1232: 0x7ae597: push qword ptr [rsp]
+    6: 1233: 0x7ae59a: pop rbp
+    6: 1234: 0x7ae59b: add rsp, 8
+    6: 1235: 0x7ae5a2: add r14, rax
+    6: 1236: 0x7ae5a5: push rbx
+    6: 1237: 0x7ae5a6: mov rbx, 0
+    6: 1238: 0x7ae5ad: add rbx, r14
+    6: 1239: 0x7ae5b0: add qword ptr [rbx], rcx
+    6: 1240: 0x7ae5b3: pop rbx
+    6: 1241: 0x7ae5b4: push qword ptr [rsp]
+    6: 1242: 0x7ae5b7: mov r14, qword ptr [rsp]
+    6: 1243: 0x7ae5bb: add rsp, 8
+    6: 1244: 0x7ae5bf: add rsp, 8
+    6: 1245: 0x7ae5c3: push r10
+    6: 1246: 0x7ae5c5: push 0x4ec0ad85
+    6: 1247: 0x7ae5ca: mov qword ptr [rsp], rax
+    6: 1248: 0x7ae5ce: push rdx
+    6: 1249: 0x7ae5cf: push r11
+    6: 1250: 0x7ae5d1: movabs r11, 0x73824f07
+    6: 1251: 0x7ae5db: and r11, 0x3b6e4089
+    6: 1252: 0x7ae5e2: shr r11, 2
+    6: 1253: 0x7ae5e6: dec r11
+    6: 1254: 0x7ae5e9: xor r11, 0x7a21fad0
+    6: 1255: 0x7ae5f0: mov rdx, r11
+    6: 1256: 0x7ae5f3: pop r11
+    6: 1257: 0x7ae5f5: push rdx
+    6: 1258: 0x7ae5f6: pop rax
+    6: 1259: 0x7ae5f7: pop rdx
+    6: 1260: 0x7ae5f8: mov r10, rax
+    6: 1261: 0x7ae5fb: mov rax, qword ptr [rsp]
+    6: 1262: 0x7ae5ff: push r14
+    6: 1263: 0x7ae601: mov r14, rsp
+    6: 1264: 0x7ae604: add r14, 8
+    6: 1265: 0x7ae608: add r14, 8
+    6: 1266: 0x7ae60f: xchg qword ptr [rsp], r14
+    6: 1267: 0x7ae613: pop rsp
+    6: 1268: 0x7ae614: dec r10
+    6: 1269: 0x7ae617: shl r10, 1
+    6: 1270: 0x7ae61b: neg r10
+    6: 1271: 0x7ae61e: sub rsp, 8
+    6: 1272: 0x7ae625: push r11
+    6: 1273: 0x7ae627: mov r11, rbp
+    6: 1274: 0x7ae62a: mov qword ptr [rsp + 8], r11
+    6: 1275: 0x7ae62f: pop r11
+    6: 1276: 0x7ae631: movabs rbp, 0xffffffff123d159c
+    6: 1277: 0x7ae63b: sub r10, rbp
+    6: 1278: 0x7ae63e: push qword ptr [rsp]
+    6: 1279: 0x7ae641: pop rbp
+    6: 1280: 0x7ae642: add rsp, 8
+    6: 1281: 0x7ae649: add rax, r10
+    6: 1282: 0x7ae64c: pop r10
+    6: 1283: 0x7ae64e: push 0x40d927e5
+    6: 1284: 0x7ae653: mov qword ptr [rsp], r12
+    6: 1285: 0x7ae657: mov r12d, 0x6ffe39f0
+    6: 1286: 0x7ae65d: shr r12d, 8
+    6: 1287: 0x7ae661: push rbp
+    6: 1288: 0x7ae662: mov rbp, rsp
+    6: 1289: 0x7ae665: add rbp, 8
+    6: 1290: 0x7ae669: sub rbp, 8
+    6: 1291: 0x7ae670: xchg qword ptr [rsp], rbp
+    6: 1292: 0x7ae674: pop rsp
+    6: 1293: 0x7ae675: mov qword ptr [rsp], rax
+    6: 1294: 0x7ae679: mov eax, 0x7f9fe583
+    6: 1295: 0x7ae67e: shr eax, 4
+    6: 1296: 0x7ae681: sub rsp, 8
+    6: 1297: 0x7ae688: mov qword ptr [rsp], r9
+    6: 1298: 0x7ae68c: mov r9d, 0x886fbc1e
+    6: 1299: 0x7ae692: add eax, 0x875ee8f
+    6: 1300: 0x7ae697: sub eax, r9d
+    6: 1301: 0x7ae69a: sub eax, 0x875ee8f
+    6: 1302: 0x7ae69f: pop r9
+    6: 1303: 0x7ae6a1: xor r12d, eax
+    6: 1304: 0x7ae6a4: push qword ptr [rsp]
+    6: 1305: 0x7ae6a7: pop rax
+    6: 1306: 0x7ae6a8: add rsp, 8
+    6: 1307: 0x7ae6af: add r12d, 0x801a43fc
+    6: 1308: 0x7ae6b6: add ebx, r12d
+    6: 1309: 0x7ae6b9: pop r12
+    6: 1310: 0x7ae6bb: jmp 0x7ae560
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+    7: 1311: 0x7ad4c1: call 0x7ad4c6
+    7: 1312: 0x7ad4c6: sub rsp, 8
+    7: 1313: 0x7ad4ca: push 0x1a2d7b44
+    7: 1314: 0x7ad4cf: push 0x4d2def00
+    7: 1315: 0x7ad4d4: mov qword ptr [rsp], rdi
+    7: 1316: 0x7ad4d8: push rsp
+    7: 1317: 0x7ad4d9: pop rdi
+    7: 1318: 0x7ad4da: add rdi, 8
+    7: 1319: 0x7ad4de: sub rdi, 8
+    7: 1320: 0x7ad4e5: xchg qword ptr [rsp], rdi
+    7: 1321: 0x7ad4e9: mov rsp, qword ptr [rsp]
+    7: 1322: 0x7ad4ed: push 0x25d15890
+    7: 1323: 0x7ad4f2: mov qword ptr [rsp], rcx
+    7: 1324: 0x7ad4f6: pop qword ptr [rsp]
+    7: 1325: 0x7ad4f9: pop qword ptr [rsp]
+    7: 1326: 0x7ad4fc: pop qword ptr [rsp]
+    7: 1327: 0x7ad4ff: push 0x133f4a9d
+    7: 1328: 0x7ad504: push r13
+    7: 1329: 0x7ad506: sub rsp, 8
+    7: 1330: 0x7ad50a: mov qword ptr [rsp], rsp
+    7: 1331: 0x7ad50e: add qword ptr [rsp], 8
+    7: 1332: 0x7ad513: push qword ptr [rsp]
+    7: 1333: 0x7ad516: mov r13, qword ptr [rsp]
+    7: 1334: 0x7ad51a: add rsp, 8
+    7: 1335: 0x7ad521: add rsp, 8
+    7: 1336: 0x7ad528: add r13, 8
+    7: 1337: 0x7ad52c: sub r13, 8
+    7: 1338: 0x7ad533: push r13
+    7: 1339: 0x7ad535: push qword ptr [rsp + 8]
+    7: 1340: 0x7ad539: pop r13
+    7: 1341: 0x7ad53b: pop qword ptr [rsp]
+    7: 1342: 0x7ad53e: mov rsp, qword ptr [rsp]
+    7: 1343: 0x7ad542: push rdx
+    7: 1344: 0x7ad543: pop qword ptr [rsp]
+    7: 1345: 0x7ad546: pop qword ptr [rsp]
+    7: 1346: 0x7ad549: push r11
+    7: 1347: 0x7ad54b: sub rsp, 8
+    7: 1348: 0x7ad552: mov qword ptr [rsp], rsp
+    7: 1349: 0x7ad556: add qword ptr [rsp], 8
+    7: 1350: 0x7ad55b: mov r11, qword ptr [rsp]
+    7: 1351: 0x7ad55f: add rsp, 8
+    7: 1352: 0x7ad563: add r11, 8
+    7: 1353: 0x7ad567: push rbp
+    7: 1354: 0x7ad568: push rdi
+    7: 1355: 0x7ad569: push rsi
+    7: 1356: 0x7ad56a: movabs rsi, 0x6f5f7a23
+    7: 1357: 0x7ad574: movabs rdi, 0xfffffffff47d0884
+    7: 1358: 0x7ad57e: add rdi, rsi
+    7: 1359: 0x7ad581: pop rsi
+    7: 1360: 0x7ad582: movabs rbp, 0x63dc82af
+    7: 1361: 0x7ad58c: xor rbp, rdi
+    7: 1362: 0x7ad58f: pop rdi
+    7: 1363: 0x7ad590: sub r11, rbp
+    7: 1364: 0x7ad593: pop rbp
+    7: 1365: 0x7ad594: push r11
+    7: 1366: 0x7ad596: push qword ptr [rsp + 8]
+    7: 1367: 0x7ad59a: pop r11
+    7: 1368: 0x7ad59c: pop qword ptr [rsp]
+    7: 1369: 0x7ad59f: mov rsp, qword ptr [rsp]
+    7: 1370: 0x7ad5a3: sub rsp, 8
+    7: 1371: 0x7ad5a7: mov qword ptr [rsp], rbx
+    7: 1372: 0x7ad5ab: pop qword ptr [rsp]
+    7: 1373: 0x7ad5ae: sub rsp, 8
+    7: 1374: 0x7ad5b2: push 0x2954da7c
+    7: 1375: 0x7ad5b7: sub rsp, 8
+    7: 1376: 0x7ad5be: mov qword ptr [rsp], r11
+    7: 1377: 0x7ad5c2: pop qword ptr [rsp]
+    7: 1378: 0x7ad5c5: push rsp
+    7: 1379: 0x7ad5c6: pop r11
+    7: 1380: 0x7ad5c8: add r11, 8
+    7: 1381: 0x7ad5cc: sub r11, 8
+    7: 1382: 0x7ad5d3: sub rsp, 8
+    7: 1383: 0x7ad5da: mov qword ptr [rsp], r11
+    7: 1384: 0x7ad5de: push qword ptr [rsp + 8]
+    7: 1385: 0x7ad5e2: pop r11
+    7: 1386: 0x7ad5e4: pop qword ptr [rsp]
+    7: 1387: 0x7ad5e7: mov rsp, qword ptr [rsp]
+    7: 1388: 0x7ad5eb: push rbx
+    7: 1389: 0x7ad5ec: pop qword ptr [rsp]
+    7: 1390: 0x7ad5ef: pop qword ptr [rsp]
+    7: 1391: 0x7ad5f2: sub rsp, 8
+    7: 1392: 0x7ad5f6: push 0x23ddb0d0
+    7: 1393: 0x7ad5fb: push 0x9e0288f
+    7: 1394: 0x7ad600: sub rsp, 8
+    7: 1395: 0x7ad607: push 0x1a618e8
+    7: 1396: 0x7ad60c: sub rsp, 8
+    7: 1397: 0x7ad613: mov qword ptr [rsp], rdx
+    7: 1398: 0x7ad617: pop qword ptr [rsp]
+    7: 1399: 0x7ad61a: push rbx
+    7: 1400: 0x7ad61b: mov rbx, rbp
+    7: 1401: 0x7ad61e: mov rdx, rbx
+    7: 1402: 0x7ad621: pop rbx
+    7: 1403: 0x7ad622: mov qword ptr [rsp + 8], rdx
+    7: 1404: 0x7ad627: pop rdx
+    7: 1405: 0x7ad628: pop qword ptr [rsp]
+    7: 1406: 0x7ad62b: pop qword ptr [rsp]
+    7: 1407: 0x7ad62e: pop qword ptr [rsp]
+    7: 1408: 0x7ad631: sub rsp, 8
+    7: 1409: 0x7ad635: mov qword ptr [rsp], rsi
+    7: 1410: 0x7ad639: sub rsp, 8
+    7: 1411: 0x7ad640: mov qword ptr [rsp], rsp
+    7: 1412: 0x7ad644: add qword ptr [rsp], 8
+    7: 1413: 0x7ad649: pop rsi
+    7: 1414: 0x7ad64a: add rsi, 8
+    7: 1415: 0x7ad64e: sub rsi, 8
+    7: 1416: 0x7ad655: xchg qword ptr [rsp], rsi
+    7: 1417: 0x7ad659: mov rsp, qword ptr [rsp]
+    7: 1418: 0x7ad65d: sub rsp, 8
+    7: 1419: 0x7ad661: push rcx
+    7: 1420: 0x7ad662: pop qword ptr [rsp]
+    7: 1421: 0x7ad665: push r11
+    7: 1422: 0x7ad667: mov r11, rsi
+    7: 1423: 0x7ad66a: mov rcx, r11
+    7: 1424: 0x7ad66d: pop r11
+    7: 1425: 0x7ad66f: push 0x19d6f681
+    7: 1426: 0x7ad674: mov qword ptr [rsp], rcx
+    7: 1427: 0x7ad678: pop qword ptr [rsp + 8]
+    7: 1428: 0x7ad67c: pop rcx
+    7: 1429: 0x7ad67d: sub rsp, 8
+    7: 1430: 0x7ad684: sub rsp, 8
+    7: 1431: 0x7ad68b: push r11
+    7: 1432: 0x7ad68d: pop qword ptr [rsp]
+    7: 1433: 0x7ad690: push rdi
+    7: 1434: 0x7ad691: push r8
+    7: 1435: 0x7ad693: movabs r8, 0x6dfca2a6
+    7: 1436: 0x7ad69d: sub qword ptr [rsp + 8], r8
+    7: 1437: 0x7ad6a2: pop r8
+    7: 1438: 0x7ad6a4: pop r11
+    7: 1439: 0x7ad6a6: add r11, 0x6dfca2a6
+    7: 1440: 0x7ad6ad: push r11
+    7: 1441: 0x7ad6af: pop qword ptr [rsp + 8]
+    7: 1442: 0x7ad6b3: push qword ptr [rsp]
+    7: 1443: 0x7ad6b6: mov r11, qword ptr [rsp]
+    7: 1444: 0x7ad6ba: add rsp, 8
+    7: 1445: 0x7ad6be: push rbx
+    7: 1446: 0x7ad6bf: mov rbx, rsp
+    7: 1447: 0x7ad6c2: add rbx, 8
+    7: 1448: 0x7ad6c6: add rbx, 8
+    7: 1449: 0x7ad6cd: push rbx
+    7: 1450: 0x7ad6ce: push qword ptr [rsp + 8]
+    7: 1451: 0x7ad6d2: pop rbx
+    7: 1452: 0x7ad6d3: pop qword ptr [rsp]
+    7: 1453: 0x7ad6d6: pop rsp
+    7: 1454: 0x7ad6d7: sub rsp, 8
+    7: 1455: 0x7ad6db: push 0x32d6d3b2
+    7: 1456: 0x7ad6e0: mov qword ptr [rsp], rax
+    7: 1457: 0x7ad6e4: push rsp
+    7: 1458: 0x7ad6e5: pop rax
+    7: 1459: 0x7ad6e6: add rax, 8
+    7: 1460: 0x7ad6ea: sub rax, 8
+    7: 1461: 0x7ad6f0: xor rax, qword ptr [rsp]
+    7: 1462: 0x7ad6f4: push 0x5110d45f
+    7: 1463: 0x7ad6f9: mov qword ptr [rsp], r9
+    7: 1464: 0x7ad6fd: mov r9, rax
+    7: 1465: 0x7ad700: xor qword ptr [rsp + 8], r9
+    7: 1466: 0x7ad705: mov r9, qword ptr [rsp]
+    7: 1467: 0x7ad709: add rsp, 8
+    7: 1468: 0x7ad710: xor rax, qword ptr [rsp]
+    7: 1469: 0x7ad714: mov rsp, qword ptr [rsp]
+    7: 1470: 0x7ad718: push r15
+    7: 1471: 0x7ad71a: pop qword ptr [rsp]
+    7: 1472: 0x7ad71d: pop qword ptr [rsp]
+    7: 1473: 0x7ad720: sub rsp, 8
+    7: 1474: 0x7ad724: push 0x487c4f76
+    7: 1475: 0x7ad729: push r10
+    7: 1476: 0x7ad72b: pop qword ptr [rsp]
+    7: 1477: 0x7ad72e: push r15
+    7: 1478: 0x7ad730: mov r15, r14
+    7: 1479: 0x7ad733: push rbx
+    7: 1480: 0x7ad734: mov rbx, r15
+    7: 1481: 0x7ad737: mov r10, rbx
+    7: 1482: 0x7ad73a: pop rbx
+    7: 1483: 0x7ad73b: mov r15, qword ptr [rsp]
+    7: 1484: 0x7ad73f: push rbx
+    7: 1485: 0x7ad740: mov rbx, rsp
+    7: 1486: 0x7ad743: add rbx, 8
+    7: 1487: 0x7ad747: add rbx, 8
+    7: 1488: 0x7ad74e: xor rbx, qword ptr [rsp]
+    7: 1489: 0x7ad752: xor qword ptr [rsp], rbx
+    7: 1490: 0x7ad756: xor rbx, qword ptr [rsp]
+    7: 1491: 0x7ad75a: mov rsp, qword ptr [rsp]
+    7: 1492: 0x7ad75e: push r15
+    7: 1493: 0x7ad760: mov r15, r10
+    7: 1494: 0x7ad763: mov qword ptr [rsp + 0x10], r15
+    7: 1495: 0x7ad768: pop r15
+    7: 1496: 0x7ad76a: mov r10, qword ptr [rsp]
+    7: 1497: 0x7ad76e: add rsp, 8
+    7: 1498: 0x7ad775: push 0x6663052b
+    7: 1499: 0x7ad77a: push 0x376cc909
+    7: 1500: 0x7ad77f: sub rsp, 8
+    7: 1501: 0x7ad783: push 0x60efee29
+    7: 1502: 0x7ad788: push 0x36eb136a
+    7: 1503: 0x7ad78d: sub rsp, 8
+    7: 1504: 0x7ad791: mov qword ptr [rsp], r14
+    7: 1505: 0x7ad795: mov r14, r13
+    7: 1506: 0x7ad798: push r14
+    7: 1507: 0x7ad79a: pop qword ptr [rsp + 8]
+    7: 1508: 0x7ad79e: pop r14
+    7: 1509: 0x7ad7a0: pop qword ptr [rsp]
+    7: 1510: 0x7ad7a3: pop qword ptr [rsp]
+    7: 1511: 0x7ad7a6: pop qword ptr [rsp]
+    7: 1512: 0x7ad7a9: pop qword ptr [rsp]
+    7: 1513: 0x7ad7ac: push 0x207bd71f
+    7: 1514: 0x7ad7b1: sub rsp, 8
+    7: 1515: 0x7ad7b5: push 0x7f1e299c
+    7: 1516: 0x7ad7ba: mov qword ptr [rsp], rcx
+    7: 1517: 0x7ad7be: push r12
+    7: 1518: 0x7ad7c0: mov rcx, qword ptr [rsp]
+    7: 1519: 0x7ad7c4: add rsp, 8
+    7: 1520: 0x7ad7cb: push rcx
+    7: 1521: 0x7ad7cc: pop qword ptr [rsp + 8]
+    7: 1522: 0x7ad7d0: push qword ptr [rsp]
+    7: 1523: 0x7ad7d3: pop rcx
+    7: 1524: 0x7ad7d4: push r9
+    7: 1525: 0x7ad7d6: mov r9, rsp
+    7: 1526: 0x7ad7d9: add r9, 8
+    7: 1527: 0x7ad7dd: add r9, 8
+    7: 1528: 0x7ad7e4: xchg qword ptr [rsp], r9
+    7: 1529: 0x7ad7e8: mov rsp, qword ptr [rsp]
+    7: 1530: 0x7ad7ec: pop qword ptr [rsp]
+    7: 1531: 0x7ad7ef: push r10
+    7: 1532: 0x7ad7f1: push rsp
+    7: 1533: 0x7ad7f2: pop r10
+    7: 1534: 0x7ad7f4: add r10, 8
+    7: 1535: 0x7ad7f8: sub r10, 8
+    7: 1536: 0x7ad7ff: xor r10, qword ptr [rsp]
+    7: 1537: 0x7ad803: sub rsp, 8
+    7: 1538: 0x7ad807: mov qword ptr [rsp], rcx
+    7: 1539: 0x7ad80b: push r12
+    7: 1540: 0x7ad80d: mov r12, r10
+    7: 1541: 0x7ad810: mov rcx, r12
+    7: 1542: 0x7ad813: pop r12
+    7: 1543: 0x7ad815: sub rsp, 8
+    7: 1544: 0x7ad819: mov qword ptr [rsp], r12
+    7: 1545: 0x7ad81d: push rcx
+    7: 1546: 0x7ad81e: add qword ptr [rsp], 0x56df8f63
+    7: 1547: 0x7ad826: mov r12, qword ptr [rsp]
+    7: 1548: 0x7ad82a: add rsp, 8
+    7: 1549: 0x7ad831: sub r12, 0x56df8f63
+    7: 1550: 0x7ad838: xor qword ptr [rsp + 0x10], r12
+    7: 1551: 0x7ad83d: pop r12
+    7: 1552: 0x7ad83f: pop rcx
+    7: 1553: 0x7ad840: xor r10, qword ptr [rsp]
+    7: 1554: 0x7ad844: mov rsp, qword ptr [rsp]
+    7: 1555: 0x7ad848: mov qword ptr [rsp], r11
+    7: 1556: 0x7ad84c: push 0x7f108765
+    7: 1557: 0x7ad851: push r15
+    7: 1558: 0x7ad853: sub rsp, 8
+    7: 1559: 0x7ad857: mov qword ptr [rsp], rsp
+    7: 1560: 0x7ad85b: add qword ptr [rsp], 8
+    7: 1561: 0x7ad860: pop r15
+    7: 1562: 0x7ad862: add r15, 8
+    7: 1563: 0x7ad866: sub rsp, 8
+    7: 1564: 0x7ad86d: mov qword ptr [rsp], r8
+    7: 1565: 0x7ad871: movabs r8, 0x32ffbe46
+    7: 1566: 0x7ad87b: shl r8, 8
+    7: 1567: 0x7ad87f: push rbp
+    7: 1568: 0x7ad880: movabs rbp, 0x32ffbe45f8
+    7: 1569: 0x7ad88a: sub r8, rbp
+    7: 1570: 0x7ad88d: pop rbp
+    7: 1571: 0x7ad88e: sub r15, r8
+    7: 1572: 0x7ad891: mov r8, qword ptr [rsp]
+    7: 1573: 0x7ad895: add rsp, 8
+    7: 1574: 0x7ad89c: xchg qword ptr [rsp], r15
+    7: 1575: 0x7ad8a0: mov rsp, qword ptr [rsp]
+    7: 1576: 0x7ad8a4: sub rsp, 8
+    7: 1577: 0x7ad8a8: mov qword ptr [rsp], r10
+    7: 1578: 0x7ad8ac: pop qword ptr [rsp]
+    7: 1579: 0x7ad8af: pop qword ptr [rsp]
+    7: 1580: 0x7ad8b2: push rbx
+    7: 1581: 0x7ad8b3: push rsp
+    7: 1582: 0x7ad8b4: push qword ptr [rsp]
+    7: 1583: 0x7ad8b7: pop rbx
+    7: 1584: 0x7ad8b8: add rsp, 8
+    7: 1585: 0x7ad8bc: add rbx, 8
+    7: 1586: 0x7ad8c0: push rcx
+    7: 1587: 0x7ad8c1: push r13
+    7: 1588: 0x7ad8c3: movabs r13, 0x7fffedf1
+    7: 1589: 0x7ad8cd: mov rcx, r13
+    7: 1590: 0x7ad8d0: pop r13
+    7: 1591: 0x7ad8d2: dec rcx
+    7: 1592: 0x7ad8d5: push rdx
+    7: 1593: 0x7ad8d6: movabs rdx, 0x77dcf4ab
+    7: 1594: 0x7ad8e0: sub rdx, 0x6c1cad80
+    7: 1595: 0x7ad8e7: xor rdx, 0x54b3a3fa
+    7: 1596: 0x7ad8ee: sub rcx, rdx
+    7: 1597: 0x7ad8f1: pop rdx
+    7: 1598: 0x7ad8f2: xor rcx, 0x208c0917
+    7: 1599: 0x7ad8f9: sub rbx, rcx
+    7: 1600: 0x7ad8fc: pop rcx
+    7: 1601: 0x7ad8fd: xor rbx, qword ptr [rsp]
+    7: 1602: 0x7ad901: push rdi
+    7: 1603: 0x7ad902: mov rdi, rbx
+    7: 1604: 0x7ad905: xor qword ptr [rsp + 8], rdi
+    7: 1605: 0x7ad90a: pop rdi
+    7: 1606: 0x7ad90b: xor rbx, qword ptr [rsp]
+    7: 1607: 0x7ad90f: pop rsp
+    7: 1608: 0x7ad910: sub rsp, 8
+    7: 1609: 0x7ad914: mov qword ptr [rsp], r9
+    7: 1610: 0x7ad918: pop qword ptr [rsp]
+    7: 1611: 0x7ad91b: push 0x84d185d
+    7: 1612: 0x7ad920: push 0x10aba3c8
+    7: 1613: 0x7ad925: push r13
+    7: 1614: 0x7ad927: mov r13, r14
+    7: 1615: 0x7ad92a: mov qword ptr [rsp + 8], r13
+    7: 1616: 0x7ad92f: pop r13
+    7: 1617: 0x7ad931: push r12
+    7: 1618: 0x7ad933: mov r12, r8
+    7: 1619: 0x7ad936: push r12
+    7: 1620: 0x7ad938: xor qword ptr [rsp], 0x5f7d2197
+    7: 1621: 0x7ad940: pop r14
+    7: 1622: 0x7ad942: xor r14, 0x5f7d2197
+    7: 1623: 0x7ad949: pop r12
+    7: 1624: 0x7ad94b: sub rsp, 8
+    7: 1625: 0x7ad952: mov qword ptr [rsp], r14
+    7: 1626: 0x7ad956: pop qword ptr [rsp + 8]
+    7: 1627: 0x7ad95a: push qword ptr [rsp]
+    7: 1628: 0x7ad95d: mov r14, qword ptr [rsp]
+    7: 1629: 0x7ad961: add rsp, 8
+    7: 1630: 0x7ad965: add rsp, 8
+    7: 1631: 0x7ad96c: push qword ptr [rsp + 0x78]
+    7: 1632: 0x7ad970: push qword ptr [rsp]
+    7: 1633: 0x7ad973: pop rcx
+    7: 1634: 0x7ad974: push 0x7fa899c7
+    7: 1635: 0x7ad979: mov qword ptr [rsp], rcx
+    7: 1636: 0x7ad97d: push rsp
+    7: 1637: 0x7ad97e: mov rcx, qword ptr [rsp]
+    7: 1638: 0x7ad982: add rsp, 8
+    7: 1639: 0x7ad986: add rcx, 8
+    7: 1640: 0x7ad98a: add rcx, 8
+    7: 1641: 0x7ad991: xor rcx, qword ptr [rsp]
+    7: 1642: 0x7ad995: push rdi
+    7: 1643: 0x7ad996: push rcx
+    7: 1644: 0x7ad997: push r8
+    7: 1645: 0x7ad999: movabs r8, 0x6a6b85c1
+    7: 1646: 0x7ad9a3: xor qword ptr [rsp + 8], r8
+    7: 1647: 0x7ad9a8: pop r8
+    7: 1648: 0x7ad9aa: pop rdi
+    7: 1649: 0x7ad9ab: xor rdi, 0x6a6b85c1
+    7: 1650: 0x7ad9b2: xor qword ptr [rsp + 8], rdi
+    7: 1651: 0x7ad9b7: pop rdi
+    7: 1652: 0x7ad9b8: xor rcx, qword ptr [rsp]
+    7: 1653: 0x7ad9bc: mov rsp, qword ptr [rsp]
+    7: 1654: 0x7ad9c0: push 0x378b7ba
+    7: 1655: 0x7ad9c5: sub rsp, 8
+    7: 1656: 0x7ad9c9: push 0x631121bb
+    7: 1657: 0x7ad9ce: sub rsp, 8
+    7: 1658: 0x7ad9d2: push r11
+    7: 1659: 0x7ad9d4: mov r11, rax
+    7: 1660: 0x7ad9d7: mov qword ptr [rsp + 8], r11
+    7: 1661: 0x7ad9dc: mov r11, qword ptr [rsp]
+    7: 1662: 0x7ad9e0: push r9
+    7: 1663: 0x7ad9e2: mov r9, rsp
+    7: 1664: 0x7ad9e5: add r9, 8
+    7: 1665: 0x7ad9e9: add r9, 8
+    7: 1666: 0x7ad9f0: xchg qword ptr [rsp], r9
+    7: 1667: 0x7ad9f4: pop rsp
+    7: 1668: 0x7ad9f5: pop qword ptr [rsp]
+    7: 1669: 0x7ad9f8: pop qword ptr [rsp]
+    7: 1670: 0x7ad9fb: pop qword ptr [rsp]
+    7: 1671: 0x7ad9fe: pop qword ptr [rsp + 0x78]
+    7: 1672: 0x7ada02: push 0x70cdfe36
+    7: 1673: 0x7ada07: push rdi
+    7: 1674: 0x7ada08: pop qword ptr [rsp]
+    7: 1675: 0x7ada0b: movabs rdi, 0x7e36a92e
+    7: 1676: 0x7ada15: inc rdi
+    7: 1677: 0x7ada18: add rdi, 0x36632720
+    7: 1678: 0x7ada1f: or rdi, 0x7b53d4b7
+    7: 1679: 0x7ada26: push rax
+    7: 1680: 0x7ada27: movabs rax, 0xa012332d
+    7: 1681: 0x7ada31: sub rdi, rax
+    7: 1682: 0x7ada34: pop rax
+    7: 1683: 0x7ada35: push rax
+    7: 1684: 0x7ada36: movabs rax, 0x5fc9a1d7
+    7: 1685: 0x7ada40: xor rdi, rax
+    7: 1686: 0x7ada43: pop rax
+    7: 1687: 0x7ada44: sub rcx, 0xffffe50
+    7: 1688: 0x7ada4b: sub rcx, 0xe4bb825
+    7: 1689: 0x7ada52: sub rcx, 0x9d3a581
+    7: 1690: 0x7ada59: add rcx, 0xb7cb4e8
+    7: 1691: 0x7ada60: sub rcx, 0xad787bd
+    7: 1692: 0x7ada67: sub rcx, rdi
+    7: 1693: 0x7ada6a: add rcx, 0xad787bd
+    7: 1694: 0x7ada71: sub rcx, 0xb7cb4e8
+    7: 1695: 0x7ada78: add rcx, 0x9d3a581
+    7: 1696: 0x7ada7f: add rcx, 0xe4bb825
+    7: 1697: 0x7ada86: add rcx, 0xffffe50
+    7: 1698: 0x7ada8d: push qword ptr [rsp]
+    7: 1699: 0x7ada90: pop rdi
+    7: 1700: 0x7ada91: add rsp, 8
+    7: 1701: 0x7ada95: sub rsp, 8
+    7: 1702: 0x7ada99: mov qword ptr [rsp], rax
+    7: 1703: 0x7ada9d: movabs rax, 0x5bf35560
+    7: 1704: 0x7adaa7: or rax, 0x7fe2896c
+    7: 1705: 0x7adaad: shl rax, 2
+    7: 1706: 0x7adab1: not rax
+    7: 1707: 0x7adab4: push 0x662e016e
+    7: 1708: 0x7adab9: mov qword ptr [rsp], rax
+    7: 1709: 0x7adabd: add qword ptr [rsp], 1
+    7: 1710: 0x7adac2: push qword ptr [rsp]
+    7: 1711: 0x7adac5: pop rax
+    7: 1712: 0x7adac6: push rdx
+    7: 1713: 0x7adac7: mov rdx, rsp
+    7: 1714: 0x7adaca: add rdx, 8
+    7: 1715: 0x7adace: add rdx, 8
+    7: 1716: 0x7adad5: xchg qword ptr [rsp], rdx
+    7: 1717: 0x7adad9: pop rsp
+    7: 1718: 0x7adada: xor rax, 0x7ef38500
+    7: 1719: 0x7adae0: push rbx
+    7: 1720: 0x7adae1: movabs rbx, 0x18177c571
+    7: 1721: 0x7adaeb: sub rax, 0x47f757ba
+    7: 1722: 0x7adaf1: add rax, rbx
+    7: 1723: 0x7adaf4: add rax, 0x47f757ba
+    7: 1724: 0x7adafa: pop rbx
+    7: 1725: 0x7adafb: sub rcx, rax
+    7: 1726: 0x7adafe: push qword ptr [rsp]
+    7: 1727: 0x7adb01: pop rax
+    7: 1728: 0x7adb02: add rsp, 8
+    7: 1729: 0x7adb06: push rdi
+    7: 1730: 0x7adb07: push rdx
+    7: 1731: 0x7adb08: mov edx, 0x5fab1f7a
+    7: 1732: 0x7adb0d: and edx, 0x7efd9702
+    7: 1733: 0x7adb13: add edx, 1
+    7: 1734: 0x7adb16: shl edx, 3
+    7: 1735: 0x7adb19: add edx, 0x77ff7eaf
+    7: 1736: 0x7adb1f: shl edx, 8
+    7: 1737: 0x7adb22: add edx, 0xefb6e01c
+    7: 1738: 0x7adb28: mov edi, edx
+    7: 1739: 0x7adb2a: pop rdx
+    7: 1740: 0x7adb2b: push rdx
+    7: 1741: 0x7adb2c: push rcx
+    7: 1742: 0x7adb2d: mov ecx, 0x73bf7875
+    7: 1743: 0x7adb32: neg ecx
+    7: 1744: 0x7adb34: sub ecx, 0x6c52f92a
+    7: 1745: 0x7adb3a: push rcx
+    7: 1746: 0x7adb3b: xor dword ptr [rsp], 0x5bfb8435
+    7: 1747: 0x7adb42: pop rdx
+    7: 1748: 0x7adb43: xor edx, 0x5bfb8435
+    7: 1749: 0x7adb49: pop rcx
+    7: 1750: 0x7adb4a: mov ebp, 0x7fef1484
+    7: 1751: 0x7adb4f: push rbx
+    7: 1752: 0x7adb50: push r15
+    7: 1753: 0x7adb52: push 0x7f754599
+    7: 1754: 0x7adb57: pop r15
+    7: 1755: 0x7adb59: shr r15d, 3
+    7: 1756: 0x7adb5d: not r15d
+    7: 1757: 0x7adb60: sub r15d, 0xbc1e4810
+    7: 1758: 0x7adb67: mov ebx, r15d
+    7: 1759: 0x7adb6a: pop r15
+    7: 1760: 0x7adb6c: shr ebx, 5
+    7: 1761: 0x7adb6f: xor ebx, 0x5f7eb901
+    7: 1762: 0x7adb75: add ebx, 0x4fc8e5f
+    7: 1763: 0x7adb7b: add ebp, ebx
+    7: 1764: 0x7adb7d: pop rbx
+    7: 1765: 0x7adb7e: inc ebp
+    7: 1766: 0x7adb80: or ebp, 0x3eee3900
+    7: 1767: 0x7adb86: or ebp, 0x26eb1201
+    7: 1768: 0x7adb8c: shl ebp, 7
+    7: 1769: 0x7adb8f: add ebp, 0xdffed205
+    7: 1770: 0x7adb95: xor ebp, edx
+    7: 1771: 0x7adb97: pop rdx
+    7: 1772: 0x7adb98: sub ebp, 0x1fbf54c9
+    7: 1773: 0x7adb9e: sub ebp, 0x3fbbf751
+    7: 1774: 0x7adba4: add ebp, edi
+    7: 1775: 0x7adba6: add ebp, 0x3fbbf751
+    7: 1776: 0x7adbac: add ebp, 0x1fbf54c9
+    7: 1777: 0x7adbb2: mov rdi, qword ptr [rsp]
+    7: 1778: 0x7adbb6: add rsp, 8
+    7: 1779: 0x7adbbd: sub rbp, 0x6ffffd17
+    7: 1780: 0x7adbc4: sub rbp, 0x33fbbd49
+    7: 1781: 0x7adbcb: sub rbp, 0x5ff5dbf1
+    7: 1782: 0x7adbd2: add rbp, 0x3fff2204
+    7: 1783: 0x7adbd9: sub rbp, 0x7bf9d033
+    7: 1784: 0x7adbe0: add rbp, 0x6d3d2746
+    7: 1785: 0x7adbe7: sub rbp, 0x3fcfc293
+    7: 1786: 0x7adbee: add rbp, 0x4fff1321
+    7: 1787: 0x7adbf5: add rbp, 0x7bc4b672
+    7: 1788: 0x7adbfc: add rbp, 0x72fffd95
+    7: 1789: 0x7adc03: sub rbp, 0x7f99c900
+    7: 1790: 0x7adc0a: add rbp, rcx
+    7: 1791: 0x7adc0d: add rbp, 0x7f99c900
+    7: 1792: 0x7adc14: sub rbp, 0x72fffd95
+    7: 1793: 0x7adc1b: sub rbp, 0x7bc4b672
+    7: 1794: 0x7adc22: sub rbp, 0x4fff1321
+    7: 1795: 0x7adc29: add rbp, 0x3fcfc293
+    7: 1796: 0x7adc30: sub rbp, 0x6d3d2746
+    7: 1797: 0x7adc37: add rbp, 0x7bf9d033
+    7: 1798: 0x7adc3e: sub rbp, 0x3fff2204
+    7: 1799: 0x7adc45: add rbp, 0x5ff5dbf1
+    7: 1800: 0x7adc4c: add rbp, 0x33fbbd49
+    7: 1801: 0x7adc53: add rbp, 0x6ffffd17
+    7: 1802: 0x7adc5a: push 0x1a77a1be
+    7: 1803: 0x7adc5f: mov qword ptr [rsp], rcx
+    7: 1804: 0x7adc63: push rsp
+    7: 1805: 0x7adc64: pop rcx
+    7: 1806: 0x7adc65: add rcx, 8
+    7: 1807: 0x7adc69: sub rcx, 8
+    7: 1808: 0x7adc70: xchg qword ptr [rsp], rcx
+    7: 1809: 0x7adc74: pop rsp
+    7: 1810: 0x7adc75: push rcx
+    7: 1811: 0x7adc76: pop qword ptr [rsp]
+    7: 1812: 0x7adc79: mov rcx, rsp
+    7: 1813: 0x7adc7c: add rcx, 8
+    7: 1814: 0x7adc80: push rbp
+    7: 1815: 0x7adc81: movabs rbp, 8
+    7: 1816: 0x7adc8b: sub rcx, rbp
+    7: 1817: 0x7adc8e: pop rbp
+    7: 1818: 0x7adc8f: push rcx
+    7: 1819: 0x7adc90: push qword ptr [rsp + 8]
+    7: 1820: 0x7adc94: pop rcx
+    7: 1821: 0x7adc95: pop qword ptr [rsp]
+    7: 1822: 0x7adc98: mov rsp, qword ptr [rsp]
+    7: 1823: 0x7adc9c: sub rsp, 8
+    7: 1824: 0x7adca0: mov qword ptr [rsp], rcx
+    7: 1825: 0x7adca4: pop qword ptr [rsp]
+    7: 1826: 0x7adca7: sub rsp, 8
+    7: 1827: 0x7adcab: mov qword ptr [rsp], rax
+    7: 1828: 0x7adcaf: sub rsp, 8
+    7: 1829: 0x7adcb3: mov qword ptr [rsp], r15
+    7: 1830: 0x7adcb7: mov r15, r15
+    7: 1831: 0x7adcba: mov qword ptr [rsp], 0x7b46799f
+    7: 1832: 0x7adcc2: mov rax, qword ptr [rsp]
+    7: 1833: 0x7adcc6: add rsp, 8
+    7: 1834: 0x7adccd: shl eax, 4
+    7: 1835: 0x7adcd0: and eax, 0x79f52c7f
+    7: 1836: 0x7adcd5: sub rsp, 8
+    7: 1837: 0x7adcdc: push rbx
+    7: 1838: 0x7adcdd: pop qword ptr [rsp]
+    7: 1839: 0x7adce0: push r10
+    7: 1840: 0x7adce2: push 0x7afeb7e7
+    7: 1841: 0x7adce7: pop r10
+    7: 1842: 0x7adce9: xor r10d, 0x35cf66f0
+    7: 1843: 0x7adcf0: xor r10d, 0x57bb6a06
+    7: 1844: 0x7adcf7: push rbx
+    7: 1845: 0x7adcf8: mov ebx, 0x37f62f4e
+    7: 1846: 0x7adcfd: add r10d, 0x6dba0178
+    7: 1847: 0x7add04: add r10d, ebx
+    7: 1848: 0x7add07: sub r10d, 0x6dba0178
+    7: 1849: 0x7add0e: pop rbx
+    7: 1850: 0x7add0f: add r10d, 0x7f1a0d32
+    7: 1851: 0x7add16: mov ebx, r10d
+    7: 1852: 0x7add19: pop r10
+    7: 1853: 0x7add1b: add eax, ebx
+    7: 1854: 0x7add1d: mov rbx, qword ptr [rsp]
+    7: 1855: 0x7add21: add rsp, 8
+    7: 1856: 0x7add28: mov ecx, eax
+    7: 1857: 0x7add2a: pop rax
+    7: 1858: 0x7add2b: push r9
+    7: 1859: 0x7add2d: mov r9d, 0x7efb3d3d
+    7: 1860: 0x7add33: dec r9d
+    7: 1861: 0x7add36: not r9d
+    7: 1862: 0x7add39: sub r9d, 0x7cbc7c6e
+    7: 1863: 0x7add40: or r9d, 0x76d7e65a
+    7: 1864: 0x7add47: shl r9d, 8
+    7: 1865: 0x7add4b: neg r9d
+    7: 1866: 0x7add4e: push r10
+    7: 1867: 0x7add50: push 0x36d1bf32
+    7: 1868: 0x7add55: mov qword ptr [rsp], r11
+    7: 1869: 0x7add59: mov r11d, 0x56d15831
+    7: 1870: 0x7add5f: inc r11d
+    7: 1871: 0x7add62: shl r11d, 3
+    7: 1872: 0x7add66: add r11d, 0xc6747837
+    7: 1873: 0x7add6d: push r8
+    7: 1874: 0x7add6f: mov r8d, 0x7ebe7b46
+    7: 1875: 0x7add75: mov r10d, 0x245adeb3
+    7: 1876: 0x7add7b: sub r10d, 0x3f3ed280
+    7: 1877: 0x7add82: add r10d, r8d
+    7: 1878: 0x7add85: add r10d, 0x3f3ed280
+    7: 1879: 0x7add8c: pop r8
+    7: 1880: 0x7add8e: xor r10d, r11d
+    7: 1881: 0x7add91: pop r11
+    7: 1882: 0x7add93: add r9d, r10d
+    7: 1883: 0x7add96: pop r10
+    7: 1884: 0x7add98: push r9
+    7: 1885: 0x7add9a: push r15
+    7: 1886: 0x7add9c: mov r15d, 0x69ec3fe1
+    7: 1887: 0x7adda2: add dword ptr [rsp + 8], r15d
+    7: 1888: 0x7adda7: pop r15
+    7: 1889: 0x7adda9: mov rbx, qword ptr [rsp]
+    7: 1890: 0x7addad: add rsp, 8
+    7: 1891: 0x7addb4: push r13
+    7: 1892: 0x7addb6: mov r13d, 0x69ec3fe1
+    7: 1893: 0x7addbc: sub ebx, r13d
+    7: 1894: 0x7addbf: pop r13
+    7: 1895: 0x7addc1: pop r9
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0110s
+
+    8: 1896: 0x7addc3: xor eax, eax
+    8: 1897: 0x7addc5: lock cmpxchg dword ptr [rbx + rbp], ecx
+    8: 1898: 0x7addca: je 0x7addd7
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+[*] Predecessors: 2
+0x7addc3: (0x7ad4c1 =>  1 ) (0x7addd0 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0620s
+[*] Edges: 2
+(0x7addd7) (0x7addd0) 
+[*] Opaquenes of 0x7addc3 has changed to Non Opaque!
+[*] Opaquenes of 0x7addc3 has changed to Non Opaque!
+[*] Predecessors: 2
+0x7addc3: (0x7ad4c1 =>  1 ) (0x7addd0 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x7addc3: (0x7ad4c1 =>  1 ) (0x7addd0 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 3 - 0 )
+
+[!] Splitting the basic block 0x7ae426 at 0x7ae560
+
+[!] Loop detected to the beginning of basic block 0x7addd7
+
+[!] Loop detected to the beginning of basic block 0x7addd0
+
+    8: 1899: 0x7ae426: push 0x67f7026
+    8: 1900: 0x7ae42b: sub rsp, 8
+    8: 1901: 0x7ae42f: push 0x37924fb8
+    8: 1902: 0x7ae434: sub rsp, 8
+    8: 1903: 0x7ae438: push 0x379613ad
+    8: 1904: 0x7ae43d: mov qword ptr [rsp], r13
+    8: 1905: 0x7ae441: mov r13, r14
+    8: 1906: 0x7ae444: push r9
+    8: 1907: 0x7ae446: mov r9, r13
+    8: 1908: 0x7ae449: mov qword ptr [rsp + 0x10], r9
+    8: 1909: 0x7ae44e: pop r9
+    8: 1910: 0x7ae450: pop r13
+    8: 1911: 0x7ae452: push rbx
+    8: 1912: 0x7ae453: xor qword ptr [rsp], 0x1ff7d789
+    8: 1913: 0x7ae45b: pop r14
+    8: 1914: 0x7ae45d: xor r14, 0x1ff7d789
+    8: 1915: 0x7ae464: push r14
+    8: 1916: 0x7ae466: pop qword ptr [rsp + 8]
+    8: 1917: 0x7ae46a: pop r14
+    8: 1918: 0x7ae46c: pop qword ptr [rsp]
+    8: 1919: 0x7ae46f: pop qword ptr [rsp]
+    8: 1920: 0x7ae472: push rbp
+    8: 1921: 0x7ae473: push 0x5fc8a52d
+    8: 1922: 0x7ae478: pop rbp
+    8: 1923: 0x7ae479: push r8
+    8: 1924: 0x7ae47b: push rsi
+    8: 1925: 0x7ae47c: mov esi, 0x7ffcc8d7
+    8: 1926: 0x7ae481: add esi, 0x96f2ba27
+    8: 1927: 0x7ae487: push rsi
+    8: 1928: 0x7ae488: sub dword ptr [rsp], 0x6f7ede0a
+    8: 1929: 0x7ae48f: pop r8
+    8: 1930: 0x7ae491: add r8d, 0x6f7ede0a
+    8: 1931: 0x7ae498: pop rsi
+    8: 1932: 0x7ae499: not r8d
+    8: 1933: 0x7ae49c: shr r8d, 8
+    8: 1934: 0x7ae4a0: add r8d, 1
+    8: 1935: 0x7ae4a4: push rdi
+    8: 1936: 0x7ae4a5: mov edi, 0x5ff57141
+    8: 1937: 0x7ae4aa: and r8d, edi
+    8: 1938: 0x7ae4ad: pop rdi
+    8: 1939: 0x7ae4ae: xor r8d, 0x331a5d8a
+    8: 1940: 0x7ae4b5: xor ebp, r8d
+    8: 1941: 0x7ae4b8: pop r8
+    8: 1942: 0x7ae4ba: push r10
+    8: 1943: 0x7ae4bc: mov r10d, 0x797f9cf2
+    8: 1944: 0x7ae4c2: not r10d
+    8: 1945: 0x7ae4c5: and r10d, 0x6fbe21ee
+    8: 1946: 0x7ae4cc: neg r10d
+    8: 1947: 0x7ae4cf: add r10d, 0x84fb5a77
+    8: 1948: 0x7ae4d6: add r10d, 0xff83c56d
+    8: 1949: 0x7ae4dd: xor ebp, r10d
+    8: 1950: 0x7ae4e0: pop r10
+    8: 1951: 0x7ae4e2: push 0x108f6fe2
+    8: 1952: 0x7ae4e7: mov qword ptr [rsp], r12
+    8: 1953: 0x7ae4eb: mov r12d, 0x76ffac00
+    8: 1954: 0x7ae4f1: add r12d, -1
+    8: 1955: 0x7ae4f5: and r12d, 0x5cf54187
+    8: 1956: 0x7ae4fc: shr r12d, 4
+    8: 1957: 0x7ae500: sub r12d, 0xb75155a4
+    8: 1958: 0x7ae507: or ebp, r12d
+    8: 1959: 0x7ae50a: pop r12
+    8: 1960: 0x7ae50c: add ebp, 0xa2024041
+    8: 1961: 0x7ae512: mov ebx, ebp
+    8: 1962: 0x7ae514: mov rbp, qword ptr [rsp]
+    8: 1963: 0x7ae518: add rsp, 8
+    8: 1964: 0x7ae51c: shr ebx, 3
+    8: 1965: 0x7ae51f: sub rsp, 8
+    8: 1966: 0x7ae523: push 0x77fd5687
+    8: 1967: 0x7ae528: push rax
+    8: 1968: 0x7ae529: mov rax, rsp
+    8: 1969: 0x7ae52c: add rax, 8
+    8: 1970: 0x7ae530: sub rax, 8
+    8: 1971: 0x7ae536: xchg qword ptr [rsp], rax
+    8: 1972: 0x7ae53a: mov rsp, qword ptr [rsp]
+    8: 1973: 0x7ae53e: push r15
+    8: 1974: 0x7ae540: pop qword ptr [rsp]
+    8: 1975: 0x7ae543: mov r15, rsp
+    8: 1976: 0x7ae546: add r15, 8
+    8: 1977: 0x7ae54a: sub r15, 8
+    8: 1978: 0x7ae551: xchg qword ptr [rsp], r15
+    8: 1979: 0x7ae555: pop rsp
+    8: 1980: 0x7ae556: push rax
+    8: 1981: 0x7ae557: pop qword ptr [rsp]
+    8: 1982: 0x7ae55a: pop qword ptr [rsp]
+    8: 1983: 0x7ae55d: pop qword ptr [rsp]
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+    9: 1984: 0x7ae560: test rbx, rbx
+    9: 1985: 0x7ae563: je 0x7ae6c0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Predecessors: 2
+0x7ae560: (0x7ae426 =>  1 ) (0x7ae569 =>  ? ) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0810s
+[*] Edges: 2
+(0x7ae6c0) (0x7ae569) 
+[*] Opaquenes of 0x7ae560 has changed to Non Opaque!
+[*] Predecessors: 2
+0x7ae560: (0x7ae426 =>  1 ) (0x7ae569 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[*] Predecessors: 2
+0x7ae560: (0x7ae426 =>  1 ) (0x7ae569 =>  0 ) 
+[*] All edges are resolved nothing to do here!
+[!] We got 2 edges ... verify if this is ok! ( 4 - 0 )
+
+   10: 1986: 0x7ae6c0: mov rax, qword ptr [rsp]
+   10: 1987: 0x7ae6c4: sub rsp, 8
+   10: 1988: 0x7ae6c8: mov qword ptr [rsp], rsi
+   10: 1989: 0x7ae6cc: sub rsp, 8
+   10: 1990: 0x7ae6d0: mov qword ptr [rsp], rsp
+   10: 1991: 0x7ae6d4: add qword ptr [rsp], 8
+   10: 1992: 0x7ae6d9: push qword ptr [rsp]
+   10: 1993: 0x7ae6dc: mov rsi, qword ptr [rsp]
+   10: 1994: 0x7ae6e0: add rsp, 8
+   10: 1995: 0x7ae6e4: add rsp, 8
+   10: 1996: 0x7ae6e8: add rsi, 8
+   10: 1997: 0x7ae6ec: add rsi, 8
+   10: 1998: 0x7ae6f3: xor rsi, qword ptr [rsp]
+   10: 1999: 0x7ae6f7: push rbp
+   10: 2000: 0x7ae6f8: mov rbp, rsi
+   10: 2001: 0x7ae6fb: push rax
+   10: 2002: 0x7ae6fc: mov rax, rbp
+   10: 2003: 0x7ae6ff: xor qword ptr [rsp + 0x10], rax
+   10: 2004: 0x7ae704: pop rax
+   10: 2005: 0x7ae705: pop rbp
+   10: 2006: 0x7ae706: xor rsi, qword ptr [rsp]
+   10: 2007: 0x7ae70a: mov rsp, qword ptr [rsp]
+   10: 2008: 0x7ae70e: push qword ptr [rsp]
+   10: 2009: 0x7ae711: pop rbx
+   10: 2010: 0x7ae712: push 0x1febb5fd
+   10: 2011: 0x7ae717: push rdx
+   10: 2012: 0x7ae718: pop qword ptr [rsp]
+   10: 2013: 0x7ae71b: mov rdx, rsp
+   10: 2014: 0x7ae71e: add rdx, 8
+   10: 2015: 0x7ae722: sub rdx, 8
+   10: 2016: 0x7ae729: xor rdx, qword ptr [rsp]
+   10: 2017: 0x7ae72d: xor qword ptr [rsp], rdx
+   10: 2018: 0x7ae731: xor rdx, qword ptr [rsp]
+   10: 2019: 0x7ae735: pop rsp
+   10: 2020: 0x7ae736: mov qword ptr [rsp], rax
+   10: 2021: 0x7ae73a: mov rax, rsp
+   10: 2022: 0x7ae73d: add rax, 8
+   10: 2023: 0x7ae741: push rdx
+   10: 2024: 0x7ae742: movabs rdx, 0x5efd5884
+   10: 2025: 0x7ae74c: shl rdx, 1
+   10: 2026: 0x7ae750: push 0x351683d1
+   10: 2027: 0x7ae755: mov qword ptr [rsp], rax
+   10: 2028: 0x7ae759: movabs rax, 0xbdfab100
+   10: 2029: 0x7ae763: sub rdx, rax
+   10: 2030: 0x7ae766: pop rax
+   10: 2031: 0x7ae767: add rax, rdx
+   10: 2032: 0x7ae76a: pop rdx
+   10: 2033: 0x7ae76b: xor rax, qword ptr [rsp]
+   10: 2034: 0x7ae76f: xor qword ptr [rsp], rax
+   10: 2035: 0x7ae773: xor rax, qword ptr [rsp]
+   10: 2036: 0x7ae777: mov rsp, qword ptr [rsp]
+   10: 2037: 0x7ae77b: push rax
+   10: 2038: 0x7ae77c: sub rsp, 8
+   10: 2039: 0x7ae780: mov qword ptr [rsp], r8
+   10: 2040: 0x7ae784: movabs r8, 0x7dabd1d6
+   10: 2041: 0x7ae78e: xor qword ptr [rsp + 8], r8
+   10: 2042: 0x7ae793: push qword ptr [rsp]
+   10: 2043: 0x7ae796: pop r8
+   10: 2044: 0x7ae798: push 0x2f368684
+   10: 2045: 0x7ae79d: mov qword ptr [rsp], r13
+   10: 2046: 0x7ae7a1: push rsp
+   10: 2047: 0x7ae7a2: pop r13
+   10: 2048: 0x7ae7a4: add r13, 8
+   10: 2049: 0x7ae7a8: sub rsp, 8
+   10: 2050: 0x7ae7ac: push rax
+   10: 2051: 0x7ae7ad: pop qword ptr [rsp]
+   10: 2052: 0x7ae7b0: movabs rax, 0x7f7fb3ab
+   10: 2053: 0x7ae7ba: xor rax, 0x7f7fb3a3
+   10: 2054: 0x7ae7c0: add r13, rax
+   10: 2055: 0x7ae7c3: pop rax
+   10: 2056: 0x7ae7c4: xchg qword ptr [rsp], r13
+   10: 2057: 0x7ae7c8: mov rsp, qword ptr [rsp]
+   10: 2058: 0x7ae7cc: pop qword ptr [rbx + rbp]
+   10: 2059: 0x7ae7cf: xor qword ptr [rbx + rbp], 0x7dabd1d6
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[!] Loop detected to the beginning of basic block 0x7ae569
+
+[!] Loop detected to the beginning of basic block 0x7ae7d7
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 27.9980s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 27 Stack Slots found
+-5000  1 uses - Size: 4800 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -200  AlignedSize: 4800  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-200  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -200  AlignedEnd: -192  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-192  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -192  AlignedEnd: -184  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-184  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -184  AlignedEnd: -176  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-176  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -176  AlignedEnd: -168  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-168  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -168  AlignedEnd: -160  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-160  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -160  AlignedEnd: -152  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-152  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -152  AlignedEnd: -144  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-144  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -144  AlignedEnd: -136  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-136  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -136  AlignedEnd: -128  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-128  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -128  AlignedEnd: -120  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-120  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -120  AlignedEnd: -112  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-112  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -112  AlignedEnd: -104  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-104  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -104  AlignedEnd: -96  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-96  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -96  AlignedEnd: -88  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-88  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -88  AlignedEnd: -80  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-80  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -80  AlignedEnd: -72  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-72  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -72  AlignedEnd: -64  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-64  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -64  AlignedEnd: -56  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-56  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -56  AlignedEnd: -48  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-48  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-40  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-32  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-24  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-16  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-8  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 8.5920s
+[*] Applying custom post translation optimization ...
+[*] Running Souper Optimizer ...
+[*] Time taken to souper optimize the function: 0.0020s
+[*] Detected Argument Count: 4
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to CV_TIGER64_BLACK_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 10
+[*] Recovered Opaque Predicates : 0

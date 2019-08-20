@@ -1,0 +1,442 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x40b774: mov rbx, rbp
+    1: 2: 0x40b777: add rbx, 0x15b
+    1: 3: 0x40b77e: mov rbx, qword ptr [rbx]
+    1: 4: 0x40b781: add rbx, 0
+    1: 5: 0x40b788: mov r9d, dword ptr [rbx]
+    1: 6: 0x40b78b: mov rdx, rbp
+    1: 7: 0x40b78e: add rdx, 0x55
+    1: 8: 0x40b795: and dword ptr [rdx], r9d
+    1: 9: 0x40b798: mov r14, rbp
+    1: 10: 0x40b79b: mov r15, 0x12
+    1: 11: 0x40b7a2: or rax, r13
+    1: 12: 0x40b7a5: or r10, 0x80
+    1: 13: 0x40b7ac: add r14, 0x15b
+    1: 14: 0x40b7b3: and rax, 0x20
+    1: 15: 0x40b7b9: mov r14, qword ptr [r14]
+    1: 16: 0x40b7bc: mov rdx, 0x36
+    1: 17: 0x40b7c3: sub r10, 0x800
+    1: 18: 0x40b7ca: mov r11, 0x400
+    1: 19: 0x40b7d1: or r15, r14
+    1: 20: 0x40b7d4: add r14, 0xa
+    1: 21: 0x40b7db: add rcx, 0x400
+    1: 22: 0x40b7e2: movzx r13, byte ptr [r14]
+    1: 23: 0x40b7e6: mov rax, rbp
+    1: 24: 0x40b7e9: mov r10, 0
+    1: 25: 0x40b7f0: mov rdi, 0
+    1: 26: 0x40b7f7: mov rdx, r13
+    1: 27: 0x40b7fa: add rax, 0x55
+    1: 28: 0x40b800: mov r12, 1
+    1: 29: 0x40b807: mov r9, 0x36
+    1: 30: 0x40b80e: xor r13d, dword ptr [rax]
+    1: 31: 0x40b811: mov rcx, rbp
+    1: 32: 0x40b814: xor r9, 0x80
+    1: 33: 0x40b81b: add rcx, 0x16f
+    1: 34: 0x40b822: add r13d, dword ptr [rcx]
+    1: 35: 0x40b825: mov rcx, rbp
+    1: 36: 0x40b828: add rcx, 0x55
+    1: 37: 0x40b82f: or dword ptr [rcx], r13d
+    1: 38: 0x40b832: sub r15, r15
+    1: 39: 0x40b835: mov r10, rbp
+    1: 40: 0x40b838: add r9, -0xffffffff80000000
+    1: 41: 0x40b83f: mov r14, 0x12
+    1: 42: 0x40b846: sub rdi, 0x80
+    1: 43: 0x40b84d: xor r14, rdx
+    1: 44: 0x40b850: sub r9, -0xffffffff80000000
+    1: 45: 0x40b857: add r10, 0x16f
+    1: 46: 0x40b85e: xor dword ptr [r10], 0x27f93f53
+    1: 47: 0x40b865: mov rcx, rbp
+    1: 48: 0x40b868: or r9, r11
+    1: 49: 0x40b86b: xor r15, 0x10
+    1: 50: 0x40b872: add rcx, 0x10e
+    1: 51: 0x40b879: add r14, 0xffff
+    1: 52: 0x40b880: add rdi, r9
+    1: 53: 0x40b883: add dword ptr [rcx], r13d
+    1: 54: 0x40b886: mov rcx, 0
+    1: 55: 0x40b88d: mov rsi, 0x400
+    1: 56: 0x40b894: and rdx, 0xffffffff80000000
+    1: 57: 0x40b89b: mov rdx, rbp
+    1: 58: 0x40b89e: or rdi, 1
+    1: 59: 0x40b8a5: xor rsi, 1
+    1: 60: 0x40b8ac: mov rcx, 1
+    1: 61: 0x40b8b3: add rdx, 0xc8
+    1: 62: 0x40b8ba: mov r9, 0x12
+    1: 63: 0x40b8c1: sub rsi, 0x10
+    1: 64: 0x40b8c8: and rcx, 8
+    1: 65: 0x40b8cf: and r14, 0x400
+    1: 66: 0x40b8d6: sub rcx, 0x40
+    1: 67: 0x40b8dd: and dword ptr [rdx], r13d
+    1: 68: 0x40b8e0: mov r13, rbp
+    1: 69: 0x40b8e3: add r13, 0x15b
+    1: 70: 0x40b8ea: mov r13, qword ptr [r13]
+    1: 71: 0x40b8ee: add r13, 4
+    1: 72: 0x40b8f5: mov ebx, dword ptr [r13]
+    1: 73: 0x40b8f9: mov r13, rbp
+    1: 74: 0x40b8fc: add r13, 0x55
+    1: 75: 0x40b903: add dword ptr [r13], ebx
+    1: 76: 0x40b907: mov r13, rbp
+    1: 77: 0x40b90a: mov rsi, rbp
+    1: 78: 0x40b90d: mov rax, 0x200
+    1: 79: 0x40b914: mov r11, 0
+    1: 80: 0x40b91b: add rsi, 0x15b
+    1: 81: 0x40b922: and rax, 0x78
+    1: 82: 0x40b928: xor r11, 0x800
+    1: 83: 0x40b92f: mov r14, 0
+    1: 84: 0x40b936: and r14, rbx
+    1: 85: 0x40b939: mov rsi, qword ptr [rsi]
+    1: 86: 0x40b93c: or r14, 0x88
+    1: 87: 0x40b943: add r11, r9
+    1: 88: 0x40b946: add r13, 0x15b
+    1: 89: 0x40b94d: add r11, 0x80
+    1: 90: 0x40b954: mov rdx, r9
+    1: 91: 0x40b957: mov r8, 0x200
+    1: 92: 0x40b95e: sub rdx, 0x90
+    1: 93: 0x40b965: sub r8, rdx
+    1: 94: 0x40b968: add rsi, 8
+    1: 95: 0x40b96f: mov r8, 0x400
+    1: 96: 0x40b976: xor r8, 0xffff
+    1: 97: 0x40b97d: mov rcx, 0
+    1: 98: 0x40b984: mov r13, qword ptr [r13]
+    1: 99: 0x40b988: mov r12, 0x36
+    1: 100: 0x40b98f: mov rax, rcx
+    1: 101: 0x40b992: add r13, 0x13
+    1: 102: 0x40b999: add rcx, 0x400
+    1: 103: 0x40b9a0: movzx r11, word ptr [rsi]
+    1: 104: 0x40b9a4: and rax, rsi
+    1: 105: 0x40b9a7: or rax, r13
+    1: 106: 0x40b9aa: and rax, 0x78
+    1: 107: 0x40b9b0: xor rax, 0x800
+    1: 108: 0x40b9b6: sub rax, 8
+    1: 109: 0x40b9bc: mov rsi, rbp
+    1: 110: 0x40b9bf: add rsi, 0x55
+    1: 111: 0x40b9c6: or rcx, rcx
+    1: 112: 0x40b9c9: sub rcx, rsi
+    1: 113: 0x40b9cc: xor rax, rbx
+    1: 114: 0x40b9cf: and rcx, 0x800
+    1: 115: 0x40b9d6: xor r11d, dword ptr [rsi]
+    1: 116: 0x40b9d9: sub rax, rsi
+    1: 117: 0x40b9dc: sub rcx, 0x80
+    1: 118: 0x40b9e3: add rcx, r10
+    1: 119: 0x40b9e6: xor rax, 1
+    1: 120: 0x40b9ec: and rax, 0x20
+    1: 121: 0x40b9f2: movzx r9, word ptr [r13]
+    1: 122: 0x40b9f7: add r9, rbp
+    1: 123: 0x40b9fa: add rcx, r9
+    1: 124: 0x40b9fd: add rcx, 0x90
+    1: 125: 0x40ba04: or rax, 0xffff
+    1: 126: 0x40ba0a: mov rcx, 1
+    1: 127: 0x40ba11: mov rsi, rbp
+    1: 128: 0x40ba14: mov r9, qword ptr [r9]
+    1: 129: 0x40ba17: or rbx, r9
+    1: 130: 0x40ba1a: pushfq 
+    1: 131: 0x40ba1b: mov r8, 0
+    1: 132: 0x40ba22: add rsi, 0x59
+    1: 133: 0x40ba29: or r9, 0x52da1ec5
+    1: 134: 0x40ba30: xor r8, 0xffff
+    1: 135: 0x40ba37: mov r14, r9
+    1: 136: 0x40ba3a: xor r14, 0x40
+    1: 137: 0x40ba41: add r14, 0x80
+    1: 138: 0x40ba48: mov r9, 0
+    1: 139: 0x40ba4f: xor rcx, 0x90
+    1: 140: 0x40ba56: or rcx, r14
+    1: 141: 0x40ba59: mov rdx, 1
+    1: 142: 0x40ba60: sub rcx, 0x20
+    1: 143: 0x40ba67: and rcx, 0x80
+    1: 144: 0x40ba6e: add r11d, dword ptr [rsi]
+    1: 145: 0x40ba71: mov rsi, rbp
+    1: 146: 0x40ba74: and rdx, 0x40
+    1: 147: 0x40ba7b: mov r8, r13
+    1: 148: 0x40ba7e: mov rcx, rbp
+    1: 149: 0x40ba81: mov rax, 0
+    1: 150: 0x40ba88: xor rax, 0x800
+    1: 151: 0x40ba8e: add rcx, 0x15b
+    1: 152: 0x40ba95: mov r15, 0x200
+    1: 153: 0x40ba9c: add rsi, 0x55
+    1: 154: 0x40baa3: or rax, 0x88
+    1: 155: 0x40baa9: sub r15, -0xffffffff80000000
+    1: 156: 0x40bab0: sub rax, 0xf0
+    1: 157: 0x40bab6: mov r8, 0
+    1: 158: 0x40babd: xor rax, 0xffffffff80000000
+    1: 159: 0x40bac3: and rax, 0x88
+    1: 160: 0x40bac9: mov rcx, qword ptr [rcx]
+    1: 161: 0x40bacc: mov rsi, 0x12
+    1: 162: 0x40bad3: or rsi, 0xf0
+    1: 163: 0x40bada: mov r15, rbp
+    1: 164: 0x40badd: add r8, 4
+    1: 165: 0x40bae4: mov r13, 0x400
+    1: 166: 0x40baeb: mov rax, 1
+    1: 167: 0x40baf2: add r13, -0xffffffff80000000
+    1: 168: 0x40baf9: add r15, 0x16f
+    1: 169: 0x40bb00: mov r13, 1
+    1: 170: 0x40bb07: mov rsi, 0x200
+    1: 171: 0x40bb0e: sub rsi, 0x78
+    1: 172: 0x40bb15: add rax, rcx
+    1: 173: 0x40bb18: sub rsi, r10
+    1: 174: 0x40bb1b: or dword ptr [r15], 0x52da1ec5
+    1: 175: 0x40bb22: mov r12, 0x400
+    1: 176: 0x40bb29: and rsi, rsi
+    1: 177: 0x40bb2c: add rsi, r12
+    1: 178: 0x40bb2f: mov r14, 0x200
+    1: 179: 0x40bb36: add rcx, 0xd
+    1: 180: 0x40bb3d: mov rax, 0
+    1: 181: 0x40bb44: and r12, r12
+    1: 182: 0x40bb47: mov r9w, word ptr [rcx]
+    1: 183: 0x40bb4b: and rax, 0xffff
+    1: 184: 0x40bb51: sub rax, rcx
+    1: 185: 0x40bb54: xor r12, rcx
+    1: 186: 0x40bb57: sub rax, r11
+    1: 187: 0x40bb5a: mov r15, rbp
+    1: 188: 0x40bb5d: add r15, 0x14c
+    1: 189: 0x40bb64: add r9, rbp
+    1: 190: 0x40bb67: add rax, rcx
+    1: 191: 0x40bb6a: add r12, 0x20
+    1: 192: 0x40bb71: xor rax, 0x78
+    1: 193: 0x40bb77: or rax, r10
+    1: 194: 0x40bb7a: mov r10b, byte ptr [r15]
+    1: 195: 0x40bb7d: cmp r10b, 0xa1
+    1: 196: 0x40bb81: jbe 0x40bba5
+Unknown Jxx. Implement it! JBE_RELBRd
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0110s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.2680s
+[*] Edges: 2
+(0x40bba5) (0x40bb87) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.2680s
+[*] Edges: 2
+(0x40bba5) (0x40bb87) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.2630s
+[*] Edges: 2
+(0x40bba5) (0x40bb87) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    2: 197: 0x40bba5: xor r12, rbx
+    2: 198: 0x40bba8: xor r12, 0x3f
+    2: 199: 0x40bbaf: xor r12, r9
+    2: 200: 0x40bbb2: mov rcx, rbp
+    2: 201: 0x40bbb5: and r12, 0xffff
+    2: 202: 0x40bbbc: xor r12, 4
+    2: 203: 0x40bbc3: add r12, 0x800
+    2: 204: 0x40bbca: add rcx, 0x28
+    2: 205: 0x40bbd1: sub rax, rcx
+    2: 206: 0x40bbd4: add rax, rbx
+    2: 207: 0x40bbd7: xor rax, r11
+    2: 208: 0x40bbda: mov r9, 0
+    2: 209: 0x40bbe1: mov rdx, 0x12
+    2: 210: 0x40bbe8: add word ptr [rcx], r11w
+    2: 211: 0x40bbec: add rdx, 0x7fffffff
+    2: 212: 0x40bbf3: mov rax, rax
+    2: 213: 0x40bbf6: pop rbx
+    2: 214: 0x40bbf7: mov r14, rbp
+    2: 215: 0x40bbfa: add r14, 0x55
+    2: 216: 0x40bc01: xor dword ptr [r14], 0x7ccf3c54
+    2: 217: 0x40bc08: mov rbx, rbp
+    2: 218: 0x40bc0b: add rbx, 0x16f
+    2: 219: 0x40bc12: add dword ptr [rbx], 0x2855231e
+    2: 220: 0x40bc18: mov rdi, rbp
+    2: 221: 0x40bc1b: add rdi, 0x55
+    2: 222: 0x40bc22: sub dword ptr [rdi], 0x8624787
+    2: 223: 0x40bc28: mov rcx, rbp
+    2: 224: 0x40bc2b: add rcx, 0x16f
+    2: 225: 0x40bc32: or dword ptr [rcx], 0x676c7bd9
+    2: 226: 0x40bc38: mov r14, rbp
+    2: 227: 0x40bc3b: add r14, 0x15b
+    2: 228: 0x40bc42: mov r8, rbp
+    2: 229: 0x40bc45: mov r14, qword ptr [r14]
+    2: 230: 0x40bc48: add r14, 0xa
+    2: 231: 0x40bc4f: add r8, 0x15b
+    2: 232: 0x40bc56: mov r8, qword ptr [r8]
+    2: 233: 0x40bc59: mov edx, dword ptr [r14]
+    2: 234: 0x40bc5c: mov r9, rbp
+    2: 235: 0x40bc5f: add r9, 0x16f
+    2: 236: 0x40bc66: add r8, 0xf
+    2: 237: 0x40bc6d: mov r13d, dword ptr [r8]
+    2: 238: 0x40bc70: mov r15, rbp
+    2: 239: 0x40bc73: add r15, 0x55
+    2: 240: 0x40bc7a: and dword ptr [r15], r13d
+    2: 241: 0x40bc7d: mov rcx, rbp
+    2: 242: 0x40bc80: mov r15, 0x68a4f890
+    2: 243: 0x40bc87: mov rbx, rbp
+    2: 244: 0x40bc8a: add rbx, 0x16f
+    2: 245: 0x40bc91: and dword ptr [rbx], r15d
+    2: 246: 0x40bc94: add rcx, 0x55
+    2: 247: 0x40bc9b: mov r9, rcx
+    2: 248: 0x40bc9e: mov r14, rbp
+    2: 249: 0x40bca1: add r14, 0xc8
+    2: 250: 0x40bca8: or eax, dword ptr [r14]
+    2: 251: 0x40bcab: cmp qword ptr [r9], rax
+    2: 252: 0x40bcae: mov r14, rbp
+    2: 253: 0x40bcb1: add r14, 0x15b
+    2: 254: 0x40bcb8: mov r14, qword ptr [r14]
+    2: 255: 0x40bcbb: mov rbx, rbp
+    2: 256: 0x40bcbe: add r14, 0xa
+    2: 257: 0x40bcc5: mov r10d, dword ptr [r14]
+    2: 258: 0x40bcc8: add rbx, 0x15b
+    2: 259: 0x40bccf: mov rbx, qword ptr [rbx]
+    2: 260: 0x40bcd2: add rbx, 0xa
+    2: 261: 0x40bcd9: mov edi, dword ptr [rbx]
+    2: 262: 0x40bcdb: mov r12, rbp
+    2: 263: 0x40bcde: mov r14, rbp
+    2: 264: 0x40bce1: add r12, 0x16f
+    2: 265: 0x40bce8: add r14, 0x16f
+    2: 266: 0x40bcef: mov r14, rbp
+    2: 267: 0x40bcf2: add r14, 0x15b
+    2: 268: 0x40bcf9: mov r14, qword ptr [r14]
+    2: 269: 0x40bcfc: mov r8, rbp
+    2: 270: 0x40bcff: add r14, 0xa
+    2: 271: 0x40bd06: add r8, 0x28
+    2: 272: 0x40bd0d: mov rsi, rbp
+    2: 273: 0x40bd10: movzx r8, word ptr [r8]
+    2: 274: 0x40bd14: add r8w, 0xf114
+    2: 275: 0x40bd1a: mov eax, dword ptr [r14]
+    2: 276: 0x40bd1d: mov rbx, rbp
+    2: 277: 0x40bd20: add rsi, 0x10e
+    2: 278: 0x40bd27: add r8, rbp
+    2: 279: 0x40bd2a: mov esi, dword ptr [rsi]
+    2: 280: 0x40bd2c: add rbx, 0x16f
+    2: 281: 0x40bd33: sub eax, dword ptr [rbx]
+    2: 282: 0x40bd35: mov r8, qword ptr [r8]
+    2: 283: 0x40bd38: add byte ptr [r8], sil
+    2: 284: 0x40bd3b: add r11, 0x20
+    2: 285: 0x40bd42: xor r12, 1
+    2: 286: 0x40bd49: xor r13, rsi
+    2: 287: 0x40bd4c: or rdi, 0x3f
+    2: 288: 0x40bd53: mov r8b, 0x79
+    2: 289: 0x40bd56: mov rax, 0
+    2: 290: 0x40bd5d: and r13, 0x7fffffff
+    2: 291: 0x40bd64: xor r12, 0x3f
+    2: 292: 0x40bd6b: xor r12, 0x10
+    2: 293: 0x40bd72: mov r10, 1
+    2: 294: 0x40bd79: mov rdi, rbp
+    2: 295: 0x40bd7c: and r10, r9
+    2: 296: 0x40bd7f: and r11, 0x90
+    2: 297: 0x40bd86: add r9, 0xffff
+    2: 298: 0x40bd8d: mov rcx, 1
+    2: 299: 0x40bd94: add rdi, 0x14c
+    2: 300: 0x40bd9b: or rax, 0x80
+    2: 301: 0x40bda1: mov rsi, r8
+    2: 302: 0x40bda4: and byte ptr [rdi], r8b
+    2: 303: 0x40bda7: mov r12, 0
+    2: 304: 0x40bdae: add rax, rdi
+    2: 305: 0x40bdb1: or rcx, 0x400
+    2: 306: 0x40bdb8: mov r11, rbp
+    2: 307: 0x40bdbb: add r11, 0x15b
+    2: 308: 0x40bdc2: add r12, r11
+    2: 309: 0x40bdc5: mov rax, rax
+    2: 310: 0x40bdc8: xor rcx, rsi
+    2: 311: 0x40bdcb: or r12, 8
+    2: 312: 0x40bdd2: add rsi, -0xffffffff80000000
+    2: 313: 0x40bdd9: mov r11, qword ptr [r11]
+    2: 314: 0x40bddc: add r9, 0x800
+    2: 315: 0x40bde3: mov r12, 1
+    2: 316: 0x40bdea: and rcx, rsi
+    2: 317: 0x40bded: xor rcx, 0x90
+    2: 318: 0x40bdf4: add r11, 0xb
+    2: 319: 0x40bdfb: sub rax, 4
+    2: 320: 0x40be01: mov r15, r8
+    2: 321: 0x40be04: mov r14, 0
+    2: 322: 0x40be0b: and r14, 0x800
+    2: 323: 0x40be12: sub r15, 0xf0
+    2: 324: 0x40be19: movzx r11, word ptr [r11]
+    2: 325: 0x40be1d: mov r9, r11
+    2: 326: 0x40be20: mov r14, rbp
+    2: 327: 0x40be23: sub r15, r12
+    2: 328: 0x40be26: add r14, 0x2c
+    2: 329: 0x40be2d: add r12, rdi
+    2: 330: 0x40be30: and r9, r15
+    2: 331: 0x40be33: mov rax, 0
+    2: 332: 0x40be3a: mov r14, qword ptr [r14]
+    2: 333: 0x40be3d: mov rcx, 0
+    2: 334: 0x40be44: or rax, rdi
+    2: 335: 0x40be47: and r12, 0x400
+    2: 336: 0x40be4e: xor rcx, 0x20
+    2: 337: 0x40be55: mov rsi, rbp
+    2: 338: 0x40be58: mov r8, 1
+    2: 339: 0x40be5f: or rcx, 4
+    2: 340: 0x40be66: xor r8, 0xf0
+    2: 341: 0x40be6d: mov rbx, 0x36
+    2: 342: 0x40be74: add rsi, 0x55
+    2: 343: 0x40be7b: xor rcx, r12
+    2: 344: 0x40be7e: or r12, 0x80
+    2: 345: 0x40be85: mov r10, 0
+    2: 346: 0x40be8c: mov r12, 0x36
+    2: 347: 0x40be93: sub rbx, 0x80
+    2: 348: 0x40be9a: sub r11d, dword ptr [rsi]
+    2: 349: 0x40be9d: or rcx, 0xf0
+    2: 350: 0x40bea4: sub rbx, -0xffffffff80000000
+    2: 351: 0x40beab: add r10, r10
+    2: 352: 0x40beae: sub r12, rbx
+    2: 353: 0x40beb1: sub r11d, 0x329dc3e1
+    2: 354: 0x40beb8: or rbx, 4
+    2: 355: 0x40bebf: sub rax, 0x800
+    2: 356: 0x40bec5: and rbx, r11
+    2: 357: 0x40bec8: mov r12, rbp
+    2: 358: 0x40becb: and r10, 0xf0
+    2: 359: 0x40bed2: add r12, 0x55
+    2: 360: 0x40bed9: mov rdx, 1
+    2: 361: 0x40bee0: mov r9, 0x12
+    2: 362: 0x40bee7: sub rdx, 0x3f
+    2: 363: 0x40beee: add r10, 0xf0
+    2: 364: 0x40bef5: or dword ptr [r12], r11d
+    2: 365: 0x40bef9: xor rcx, 0x78
+    2: 366: 0x40bf00: mov r8, rdx
+    2: 367: 0x40bf03: and r11, 0xffff
+    2: 368: 0x40bf0a: xor r9, r14
+    2: 369: 0x40bf0d: and r8, 8
+    2: 370: 0x40bf14: and rcx, r9
+    2: 371: 0x40bf17: shl r11, 3
+    2: 372: 0x40bf1b: mov r10, r12
+    2: 373: 0x40bf1e: or rax, 0xf0
+    2: 374: 0x40bf24: add r8, -0xffffffff80000000
+    2: 375: 0x40bf2b: add rax, 4
+    2: 376: 0x40bf31: mov rdi, 0x200
+    2: 377: 0x40bf38: add r14, r11
+    2: 378: 0x40bf3b: mov rcx, qword ptr [r14]
+    2: 379: 0x40bf3e: mov rax, rbp
+    2: 380: 0x40bf41: and r9, 0x400
+    2: 381: 0x40bf48: xor rdi, 0x3f
+    2: 382: 0x40bf4f: xor r8, 0xf0
+    2: 383: 0x40bf56: add rdi, 0x40
+    2: 384: 0x40bf5d: add r10, 0xffff
+    2: 385: 0x40bf64: add rax, 0x15b
+    2: 386: 0x40bf6a: add qword ptr [rax], 0x15
+    2: 387: 0x40bf71: jmp rcx
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0070s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.2480s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.2430s
+[*] Edges: 0
+
+
+    3: 388: 0x40bb87: xor rax, r12
+    3: 389: 0x40bb8a: and rax, 0x78
+    3: 390: 0x40bb90: xor r12, 0x7fffffff
+    3: 391: 0x40bb97: sub r12, 0x3f
+    3: 392: 0x40bb9e: or r12, 0x90
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0020s
+
+[!] Loop detected to the beginning of basic block 0x40bba5
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 1.7500s
+[*] Applying post translation optimization ...
