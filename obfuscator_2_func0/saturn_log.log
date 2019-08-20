@@ -1,0 +1,352 @@
+c:\saturn\build\Release\saturn -i xxxxxxxx.exe -f 0x146253057 -o lifted_146253057.ll -runtime=c:\saturn/build/saturn_helpers.bc -printdebug -setConcreteFunctionVA -setConcreteStackRegister -useMSx64Abi
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x146253057: lea rsp, qword ptr [rsp - 8]
+    1: 2: 0x14625305f: push rcx
+    1: 3: 0x146253060: xchg qword ptr [rsp + 8], rcx
+    1: 4: 0x146253065: mov rcx, r14
+    1: 5: 0x146253068: mov qword ptr [rsp + 8], rcx
+    1: 6: 0x14625306d: mov rcx, qword ptr [rsp]
+    1: 7: 0x146253071: mov qword ptr [rsp], r14
+    1: 8: 0x146253075: push rcx
+    1: 9: 0x146253076: lea rcx, qword ptr [rsp + 8]
+    1: 10: 0x14625307b: not r14
+    1: 11: 0x14625307e: xor r14, qword ptr [rcx]
+    1: 12: 0x146253081: pop rcx
+    1: 13: 0x146253082: push rbx
+    1: 14: 0x146253083: mov ebx, 0xd4469d6e
+    1: 15: 0x146253088: push rsi
+    1: 16: 0x146253089: mov esi, 0xb7e07b2a
+    1: 17: 0x14625308e: add esi, ebx
+    1: 18: 0x146253090: mov ebx, esi
+    1: 19: 0x146253092: xor ebx, 0x533c089a
+    1: 20: 0x146253098: mov esi, 0xab832ec0
+    1: 21: 0x14625309d: ror ebx, 0x14
+    1: 22: 0x1462530a0: and esi, 0x5b171cfb
+    1: 23: 0x1462530a6: rcl ebx, 0x1e
+    1: 24: 0x1462530a9: or ebx, 0xe4e97533
+    1: 25: 0x1462530af: shld esi, ebx, 6
+    1: 26: 0x1462530b3: rcl ebx, 0xd
+    1: 27: 0x1462530b6: jb 0x1465c8b69
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0330s
+[*] Edges: 1
+(0x1465c8b69) 
+
+    2: 28: 0x1465c8b69: mov rsi, qword ptr [rsp]
+    2: 29: 0x1465c8b6d: add rsp, 8
+    2: 30: 0x1465c8b71: mov rbx, qword ptr [rsp]
+    2: 31: 0x1465c8b75: mov qword ptr [rsp], rbx
+    2: 32: 0x1465c8b79: lea rbx, qword ptr [rip + 0x14be6da]
+    2: 33: 0x1465c8b80: xchg qword ptr [rsp], rbx
+    2: 34: 0x1465c8b84: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0280s
+[*] Edges: 1
+(0x147a8725a) 
+
+    3: 35: 0x147a8725a: push rdi
+    3: 36: 0x147a8725b: lea rdi, qword ptr [rsp + 8]
+    3: 37: 0x147a87260: sub rdi, 0x1ac57e96
+    3: 38: 0x147a87267: mov qword ptr [rdi + 0x1ac57e96], rsi
+    3: 39: 0x147a8726e: xor r14, 0xffffffffffffffff
+    3: 40: 0x147a87272: pop rdi
+    3: 41: 0x147a87273: lea rsi, qword ptr [rip - 0x5b62aa2]
+    3: 42: 0x147a8727a: add rsi, -0x10a7c0d2
+    3: 43: 0x147a87281: or r14, qword ptr [rsi + 0x10a7c0d2]
+    3: 44: 0x147a87288: pop rsi
+    3: 45: 0x147a87289: push rax
+    3: 46: 0x147a8728a: sub rsp, 8
+    3: 47: 0x147a8728e: mov qword ptr [rsp], r13
+    3: 48: 0x147a87292: xor rax, r13
+    3: 49: 0x147a87295: add rsp, -8
+    3: 50: 0x147a87299: mov qword ptr [rsp], rax
+    3: 51: 0x147a8729d: lea rsp, qword ptr [rsp - 8]
+    3: 52: 0x147a872a5: mov eax, 0xe9c39027
+    3: 53: 0x147a872aa: mov qword ptr [rsp], r14
+    3: 54: 0x147a872ae: xor r14d, r14d
+    3: 55: 0x147a872b1: or r14d, 0xd42b3049
+    3: 56: 0x147a872b8: ror r14d, 2
+    3: 57: 0x147a872bc: and eax, 0xdb995c72
+    3: 58: 0x147a872c1: adc r14d, eax
+    3: 59: 0x147a872c4: or r14d, 0x8b8db22b
+    3: 60: 0x147a872cb: shr eax, 7
+    3: 61: 0x147a872ce: jne 0x1466ea753
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0390s
+[*] Edges: 1
+(0x1466ea753) 
+
+    4: 62: 0x1466ea753: mov r14, qword ptr [rsp]
+    4: 63: 0x1466ea757: add rsp, 8
+    4: 64: 0x1466ea75b: mov rax, qword ptr [rsp]
+    4: 65: 0x1466ea75f: mov qword ptr [rsp], r13
+    4: 66: 0x1466ea763: lea r13, qword ptr [rip + 0x322eafa]
+    4: 67: 0x1466ea76a: xchg qword ptr [rsp], r13
+    4: 68: 0x1466ea76e: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0360s
+[*] Edges: 1
+(0x149919264) 
+
+    5: 69: 0x149919264: xor r13, 0xffffffffffffffff
+    5: 70: 0x149919268: not rax
+    5: 71: 0x14991926b: push r13
+    5: 72: 0x14991926d: xor rax, qword ptr [rsp]
+    5: 73: 0x149919271: lea rsp, qword ptr [rsp + 8]
+    5: 74: 0x149919276: not rax
+    5: 75: 0x149919279: mov r13, qword ptr [rsp]
+    5: 76: 0x14991927d: mov qword ptr [rsp], rbp
+    5: 77: 0x149919281: mov rbp, qword ptr [rsp + 8]
+    5: 78: 0x149919286: and rbp, rax
+    5: 79: 0x149919289: lea rax, qword ptr [rip - 0x36c6179]
+    5: 80: 0x149919290: jmp rax
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0360s
+[*] Edges: 1
+(0x146253117) 
+
+    6: 81: 0x146253117: xchg qword ptr [rsp + 8], rbp
+    6: 82: 0x14625311c: pop rbp
+    6: 83: 0x14625311d: mov rax, qword ptr [rsp]
+    6: 84: 0x146253121: mov qword ptr [rsp], rcx
+    6: 85: 0x146253125: lea rsp, qword ptr [rsp - 8]
+    6: 86: 0x14625312d: mov qword ptr [rsp], r10
+    6: 87: 0x146253131: add rsp, -8
+    6: 88: 0x146253135: lea rcx, qword ptr [rip + 0x2906bd5]
+    6: 89: 0x14625313c: jmp rcx
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0420s
+[*] Edges: 1
+(0x148b59d11) 
+
+    7: 90: 0x148b59d11: mov qword ptr [rsp], r15
+    7: 91: 0x148b59d15: add rsp, -8
+    7: 92: 0x148b59d19: mov qword ptr [rsp], r10
+    7: 93: 0x148b59d1d: not r10
+    7: 94: 0x148b59d20: lea rcx, qword ptr [rip - 0x2906be8]
+    7: 95: 0x148b59d27: xor r15d, r15d
+    7: 96: 0x148b59d2a: and qword ptr [rsp], r10
+    7: 97: 0x148b59d2e: mov r10, qword ptr [rsp]
+    7: 98: 0x148b59d32: sub rsp, -8
+    7: 99: 0x148b59d36: jmp rcx
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0490s
+[*] Edges: 1
+(0x14625313f) 
+
+    8: 100: 0x14625313f: mov ecx, r10d
+    8: 101: 0x146253142: push r9
+    8: 102: 0x146253144: or r15d, 0xff6e62f
+    8: 103: 0x14625314b: mov r9d, r15d
+    8: 104: 0x14625314e: and r10d, 0x8cab81c6
+    8: 105: 0x146253155: lea rsp, qword ptr [rsp - 8]
+    8: 106: 0x14625315d: mov qword ptr [rsp], r14
+    8: 107: 0x146253161: mov r14d, 0xda2b02f1
+    8: 108: 0x146253167: xor ecx, 0x8cab81c6
+    8: 109: 0x14625316d: shl r10d, 1
+    8: 110: 0x146253170: add r10d, ecx
+    8: 111: 0x146253173: push rcx
+    8: 112: 0x146253174: not rcx
+    8: 113: 0x146253177: and r15d, r10d
+    8: 114: 0x14625317a: and dword ptr [rsp], ecx
+    8: 115: 0x14625317d: pop rcx
+    8: 116: 0x14625317e: add ecx, 0x41f5f65
+    8: 117: 0x146253184: and r14d, ecx
+    8: 118: 0x146253187: adc r14d, ecx
+    8: 119: 0x14625318a: ror r14d, 0x12
+    8: 120: 0x14625318e: rcl r14d, 6
+    8: 121: 0x146253192: shl r14d, 4
+    8: 122: 0x146253196: jnp 0x146454915
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0800s
+[*] Edges: 1
+(0x14625319c) 
+
+    9: 123: 0x14625319c: sub rcx, rcx
+    9: 124: 0x14625319f: mov r14, qword ptr [rsp]
+    9: 125: 0x1462531a3: sub rcx, qword ptr [rsp]
+    9: 126: 0x1462531a7: sub qword ptr [rsp], rax
+    9: 127: 0x1462531ab: add rcx, qword ptr [rsp]
+    9: 128: 0x1462531af: lea rsp, qword ptr [rsp + 8]
+    9: 129: 0x1462531b4: xor r9d, r10d
+    9: 130: 0x1462531b7: neg rcx
+    9: 131: 0x1462531ba: shl r15d, 1
+    9: 132: 0x1462531bd: add r15d, r9d
+    9: 133: 0x1462531c0: mov r9, qword ptr [rsp]
+    9: 134: 0x1462531c4: mov qword ptr [rsp], rdx
+    9: 135: 0x1462531c8: push rbp
+    9: 136: 0x1462531c9: mov edx, 0x32c4b4b0
+    9: 137: 0x1462531ce: or edx, 0x6785b014
+    9: 138: 0x1462531d4: mov ebp, 0xe3721f47
+    9: 139: 0x1462531d9: shrd ebp, edx, 0xb
+    9: 140: 0x1462531dd: xor ebp, edx
+    9: 141: 0x1462531df: rol edx, 7
+    9: 142: 0x1462531e2: adc ebp, edx
+    9: 143: 0x1462531e4: jnp 0x145baa41e
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0780s
+[*] Edges: 1
+(0x1462531ea) 
+
+   10: 144: 0x1462531ea: or r15d, r10d
+   10: 145: 0x1462531ed: pop rbp
+   10: 146: 0x1462531ee: mov rdx, qword ptr [rsp]
+   10: 147: 0x1462531f2: push rdi
+   10: 148: 0x1462531f3: push r11
+   10: 149: 0x1462531f5: lea rdi, qword ptr [rsp + 0x10]
+   10: 150: 0x1462531fa: mov di, word ptr [rdi + 2]
+   10: 151: 0x1462531fe: rcl r15d, 0x14
+   10: 152: 0x146253202: xor r11d, r11d
+   10: 153: 0x146253205: mov r11w, word ptr [rsp + 0x10]
+   10: 154: 0x14625320b: shl edi, 0x10
+   10: 155: 0x14625320e: sub r10d, r11d
+   10: 156: 0x146253211: pop r11
+   10: 157: 0x146253213: sub r10d, edi
+   10: 158: 0x146253216: pop rdi
+   10: 159: 0x146253217: add dword ptr [rsp], r15d
+   10: 160: 0x14625321b: add r10d, dword ptr [rsp]
+   10: 161: 0x14625321f: lea rsp, qword ptr [rsp + 8]
+   10: 162: 0x146253224: mov r10d, 0x7f41a3f4
+   10: 163: 0x14625322a: lea rsp, qword ptr [rsp - 8]
+   10: 164: 0x146253232: ror r10d, 7
+   10: 165: 0x146253236: mov dword ptr [rsp], 0xffffffff
+   10: 166: 0x14625323d: xor dword ptr [rsp], r10d
+   10: 167: 0x146253241: mov r10d, dword ptr [rsp]
+   10: 168: 0x146253245: lea rsp, qword ptr [rsp + 8]
+   10: 169: 0x14625324a: or r15d, r10d
+   10: 170: 0x14625324d: jae 0x14245b2c9
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0760s
+[*] Edges: 1
+(0x14245b2c9) 
+
+   11: 171: 0x14245b2c9: xor r15, r15
+   11: 172: 0x14245b2cc: xor r15, qword ptr [rsp]
+   11: 173: 0x14245b2d0: lea rsp, qword ptr [rsp + 8]
+   11: 174: 0x14245b2d5: xor r10, r10
+   11: 175: 0x14245b2d8: xor r10, qword ptr [rsp]
+   11: 176: 0x14245b2dc: mov qword ptr [rsp], rax
+   11: 177: 0x14245b2e0: lea rax, qword ptr [rip + 0x7e9e322]
+   11: 178: 0x14245b2e7: xchg qword ptr [rsp], rax
+   11: 179: 0x14245b2eb: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0640s
+[*] Edges: 1
+(0x14a2f9609) 
+
+   12: 180: 0x14a2f9609: push rcx
+   12: 181: 0x14a2f960a: push rbp
+   12: 182: 0x14a2f960b: mov rbp, qword ptr [rsp + 8]
+   12: 183: 0x14a2f9610: or qword ptr [rsp + 8], r14
+   12: 184: 0x14a2f9615: or rcx, r14
+   12: 185: 0x14a2f9618: xor rbp, r14
+   12: 186: 0x14a2f961b: sub qword ptr [rsp + 8], rbp
+   12: 187: 0x14a2f9620: and rax, r14
+   12: 188: 0x14a2f9623: pop rbp
+   12: 189: 0x14a2f9624: sub rcx, qword ptr [rsp]
+   12: 190: 0x14a2f9628: lea rsp, qword ptr [rsp + 8]
+   12: 191: 0x14a2f962d: add rax, rcx
+   12: 192: 0x14a2f9630: mov rcx, qword ptr [rsp]
+   12: 193: 0x14a2f9634: mov qword ptr [rsp], r8
+   12: 194: 0x14a2f9638: lea r8, qword ptr [rsp + 8]
+   12: 195: 0x14a2f963d: push r8
+   12: 196: 0x14a2f963f: add qword ptr [rsp], -0xb408803
+   12: 197: 0x14a2f9647: inc qword ptr [rsp]
+   12: 198: 0x14a2f964b: mov r8, qword ptr [rsp]
+   12: 199: 0x14a2f964f: mov qword ptr [rsp], rbx
+   12: 200: 0x14a2f9653: mov rbx, r8
+   12: 201: 0x14a2f9656: lea rbx, qword ptr [rbx - 0xe79e515]
+   12: 202: 0x14a2f965d: mov r14, qword ptr [rbx + 0x19ba6d17]
+   12: 203: 0x14a2f9664: pop rbx
+   12: 204: 0x14a2f9665: mov r8, qword ptr [rsp]
+   12: 205: 0x14a2f9669: mov qword ptr [rsp], r9
+   12: 206: 0x14a2f966d: mov r9, 0x1299379e
+   12: 207: 0x14a2f9674: lea r9, qword ptr [r9 - 0x48761bcb]
+   12: 208: 0x14a2f967b: push r12
+   12: 209: 0x14a2f967d: mov r12d, r9d
+   12: 210: 0x14a2f9680: mov r9d, 0x839e5489
+   12: 211: 0x14a2f9686: xor r12d, r9d
+   12: 212: 0x14a2f9689: sbb r9d, r12d
+   12: 213: 0x14a2f968c: push r9
+   12: 214: 0x14a2f968e: or r9d, r12d
+   12: 215: 0x14a2f9691: shl r9d, 1
+   12: 216: 0x14a2f9694: xor dword ptr [rsp], r12d
+   12: 217: 0x14a2f9698: sub r9d, dword ptr [rsp]
+   12: 218: 0x14a2f969c: lea rsp, qword ptr [rsp + 8]
+   12: 219: 0x14a2f96a1: shr r9d, 0x1e
+   12: 220: 0x14a2f96a5: jae 0x144f31bb3
+
+[*] Tried to recover Opaque Predicate/Edges in 0.1080s
+[*] Edges: 1
+(0x144f31bb3) 
+
+   13: 221: 0x144f31bb3: mov r12, qword ptr [rsp]
+   13: 222: 0x144f31bb7: push rsp
+   13: 223: 0x144f31bb8: add qword ptr [rsp], 7
+   13: 224: 0x144f31bbd: sub r9, r9
+   13: 225: 0x144f31bc0: inc qword ptr [rsp]
+   13: 226: 0x144f31bc4: mov rsp, qword ptr [rsp]
+   13: 227: 0x144f31bc8: xor r9, qword ptr [rsp]
+   13: 228: 0x144f31bcc: push r13
+   13: 229: 0x144f31bce: xchg qword ptr [rsp + 8], r13
+   13: 230: 0x144f31bd3: mov r13, rcx
+   13: 231: 0x144f31bd6: mov qword ptr [rsp + 8], r13
+   13: 232: 0x144f31bdb: lea rcx, qword ptr [rip + 0x1321687]
+   13: 233: 0x144f31be2: pop r13
+   13: 234: 0x144f31be4: xchg qword ptr [rsp], rcx
+   13: 235: 0x144f31be8: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 1
+(0x146253269) 
+
+   14: 236: 0x146253269: push rsp
+   14: 237: 0x14625326a: add qword ptr [rsp], 7
+   14: 238: 0x14625326f: xor qword ptr [rsp], 0xffffffffffffffff
+   14: 239: 0x146253274: neg qword ptr [rsp]
+   14: 240: 0x146253278: mov rsp, qword ptr [rsp]
+   14: 241: 0x14625327c: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0720s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 0
+
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 1.0600s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 9 Stack Slots found
+-5000  1 uses - Size: 4944 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -56  AlignedSize: 4944  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-56  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -56  AlignedEnd: -48  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-48  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-40  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-32  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-24  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-16  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-8  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 0.8270s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 0
+[!] Done!
+[*] Writing LLVM IR to lifted_146253057.ll ... Done!
+[*] Recovered Basic Blocks : 14
+[*] Recovered Opaque Predicates : 13
+
