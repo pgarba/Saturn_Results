@@ -22,7 +22,11 @@ int func(char chr , char ch1 , char ch2 ) {
     else
         garb--;
     
-    ch ^= 97;
+    if ((chr + ch2) ==  ((chr ^ ch2) + 2 * (chr & ch2))) { 
+    	ch ^= 97;
+    } else {
+    	ch ^= 23;
+    }
 
     return ( ch == 31) ;
 }

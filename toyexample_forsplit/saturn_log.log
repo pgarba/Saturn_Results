@@ -27,15 +27,15 @@
 [*] Running Souper Optimizer on optimized BB ...
 [*] Time taken to souper optimize the basic block: 0.0050s
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0760s
-[*] Edges: 2
-(0x14000104e) (0x140001034) 
-
-[*] Tried to recover Opaque Predicate/Edges in 0.0800s
-[*] Edges: 2
-(0x14000104e) (0x140001034) 
-
 [*] Tried to recover Opaque Predicate/Edges in 0.0790s
+[*] Edges: 2
+(0x14000104e) (0x140001034) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0810s
+[*] Edges: 2
+(0x14000104e) (0x140001034) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0680s
 [*] Edges: 2
 (0x14000104e) (0x140001034) 
 [!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
@@ -44,17 +44,17 @@
     2: 13: 0x140001053: cmp eax, 0x3c
     2: 14: 0x140001056: jle 0x14000106b
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0040s
-
-[*] Tried to recover Opaque Predicate/Edges in 0.0670s
-[*] Edges: 2
-(0x14000106b) (0x14000105c) 
+[*] Time taken to souper optimize the basic block: 0.0050s
 
 [*] Tried to recover Opaque Predicate/Edges in 0.0650s
 [*] Edges: 2
 (0x14000106b) (0x14000105c) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0640s
+[*] Tried to recover Opaque Predicate/Edges in 0.0630s
+[*] Edges: 2
+(0x14000106b) (0x14000105c) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0660s
 [*] Edges: 2
 (0x14000106b) (0x14000105c) 
 [!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
@@ -67,7 +67,7 @@
     3: 20: 0x140001045: mov dword ptr [rsp + 4], eax
     3: 21: 0x140001049: jmp 0x140001023
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0030s
+[*] Time taken to souper optimize the basic block: 0.0040s
 
     4: 22: 0x14000106b: mov al, byte ptr [rsp + 0xc]
     4: 23: 0x14000106f: add al, 0xff
@@ -76,17 +76,17 @@
     4: 26: 0x14000107a: cmp eax, 0x14
     4: 27: 0x14000107d: jle 0x140001092
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0030s
+[*] Time taken to souper optimize the basic block: 0.0040s
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0670s
+[*] Tried to recover Opaque Predicate/Edges in 0.0660s
 [*] Edges: 2
 (0x140001092) (0x140001083) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Tried to recover Opaque Predicate/Edges in 0.0660s
 [*] Edges: 2
 (0x140001092) (0x140001083) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0680s
+[*] Tried to recover Opaque Predicate/Edges in 0.0650s
 [*] Edges: 2
 (0x140001092) (0x140001083) 
 [!] We got 2 edges ... verify if this is ok! ( 3 - 0 )
@@ -103,57 +103,55 @@
     5: 32: 0x140001092: mov al, byte ptr [rsp + 0xc]
     5: 33: 0x140001096: add al, 0xff
     5: 34: 0x140001098: mov byte ptr [rsp + 0xc], al
-    5: 35: 0x14000109c: movsx eax, byte ptr [rsp + 0xb]
-    5: 36: 0x1400010a1: xor eax, 0x61
-    5: 37: 0x1400010a4: mov cl, al
-    5: 38: 0x1400010a6: mov byte ptr [rsp + 0xb], cl
-    5: 39: 0x1400010aa: movsx eax, byte ptr [rsp + 0xb]
-    5: 40: 0x1400010af: cmp eax, 0x1f
-    5: 41: 0x1400010b2: sete cl
-    5: 42: 0x1400010b5: and cl, 1
-    5: 43: 0x1400010b8: movzx eax, cl
-    5: 44: 0x1400010bb: add rsp, 0x10
-    5: 45: 0x1400010bf: ret 
+    5: 35: 0x14000109c: movsx eax, byte ptr [rsp + 0xd]
+    5: 36: 0x1400010a1: movsx ecx, byte ptr [rsp + 0xf]
+    5: 37: 0x1400010a6: add eax, ecx
+    5: 38: 0x1400010a8: movsx ecx, byte ptr [rsp + 0xd]
+    5: 39: 0x1400010ad: movsx edx, byte ptr [rsp + 0xf]
+    5: 40: 0x1400010b2: xor ecx, edx
+    5: 41: 0x1400010b4: movsx edx, byte ptr [rsp + 0xd]
+    5: 42: 0x1400010b9: movsx r8d, byte ptr [rsp + 0xf]
+    5: 43: 0x1400010bf: and edx, r8d
+    5: 44: 0x1400010c2: shl edx, 1
+    5: 45: 0x1400010c5: add ecx, edx
+    5: 46: 0x1400010c7: cmp eax, ecx
+    5: 47: 0x1400010c9: jne 0x1400010e2
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0030s
+[*] Time taken to souper optimize the basic block: 1.1980s
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0410s
-[*] Edges: 0
+[*] Tried to recover Opaque Predicate/Edges in 0.2800s
+[*] Edges: 1
+(0x1400010cf) 
 
-
-[*] Tried to recover Opaque Predicate/Edges in 0.0400s
-[*] Edges: 0
-
-
-    6: 46: 0x140001083: mov al, byte ptr [rsp + 0xc]
-    6: 47: 0x140001087: add al, 1
-    6: 48: 0x140001089: mov byte ptr [rsp + 0xc], al
-    6: 49: 0x14000108d: jmp 0x14000109c
+    6: 48: 0x140001083: mov al, byte ptr [rsp + 0xc]
+    6: 49: 0x140001087: add al, 1
+    6: 50: 0x140001089: mov byte ptr [rsp + 0xc], al
+    6: 51: 0x14000108d: jmp 0x14000109c
 [*] Running Souper Optimizer on optimized BB ...
 [*] Time taken to souper optimize the basic block: 0.0000s
 
 [!] Splitting the basic block 0x14000106b at 0x140001075
 
-    6: 50: 0x140001000: sub rsp, 0x10
-    6: 51: 0x140001004: mov byte ptr [rsp + 0xf], r8b
-    6: 52: 0x140001009: mov byte ptr [rsp + 0xe], dl
-    6: 53: 0x14000100d: mov byte ptr [rsp + 0xd], cl
-    6: 54: 0x140001011: mov byte ptr [rsp + 0xc], 0
-    6: 55: 0x140001016: mov byte ptr [rsp + 0xb], 0
-    6: 56: 0x14000101b: mov dword ptr [rsp + 4], 0
+    6: 52: 0x140001000: sub rsp, 0x10
+    6: 53: 0x140001004: mov byte ptr [rsp + 0xf], r8b
+    6: 54: 0x140001009: mov byte ptr [rsp + 0xe], dl
+    6: 55: 0x14000100d: mov byte ptr [rsp + 0xd], cl
+    6: 56: 0x140001011: mov byte ptr [rsp + 0xc], 0
+    6: 57: 0x140001016: mov byte ptr [rsp + 0xb], 0
+    6: 58: 0x14000101b: mov dword ptr [rsp + 4], 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+    7: 59: 0x140001023: mov eax, dword ptr [rsp + 4]
+    7: 60: 0x140001027: movsx ecx, byte ptr [rsp + 0xd]
+    7: 61: 0x14000102c: cmp eax, ecx
+    7: 62: 0x14000102e: jge 0x14000104e
 [*] Running Souper Optimizer on optimized BB ...
 [*] Time taken to souper optimize the basic block: 0.0020s
-
-    7: 57: 0x140001023: mov eax, dword ptr [rsp + 4]
-    7: 58: 0x140001027: movsx ecx, byte ptr [rsp + 0xd]
-    7: 59: 0x14000102c: cmp eax, ecx
-    7: 60: 0x14000102e: jge 0x14000104e
-[*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0010s
 [*] Predecessors: 2
 0x140001023: (0x140001000 =>  1 ) (0x140001034 =>  ? ) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0750s
+[*] Tried to recover Opaque Predicate/Edges in 0.0720s
 [*] Edges: 2
 (0x14000104e) (0x140001034) 
 [*] Opaquenes of 0x140001023 has changed to Non Opaque!
@@ -165,23 +163,31 @@
 [*] All edges are resolved nothing to do here!
 [!] We got 2 edges ... verify if this is ok! ( 4 - 0 )
 
+    8: 63: 0x1400010cf: movsx eax, byte ptr [rsp + 0xb]
+    8: 64: 0x1400010d4: xor eax, 0x61
+    8: 65: 0x1400010d7: mov cl, al
+    8: 66: 0x1400010d9: mov byte ptr [rsp + 0xb], cl
+    8: 67: 0x1400010dd: jmp 0x1400010f0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.4460s
+
 [!] Splitting the basic block 0x140001092 at 0x14000109c
 
-    7: 61: 0x14000106b: mov al, byte ptr [rsp + 0xc]
-    7: 62: 0x14000106f: add al, 0xff
-    7: 63: 0x140001071: mov byte ptr [rsp + 0xc], al
+    8: 68: 0x14000106b: mov al, byte ptr [rsp + 0xc]
+    8: 69: 0x14000106f: add al, 0xff
+    8: 70: 0x140001071: mov byte ptr [rsp + 0xc], al
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0030s
+[*] Time taken to souper optimize the basic block: 0.0010s
 
-    8: 64: 0x140001075: movsx eax, byte ptr [rsp + 0xf]
-    8: 65: 0x14000107a: cmp eax, 0x14
-    8: 66: 0x14000107d: jle 0x140001092
+    9: 71: 0x140001075: movsx eax, byte ptr [rsp + 0xf]
+    9: 72: 0x14000107a: cmp eax, 0x14
+    9: 73: 0x14000107d: jle 0x140001092
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0020s
+[*] Time taken to souper optimize the basic block: 0.0010s
 [*] Predecessors: 2
 0x140001075: (0x14000105c =>  ? ) (0x14000106b =>  1 ) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0660s
+[*] Tried to recover Opaque Predicate/Edges in 0.0610s
 [*] Edges: 2
 (0x140001092) (0x140001083) 
 [*] Opaquenes of 0x140001075 has changed to Non Opaque!
@@ -198,68 +204,84 @@
 
 [!] Loop detected to the beginning of basic block 0x140001034
 
-    9: 67: 0x140001092: mov al, byte ptr [rsp + 0xc]
-    9: 68: 0x140001096: add al, 0xff
-    9: 69: 0x140001098: mov byte ptr [rsp + 0xc], al
-    9: 70: 0x14000109c: movsx eax, byte ptr [rsp + 0xb]
-    9: 71: 0x1400010a1: xor eax, 0x61
-    9: 72: 0x1400010a4: mov cl, al
-    9: 73: 0x1400010a6: mov byte ptr [rsp + 0xb], cl
-    9: 74: 0x1400010aa: movsx eax, byte ptr [rsp + 0xb]
-    9: 75: 0x1400010af: cmp eax, 0x1f
-    9: 76: 0x1400010b2: sete cl
-    9: 77: 0x1400010b5: and cl, 1
-    9: 78: 0x1400010b8: movzx eax, cl
-    9: 79: 0x1400010bb: add rsp, 0x10
-    9: 80: 0x1400010bf: ret 
+   10: 74: 0x1400010f0: movsx eax, byte ptr [rsp + 0xb]
+   10: 75: 0x1400010f5: cmp eax, 0x1f
+   10: 76: 0x1400010f8: sete cl
+   10: 77: 0x1400010fb: and cl, 1
+   10: 78: 0x1400010fe: movzx eax, cl
+   10: 79: 0x140001101: add rsp, 0x10
+   10: 80: 0x140001105: ret 
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Time taken to souper optimize the basic block: 0.0030s
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0410s
+[*] Tried to recover Opaque Predicate/Edges in 0.0390s
 [*] Edges: 0
 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0400s
+[*] Tried to recover Opaque Predicate/Edges in 0.0380s
 [*] Edges: 0
 
+
+   11: 81: 0x140001092: mov al, byte ptr [rsp + 0xc]
+   11: 82: 0x140001096: add al, 0xff
+   11: 83: 0x140001098: mov byte ptr [rsp + 0xc], al
+   11: 84: 0x14000109c: movsx eax, byte ptr [rsp + 0xd]
+   11: 85: 0x1400010a1: movsx ecx, byte ptr [rsp + 0xf]
+   11: 86: 0x1400010a6: add eax, ecx
+   11: 87: 0x1400010a8: movsx ecx, byte ptr [rsp + 0xd]
+   11: 88: 0x1400010ad: movsx edx, byte ptr [rsp + 0xf]
+   11: 89: 0x1400010b2: xor ecx, edx
+   11: 90: 0x1400010b4: movsx edx, byte ptr [rsp + 0xd]
+   11: 91: 0x1400010b9: movsx r8d, byte ptr [rsp + 0xf]
+   11: 92: 0x1400010bf: and edx, r8d
+   11: 93: 0x1400010c2: shl edx, 1
+   11: 94: 0x1400010c5: add ecx, edx
+   11: 95: 0x1400010c7: cmp eax, ecx
+   11: 96: 0x1400010c9: jne 0x1400010e2
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0040s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0480s
+[*] Edges: 1
+(0x1400010cf) 
 
 [!] Splitting the basic block 0x140001092 at 0x14000109c
 
 [!] Loop detected to the beginning of basic block 0x140001083
 
-    9: 81: 0x140001092: mov al, byte ptr [rsp + 0xc]
-    9: 82: 0x140001096: add al, 0xff
-    9: 83: 0x140001098: mov byte ptr [rsp + 0xc], al
+[!] Loop detected to the beginning of basic block 0x1400010cf
+
+   11: 97: 0x140001092: mov al, byte ptr [rsp + 0xc]
+   11: 98: 0x140001096: add al, 0xff
+   11: 99: 0x140001098: mov byte ptr [rsp + 0xc], al
 [*] Running Souper Optimizer on optimized BB ...
 [*] Time taken to souper optimize the basic block: 0.0010s
 
-   10: 84: 0x14000109c: movsx eax, byte ptr [rsp + 0xb]
-   10: 85: 0x1400010a1: xor eax, 0x61
-   10: 86: 0x1400010a4: mov cl, al
-   10: 87: 0x1400010a6: mov byte ptr [rsp + 0xb], cl
-   10: 88: 0x1400010aa: movsx eax, byte ptr [rsp + 0xb]
-   10: 89: 0x1400010af: cmp eax, 0x1f
-   10: 90: 0x1400010b2: sete cl
-   10: 91: 0x1400010b5: and cl, 1
-   10: 92: 0x1400010b8: movzx eax, cl
-   10: 93: 0x1400010bb: add rsp, 0x10
-   10: 94: 0x1400010bf: ret 
+   12: 100: 0x14000109c: movsx eax, byte ptr [rsp + 0xd]
+   12: 101: 0x1400010a1: movsx ecx, byte ptr [rsp + 0xf]
+   12: 102: 0x1400010a6: add eax, ecx
+   12: 103: 0x1400010a8: movsx ecx, byte ptr [rsp + 0xd]
+   12: 104: 0x1400010ad: movsx edx, byte ptr [rsp + 0xf]
+   12: 105: 0x1400010b2: xor ecx, edx
+   12: 106: 0x1400010b4: movsx edx, byte ptr [rsp + 0xd]
+   12: 107: 0x1400010b9: movsx r8d, byte ptr [rsp + 0xf]
+   12: 108: 0x1400010bf: and edx, r8d
+   12: 109: 0x1400010c2: shl edx, 1
+   12: 110: 0x1400010c5: add ecx, edx
+   12: 111: 0x1400010c7: cmp eax, ecx
+   12: 112: 0x1400010c9: jne 0x1400010e2
 [*] Running Souper Optimizer on optimized BB ...
-[*] Time taken to souper optimize the basic block: 0.0010s
+[*] Time taken to souper optimize the basic block: 0.0030s
 [*] Predecessors: 2
 0x14000109c: (0x140001083 =>  ? ) (0x140001092 =>  1 ) 
 
-[*] Tried to recover Opaque Predicate/Edges in 0.0420s
-[*] Edges: 0
+[*] Tried to recover Opaque Predicate/Edges in 0.0470s
+[*] Edges: 1
+(0x1400010cf) 
 
-[*] Opaquenes of 0x14000109c has changed to Non Opaque!
-[*] Opaquenes of 0x14000109c has changed to Non Opaque!
-[*] Opaquenes of 0x14000109c has changed to Non Opaque!
-[*] Predecessors: 2
-0x14000109c: (0x140001083 =>  0 ) (0x140001092 =>  1 ) 
-[*] All edges are resolved nothing to do here!
+[!] Loop detected to the beginning of basic block 0x1400010cf
 [*] Building the control flow graph ...
-[*] Time taken to recover the function : 1.1030s
+[*] Time taken to recover the function : 3.0330s
 [*] Applying post translation optimization ...
 [*] Stack Size 5000
 [*] 8 Stack Slots found
@@ -271,15 +293,15 @@
 -2  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
 -1  1 uses - Size: 1 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
 0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
-[*] Time taken to optimize the function: 0.5100s
+[*] Time taken to optimize the function: 0.7380s
 [*] Applying custom post translation optimization ...
 [*] Running Souper Optimizer ...
-[*] Time taken to souper optimize the function: 0.0030s
+[*] Time taken to souper optimize the function: 0.3130s
 [*] Detected Argument Count: 3
 [!] Done!
 [*] Creating Gadgets ...
 [*] Writing patched binary to test_.exe
 [!] Done!
 [*] Writing LLVM IR to lifted.ll ... Done!
-[*] Recovered Basic Blocks : 10
-[*] Recovered Opaque Predicates : 0
+[*] Recovered Basic Blocks : 12
+[*] Recovered Opaque Predicates : 1

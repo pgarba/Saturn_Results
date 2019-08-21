@@ -22,6 +22,10 @@ Addr = "0x140001000"
 # lift test function
 #print "..\\..\\build\\Release\\saturn -i test.exe -f " + Addr + " -o lifted.ll -runtime=../../build/saturn_helpers.bc -gadgetMode -printdebug -setConcreteFunctionVA -applysouper -stp-path=c:\\saturntests\\stp.exe -souper-external-cache=false -memdep-block-scan-limit=100000 -recoverarguments -useMSx64Abi"
 l = run_command("..\\..\\build\\Release\\saturn -i test.exe -f " + Addr + " -o lifted.ll -runtime=../../build/saturn_helpers.bc -gadgetMode -printdebug -setConcreteFunctionVA -applysouper -stp-path=c:\\saturntests\\stp.exe -souper-external-cache=true -memdep-block-scan-limit=100000 -recoverarguments -useMSx64Abi -createStackSlots")[0]
+file = open("saturn_log.log","w")  
+file.write(l) 
+file.close() 
+
 
 # assemble lifted.ll
 l = run_command('..\\..\\build\\SATURN-clang-8.0 lifted.ll -O3 -S -mllvm --x86-asm-syntax=intel')[1]
@@ -52,6 +56,7 @@ os.remove("saturn.lib")
 os.remove("GenRemillConstants32.exe")
 os.remove("HelperAsm.obj")
 os.remove("lifted.ll")
+os.remove("lifted.s")
 os.remove("test.exe")
 os.remove("test_.exe")
 os.remove("remill.asm")

@@ -184,16 +184,48 @@ if.else12:                                        ; preds = %if.end
   br label %if.end14
 
 if.end14:                                         ; preds = %if.else12, %if.then10
-  %10 = load i8, i8* %ch, align 1
+  %10 = load i8, i8* %chr.addr, align 1
   %conv15 = sext i8 %10 to i32
-  %xor = xor i32 %conv15, 97
-  %conv16 = trunc i32 %xor to i8
-  store i8 %conv16, i8* %ch, align 1
-  %11 = load i8, i8* %ch, align 1
-  %conv17 = sext i8 %11 to i32
-  %cmp18 = icmp eq i32 %conv17, 31
-  %conv19 = zext i1 %cmp18 to i32
-  ret i32 %conv19
+  %11 = load i8, i8* %ch2.addr, align 1
+  %conv16 = sext i8 %11 to i32
+  %add = add nsw i32 %conv15, %conv16
+  %12 = load i8, i8* %chr.addr, align 1
+  %conv17 = sext i8 %12 to i32
+  %13 = load i8, i8* %ch2.addr, align 1
+  %conv18 = sext i8 %13 to i32
+  %xor = xor i32 %conv17, %conv18
+  %14 = load i8, i8* %chr.addr, align 1
+  %conv19 = sext i8 %14 to i32
+  %15 = load i8, i8* %ch2.addr, align 1
+  %conv20 = sext i8 %15 to i32
+  %and = and i32 %conv19, %conv20
+  %mul = mul nsw i32 2, %and
+  %add21 = add nsw i32 %xor, %mul
+  %cmp22 = icmp eq i32 %add, %add21
+  br i1 %cmp22, label %if.then24, label %if.else28
+
+if.then24:                                        ; preds = %if.end14
+  %16 = load i8, i8* %ch, align 1
+  %conv25 = sext i8 %16 to i32
+  %xor26 = xor i32 %conv25, 97
+  %conv27 = trunc i32 %xor26 to i8
+  store i8 %conv27, i8* %ch, align 1
+  br label %if.end32
+
+if.else28:                                        ; preds = %if.end14
+  %17 = load i8, i8* %ch, align 1
+  %conv29 = sext i8 %17 to i32
+  %xor30 = xor i32 %conv29, 23
+  %conv31 = trunc i32 %xor30 to i8
+  store i8 %conv31, i8* %ch, align 1
+  br label %if.end32
+
+if.end32:                                         ; preds = %if.else28, %if.then24
+  %18 = load i8, i8* %ch, align 1
+  %conv33 = sext i8 %18 to i32
+  %cmp34 = icmp eq i32 %conv33, 31
+  %conv35 = zext i1 %cmp34 to i32
+  ret i32 %conv35
 }
 
 ; Function Attrs: noinline nounwind optnone uwtable
