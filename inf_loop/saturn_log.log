@@ -1,0 +1,70 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: push rax
+    1: 2: 0x140001001: mov dword ptr [rsp], ecx
+    1: 3: 0x140001004: mov rax, qword ptr [rsp]
+    1: 4: 0x140001008: mov rcx, 0
+    1: 5: 0x14000100f: mov rdx, 0
+    1: 6: 0x140001016: inc rax
+    1: 7: 0x140001019: inc rcx
+    1: 8: 0x14000101c: cmp rcx, 0xa
+    1: 9: 0x140001020: jl 0x140001016
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0010s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0340s
+[*] Edges: 1
+(0x140001016) 
+
+[!] Splitting the basic block 0x140001000 at 0x140001016
+
+    1: 10: 0x140001000: push rax
+    1: 11: 0x140001001: mov dword ptr [rsp], ecx
+    1: 12: 0x140001004: mov rax, qword ptr [rsp]
+    1: 13: 0x140001008: mov rcx, 0
+    1: 14: 0x14000100f: mov rdx, 0
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.0000s
+
+    2: 15: 0x140001016: inc rax
+    2: 16: 0x140001019: inc rcx
+    2: 17: 0x14000101c: cmp rcx, 0xa
+    2: 18: 0x140001020: jl 0x140001016
+[*] Running Souper Optimizer on optimized BB ...
+[*] Time taken to souper optimize the basic block: 0.1190s
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0330s
+[*] Edges: 1
+(0x140001016) 
+
+[!] Loop detected to the beginning of basic block 0x140001016
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 0.2150s
+[*] Applying post translation optimization ...
+[!] Could not find SymbolicState!
+[!] No stack slots found!
+[*] Time taken to optimize the function: 0.2850s
+[*] Applying custom post translation optimization ...
+[*] Running Souper Optimizer ...
+[*] Time taken to souper optimize the function: 0.0010s
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 2
+[*] Recovered Opaque Predicates : 1
