@@ -1,0 +1,12 @@
+Original code:
+.text:0000000140649077 48 8B 05 AA 77 71+                mov     rax, cs:off_141D60828 ; "Assert"
+.text:000000014064907E C3                                retn
+
+
+Recovered code:
+5401364440 = 0x141F247D8
+0000000141F247D8                 dq offset aAssert_0
+.data1:000000014189FEF0 aAssert_0       db 'Assert',0
+	movabs	rax, 5401364440
+	mov	rax, qword ptr [rax]
+	ret

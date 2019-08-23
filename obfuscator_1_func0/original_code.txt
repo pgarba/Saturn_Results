@@ -1,0 +1,9 @@
+Original Code:
+.text:000000014064907F 48 8B 05 9A 77 71+                mov     rax, cs:off_141D60820 ; "Exception"
+.text:0000000140649086 C3                                retn
+
+
+Recovered Code:
+5401364432 = 0x141F247D0
+0000000141F247D0                 dq offset aException
+.data1:000000014151B6C8 aException      db 'Exception',0
