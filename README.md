@@ -1,5 +1,5 @@
 # Saturn - Software Deobfusaction Framework Based on LLVM
-![alt text](Saturn.png?raw=true "")
+![alt text](https://github.com/pgarba/Saturn_Results/blob/master/SATURN.png)
 
 
 # Saturn_Results
