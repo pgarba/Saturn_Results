@@ -1,0 +1,5 @@
+void __noreturn F_140001000_args()
+{
+  while ( 1 )
+    ;
+}

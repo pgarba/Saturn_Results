@@ -1,0 +1,4 @@
+_BOOL8 __fastcall F_140001000_args(char a1)
+{
+  return a1 == 126;
+}

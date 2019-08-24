@@ -1,0 +1,9 @@
+__int64 __fastcall F_140001000_args(__int64 a1, int a2, int a3)
+{
+  if ( !a3 )
+  {
+    while ( 1 )
+      ;
+  }
+  return (777 * a2 + 950691098);
+}

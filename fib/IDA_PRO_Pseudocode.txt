@@ -1,0 +1,59 @@
+__int64 __fastcall F_140001000_args(int a1)
+{
+  int v1; // er8
+  int v2; // ecx
+  int v3; // edx
+  __int64 result; // rax
+  int v5; // eax
+  int v6; // ecx
+  int v7; // edx
+  int v8; // ecx
+  int v9; // edx
+  int v10; // ecx
+  int v11; // edx
+  int v12; // er8
+
+  if ( !a1 )
+    return 0i64;
+  v1 = a1 & 7;
+  if ( (a1 - 1) >= 7 )
+  {
+    v5 = v1 - a1;
+    v2 = 1;
+    v3 = 1;
+    do
+    {
+      v6 = v3 + v2;
+      v7 = v6 + v3;
+      v8 = v7 + v6;
+      v9 = v8 + v7;
+      v10 = v9 + v8;
+      v11 = v10 + v9;
+      v2 = v11 + v10;
+      v3 = v2 + v11;
+      v5 += 8;
+    }
+    while ( v5 );
+    LODWORD(result) = v3;
+    if ( !v1 )
+      return result;
+    goto LABEL_9;
+  }
+  v2 = 1;
+  v3 = 1;
+  LODWORD(result) = 1;
+  if ( v1 )
+  {
+LABEL_9:
+    v12 = -v1;
+    do
+    {
+      LODWORD(result) = v3 + v2;
+      v2 = v3;
+      v3 = result;
+      ++v12;
+    }
+    while ( v12 );
+  }
+  return result;
+}

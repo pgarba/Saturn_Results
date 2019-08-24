@@ -1,0 +1,4 @@
+__int64 F_14625327e_args()
+{
+  return MEMORY[0x141F247D0];
+}

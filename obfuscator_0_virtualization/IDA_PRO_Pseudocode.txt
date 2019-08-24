@@ -1,0 +1,31 @@
+__int64 F_7b7ff8_args()
+{
+  __int64 v0; // rax
+  __int64 v1; // rax
+  int v2; // ecx
+  int v4; // [rsp+Ch] [rbp-Ch]
+
+  v0 = 0LL;
+  do
+  {
+    v4 = 0;
+    v0 = _remill_compare_exchange_memory_32(v0, 4241214LL, &v4, 1LL);
+  }
+  while ( v4 );
+  MEMORY[0x40B6E5] = 0x400000LL;
+  MEMORY[0x40B75B] = 8092648LL;
+  if ( MEMORY[0x40B62C] != 8006951LL )
+  {
+    v1 = 8006951LL;
+    v2 = 2008;
+    do
+    {
+      *v1 += 0x400000LL;
+      v1 += 8LL;
+      --v2;
+    }
+    while ( v2 );
+    MEMORY[0x40B62C] = 8006951LL;
+  }
+  return 8022175LL;
+}

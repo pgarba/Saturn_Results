@@ -1,0 +1,41 @@
+__int64 __fastcall F_140001000_args(char *a1)
+{
+  char v1; // r9
+  __int64 result; // rax
+  __int128 *v3; // rcx
+  __int64 v4; // [rsp+0h] [rbp-2718h]
+  __int128 *v5; // [rsp+1350h] [rbp-13C8h]
+  __int128 v6; // [rsp+1360h] [rbp-13B8h]
+
+  v6 = 0i64;
+  v1 = *a1;
+  if ( *a1 )
+    LOBYTE(v6) = *a1;
+  if ( a1[1] )
+    BYTE1(v6) = a1[1];
+  if ( a1[2] )
+    BYTE2(v6) = a1[2];
+  if ( a1[3] )
+    BYTE3(v6) = a1[3];
+  if ( a1[4] )
+    BYTE4(v6) = a1[4];
+  result = 0i64;
+  *(&v6 + 5) = *(a1 + 5);
+  BYTE13(v6) = a1[13];
+  HIWORD(v6) = *(a1 + 7);
+  v5 = &v6;
+  if ( v1 )
+  {
+    v3 = (&v4 + 4961);
+    do
+    {
+      LODWORD(result) = v1 + result;
+      v5 = v3;
+      v1 = *v3;
+      v3 = (v3 + 1);
+    }
+    while ( v1 );
+    result = result;
+  }
+  return result;
+}

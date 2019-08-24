@@ -1,0 +1,9 @@
+__int64 __fastcall F_140001000_args(unsigned int a1, int a2)
+{
+  __int64 result; // rax
+
+  result = 1i64;
+  if ( a1 >= 3 )
+    result = ((10 * a1 * a2) | 1) + (10 * a1 * a2 + 230) * (a1 - 3) + 230;
+  return result;
+}
