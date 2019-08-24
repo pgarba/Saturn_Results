@@ -2,7 +2,7 @@
 ![alt text](https://github.com/pgarba/Saturn_Results/blob/master/SATURN.png)
 
 
-# Saturn_Results
+# Saturn Results
 This repo contains the tests and results that were done during the research of SATURN
 
 # Saturn Test Run
