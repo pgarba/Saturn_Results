@@ -1,0 +1,14 @@
+KLEE: output directory is "/mnt/c/Users/gratiz/Desktop/saturn_results/toyexample_forsplit/klee/./klee_out"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: puts
+KLEE: ERROR: (location information missing) invalid klee_assume call (provably false)
+KLEE: NOTE: now ignoring this error at this location
+KLEE: WARNING ONCE: calling external: puts(140736899327072) at [no debug info]
+
+KLEE: done: total instructions = 24734
+KLEE: done: completed paths = 512
+KLEE: done: generated tests = 5
+
+real	0m16.132s
+user	0m6.625s
+sys	0m8.922s

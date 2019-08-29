@@ -1,0 +1,22 @@
+/home/gratiz/klee/out/bin/klee -solver-backend=stp -optimize=false -output-dir=./klee_out file_0.bc -libc=klee -readable-posix-inputs
+PID: 21305
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2019-08-29 18:38:03
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2019-08-29 18:38:19
+Elapsed: 00:00:16
+KLEE: done: explored paths = 512
+KLEE: done: avg. constructs per query = 333
+KLEE: done: total queries = 514
+KLEE: done: valid queries = 257
+KLEE: done: invalid queries = 257
+KLEE: done: query cex = 514
+
+KLEE: done: total instructions = 24734
+KLEE: done: completed paths = 512
+KLEE: done: generated tests = 5

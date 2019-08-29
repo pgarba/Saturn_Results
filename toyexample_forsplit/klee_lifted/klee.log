@@ -1,0 +1,24 @@
+file_0.c:22:32: warning: cast to 'uint64_t *' (aka 'unsigned long *') from smaller integer type 'char' [-Wint-to-pointer-cast]
+    int sum = F_140001000_args((uint64_t *)a, (uint64_t *) b, (uint64_t *)c);
+                               ^
+file_0.c:22:47: warning: cast to 'uint64_t *' (aka 'unsigned long *') from smaller integer type 'char' [-Wint-to-pointer-cast]
+    int sum = F_140001000_args((uint64_t *)a, (uint64_t *) b, (uint64_t *)c);
+                                              ^
+file_0.c:22:63: warning: cast to 'uint64_t *' (aka 'unsigned long *') from smaller integer type 'char' [-Wint-to-pointer-cast]
+    int sum = F_140001000_args((uint64_t *)a, (uint64_t *) b, (uint64_t *)c);
+                                                              ^
+3 warnings generated.
+warning: overriding the module target triple with x86_64-pc-linux-gnu [-Woverride-module]
+1 warning generated.
+KLEE: output directory is "/mnt/c/Users/gratiz/Desktop/saturn_results/toyexample_forsplit/klee_lifted/./klee_out"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING ONCE: calling external: puts(140737129833000) at [no debug info]
+
+KLEE: done: total instructions = 36
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
+
+real	0m0.075s
+user	0m0.016s
+sys	0m0.063s

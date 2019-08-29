@@ -1,0 +1,12 @@
+array a[1] : w32 -> w8 = symbolic
+array b[1] : w32 -> w8 = symbolic
+array c[1] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Slt 0
+                  (SExt w32 (Read w8 0 a))))
+         (Slt 60
+              (SExt w32 (Read w8 0 b)))
+         (Eq false
+             (Slt 20
+                  (SExt w32 (Read w8 0 c))))]
+        false)

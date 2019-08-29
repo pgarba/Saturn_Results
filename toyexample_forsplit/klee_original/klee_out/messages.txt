@@ -1,0 +1,3 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: (location information missing) invalid klee_assume call (provably false)
+KLEE: NOTE: now ignoring this error at this location
