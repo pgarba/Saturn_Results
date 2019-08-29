@@ -1,0 +1,19 @@
+KLEE: output directory is "/mnt/c/Saturn_Results/binsec0/klee_original/./klee_out"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: puts
+KLEE: ERROR: (location information missing) invalid klee_assume call (provably false)
+KLEE: NOTE: now ignoring this error at this location
+KLEE: WARNING ONCE: calling external: puts(140736455502272) at [no debug info]
+KLEE: ERROR: (location information missing) Valid input found!
+KLEE: NOTE: now ignoring this error at this location
+KLEE: halting execution, dumping remaining states
+
+KLEE: done: total instructions = 23791228
+KLEE: done: completed paths = 60158
+KLEE: done: generated tests = 0
+
+success!
+
+real	2m6.305s
+user	1m53.156s
+sys	0m12.031s

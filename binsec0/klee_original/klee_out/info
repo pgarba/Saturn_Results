@@ -1,0 +1,22 @@
+/mnt/e/klee2/out/bin/klee -solver-backend=stp -optimize=false -output-dir=./klee_out -libc=klee -readable-posix-inputs -exit-on-error-type=ReportError -write-no-tests=true file_0.bc
+PID: 19861
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2019-08-29 21:45:07
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2019-08-29 21:47:14
+Elapsed: 00:02:07
+KLEE: done: explored paths = 60158
+KLEE: done: avg. constructs per query = 160
+KLEE: done: total queries = 782
+KLEE: done: valid queries = 460
+KLEE: done: invalid queries = 322
+KLEE: done: query cex = 782
+
+KLEE: done: total instructions = 23791228
+KLEE: done: completed paths = 60158
+KLEE: done: generated tests = 0

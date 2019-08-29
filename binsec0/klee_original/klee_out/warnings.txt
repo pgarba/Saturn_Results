@@ -1,0 +1,2 @@
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING ONCE: calling external: puts(140736455502272) at [no debug info]

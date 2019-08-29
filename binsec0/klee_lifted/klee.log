@@ -1,0 +1,19 @@
+warning: overriding the module target triple with x86_64-pc-linux-gnu [-Woverride-module]
+1 warning generated.
+KLEE: output directory is "/mnt/c/Saturn_Results/binsec0/klee_lifted/./klee_out"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING ONCE: calling external: puts(140736622570720) at [no debug info]
+
+success!
+
+KLEE: ERROR: (location information missing) Valid input found!
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 1375
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
+
+real	0m0.430s
+user	0m0.250s
+sys	0m0.156s
