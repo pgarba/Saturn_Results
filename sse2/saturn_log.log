@@ -1,0 +1,102 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: sub rsp, 0x38
+    1: 2: 0x140001004: mov dword ptr [rsp + 0x34], edx
+    1: 3: 0x140001008: mov dword ptr [rsp + 0x30], ecx
+    1: 4: 0x14000100c: movsxd rax, dword ptr [rsp + 0x30]
+    1: 5: 0x140001011: movsxd r8, dword ptr [rsp + 0x34]
+    1: 6: 0x140001016: movq xmm0, r8
+    1: 7: 0x14000101b: movq xmm1, rax
+    1: 8: 0x140001020: punpcklqdq xmm1, xmm0
+    1: 9: 0x140001024: movaps xmmword ptr [rsp + 0x20], xmm1
+    1: 10: 0x140001029: movsxd rax, dword ptr [rsp + 0x34]
+    1: 11: 0x14000102e: movsxd r8, dword ptr [rsp + 0x30]
+    1: 12: 0x140001033: movq xmm0, r8
+    1: 13: 0x140001038: movq xmm1, rax
+    1: 14: 0x14000103d: punpcklqdq xmm1, xmm0
+    1: 15: 0x140001041: movaps xmmword ptr [rsp + 0x10], xmm1
+    1: 16: 0x140001046: movaps xmm0, xmmword ptr [rsp + 0x20]
+    1: 17: 0x14000104b: movaps xmm1, xmmword ptr [rsp + 0x10]
+    1: 18: 0x140001050: movaps xmm2, xmm0
+    1: 19: 0x140001053: paddq xmm2, xmm1
+    1: 20: 0x140001057: movaps xmm3, xmm0
+    1: 21: 0x14000105a: psrlq xmm3, 0x20
+    1: 22: 0x14000105f: pmuludq xmm3, xmm1
+    1: 23: 0x140001063: movaps xmm4, xmm1
+    1: 24: 0x140001066: psrlq xmm4, 0x20
+    1: 25: 0x14000106b: movaps xmm5, xmm0
+    1: 26: 0x14000106e: pmuludq xmm5, xmm4
+    1: 27: 0x140001072: paddq xmm5, xmm3
+    1: 28: 0x140001076: psllq xmm5, 0x20
+    1: 29: 0x14000107b: pmuludq xmm0, xmm1
+    1: 30: 0x14000107f: paddq xmm0, xmm5
+    1: 31: 0x140001083: movaps xmm1, xmm2
+    1: 32: 0x140001086: psrlq xmm1, 0x20
+    1: 33: 0x14000108b: pmuludq xmm1, xmm0
+    1: 34: 0x14000108f: movaps xmm3, xmm0
+    1: 35: 0x140001092: psrlq xmm3, 0x20
+    1: 36: 0x140001097: movaps xmm4, xmm2
+    1: 37: 0x14000109a: pmuludq xmm4, xmm3
+    1: 38: 0x14000109e: paddq xmm4, xmm1
+    1: 39: 0x1400010a2: psllq xmm4, 0x20
+    1: 40: 0x1400010a7: pmuludq xmm2, xmm0
+    1: 41: 0x1400010ab: paddq xmm2, xmm4
+    1: 42: 0x1400010af: movaps xmmword ptr [rsp], xmm2
+    1: 43: 0x1400010b3: mov rax, qword ptr [rsp]
+    1: 44: 0x1400010b7: mov ecx, eax
+    1: 45: 0x1400010b9: mov eax, ecx
+    1: 46: 0x1400010bb: add rsp, 0x38
+    1: 47: 0x1400010bf: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0610s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0620s
+[*] Edges: 0
+
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 0.1470s
+[*] Applying post translation optimization ...
+[*] Stack Size 5000
+[*] 16 Stack Slots found
+-5000  1 uses - Size: 4944 Aligned: 1 Overlapping: 0  AlignedStart: -5000  AlignedEnd: -56  AlignedSize: 4944  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+-56  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -56  AlignedEnd: -48  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-52  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -56  AlignedEnd: -48  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-48  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-44  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -48  AlignedEnd: -40  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-40  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-36  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -40  AlignedEnd: -32  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-32  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-28  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -32  AlignedEnd: -24  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-24  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-20  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -24  AlignedEnd: -16  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-16  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-12  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -16  AlignedEnd: -8  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-8  1 uses - Size: 4 Aligned: 1 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+-4  1 uses - Size: 4 Aligned: 0 Overlapping: 0  AlignedStart: -8  AlignedEnd: 0  AlignedSize: 8  AlignedOverlapping: 1  AlignedOverlappingSize: 8 
+0  1 uses - Size: 8 Aligned: 1 Overlapping: 0  AlignedStart: 0  AlignedEnd: 8  AlignedSize: 8  AlignedOverlapping: 0  AlignedOverlappingSize: 0 
+[*] Time taken to optimize the function: 0.4290s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 2
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 1
+[*] Basic Blocks in optimized lifted Function : 1
+[*] Recovered Opaque Predicates : 0
