@@ -1,0 +1,1443 @@
+[+] Symbolizing: original.trace
+[+] 0x13F631000) sub rsp, 0x10
+[+] 0x13F631004) mov byte ptr [rsp + 0xf], r8b
+[+] Symbolized memory: { name = SymVar_22:8, access = [@0x19fc17]:8 bv[7..0], value = 0x0 }
+[+] 0x13F631009) mov byte ptr [rsp + 0xe], dl
+[+] Symbolized memory: { name = SymVar_23:8, access = [@0x19fc16]:8 bv[7..0], value = 0x0 }
+[+] 0x13F63100D) mov byte ptr [rsp + 0xd], cl
+[+] Symbolized memory: { name = SymVar_24:8, access = [@0x19fc15]:8 bv[7..0], value = 0x0 }
+[+] 0x13F631011) mov byte ptr [rsp + 0xc], 0
+[+] Symbolized memory: { name = SymVar_25:8, access = [@0x19fc14]:8 bv[7..0], value = 0x0 }
+[+] 0x13F631016) mov byte ptr [rsp + 0xb], 0
+[+] Symbolized memory: { name = SymVar_26:8, access = [@0x19fc13]:8 bv[7..0], value = 0x0 }
+[+] 0x13F63101B) mov dword ptr [rsp + 4], 0
+[+] Symbolized memory: { name = SymVar_27:32, access = [@0x19fc0c]:32 bv[31..0], value = 0x0 }
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F631034) mov al, byte ptr [rsp + 0xb]
+[+] 0x13F631038) add al, 1
+[+] 0x13F63103A) mov byte ptr [rsp + 0xb], al
+[+] 0x13F63103E) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631042) add eax, 1
+[+] 0x13F631045) mov dword ptr [rsp + 4], eax
+[+] 0x13F631049) jmp 0x13f631023
+[+] 0x13F631023) mov eax, dword ptr [rsp + 4]
+[+] 0x13F631027) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F63102C) cmp eax, ecx
+[+] 0x13F63102E) jge 0x13f63104e
+[+] 0x13F63104E) movsx eax, byte ptr [rsp + 0xe]
+[+] 0x13F631053) cmp eax, 0x3c
+[+] 0x13F631056) jle 0x13f63106b
+[+] 0x13F63106B) mov al, byte ptr [rsp + 0xc]
+[+] 0x13F63106F) add al, 0xff
+[+] 0x13F631071) mov byte ptr [rsp + 0xc], al
+[+] 0x13F631075) movsx eax, byte ptr [rsp + 0xf]
+[+] 0x13F63107A) cmp eax, 0x14
+[+] 0x13F63107D) jle 0x13f631092
+[+] 0x13F631083) mov al, byte ptr [rsp + 0xc]
+[+] 0x13F631087) add al, 1
+[+] 0x13F631089) mov byte ptr [rsp + 0xc], al
+[+] 0x13F63108D) jmp 0x13f63109c
+[+] 0x13F63109C) movsx eax, byte ptr [rsp + 0xd]
+[+] 0x13F6310A1) movsx ecx, byte ptr [rsp + 0xf]
+[+] 0x13F6310A6) add eax, ecx
+[+] 0x13F6310A8) movsx ecx, byte ptr [rsp + 0xd]
+[+] 0x13F6310AD) movsx edx, byte ptr [rsp + 0xf]
+[+] 0x13F6310B2) xor ecx, edx
+[+] 0x13F6310B4) movsx edx, byte ptr [rsp + 0xd]
+[+] 0x13F6310B9) movsx r8d, byte ptr [rsp + 0xf]
+[+] 0x13F6310BF) and edx, r8d
+[+] 0x13F6310C2) shl edx, 1
+[+] 0x13F6310C5) add ecx, edx
+[+] 0x13F6310C7) cmp eax, ecx
+[+] 0x13F6310C9) jne 0x13f6310e2
+[+] 0x13F6310CF) movsx eax, byte ptr [rsp + 0xb]
+[+] 0x13F6310D4) xor eax, 0x61
+[+] 0x13F6310D7) mov cl, al
+[+] 0x13F6310D9) mov byte ptr [rsp + 0xb], cl
+[+] 0x13F6310DD) jmp 0x13f6310f0
+[+] 0x13F6310F0) movsx eax, byte ptr [rsp + 0xb]
+[+] 0x13F6310F5) cmp eax, 0x1f
+
+./triton.sh: line 2:    51 Segmentation fault      (core dumped) python saturn.py original.trace 0x13F631000
+
+real    10m1.889s
+user    2m31.688s
+sys     7m30.172s

@@ -1,0 +1,13 @@
+[+] Symbolizing: lifted.trace
+[+] 0x7FEF8391000) xor eax, eax
+[+] 0x7FEF8391002) cmp cl, 0x7e
+[+] 0x7FEF8391005) sete al
+[+] 0x7FEF8391008) ret
+[+] Solving the crackme...
+zf: (ite (= ((_ extract 7 0) SymVar_2) (_ bv126 8)) (_ bv1 1) (_ bv0 1))
+{ Name = SymVar_2:64, Value = 126 }
+[+] Execution time: 0.0143759250641
+
+real    0m0.346s
+user    0m0.172s
+sys     0m0.172s
