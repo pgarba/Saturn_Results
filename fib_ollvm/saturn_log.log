@@ -1,0 +1,906 @@
+
+      /\
+     (  )
+     (  )
+     (  )
+    /|/\|\
+   /_||||_\ - SaturnV
+     /__\
+    (*#*)
+     (*#)
+      (#*)
+      (*)
+
+[*] Recovering the function ...
+
+    1: 1: 0x140001000: push r15
+    1: 2: 0x140001002: push r14
+    1: 3: 0x140001004: push r13
+    1: 4: 0x140001006: push r12
+    1: 5: 0x140001008: push rsi
+    1: 6: 0x140001009: push rdi
+    1: 7: 0x14000100a: push rbp
+    1: 8: 0x14000100b: push rbx
+    1: 9: 0x14000100c: mov eax, dword ptr [rip + 0x27c0a]
+    1: 10: 0x140001012: mov r8d, dword ptr [rip + 0x27bff]
+    1: 11: 0x140001019: mov edx, 0xba88e52e
+    1: 12: 0x14000101e: sub edx, eax
+    1: 13: 0x140001020: mov ebp, 0x88f04b99
+    1: 14: 0x140001025: sub ebp, edx
+    1: 15: 0x140001027: mov edx, 0xe8368ea4
+    1: 16: 0x14000102c: sub edx, ebp
+    1: 17: 0x14000102e: mov edi, 0x19cf2838
+    1: 18: 0x140001033: sub edi, edx
+    1: 19: 0x140001035: imul edi, eax
+    1: 20: 0x140001038: mov edx, edi
+    1: 21: 0x14000103a: not edx
+    1: 22: 0x14000103c: mov eax, edx
+    1: 23: 0x14000103e: and eax, 0xf0d6758d
+    1: 24: 0x140001043: mov ebp, edi
+    1: 25: 0x140001045: and ebp, 0xf298a72
+    1: 26: 0x14000104b: or ebp, eax
+    1: 27: 0x14000104d: xor ebp, 0xf298a72
+    1: 28: 0x140001053: mov eax, edx
+    1: 29: 0x140001055: and eax, edi
+    1: 30: 0x140001057: mov ebx, ebp
+    1: 31: 0x140001059: and ebx, eax
+    1: 32: 0x14000105b: xor eax, ebp
+    1: 33: 0x14000105d: or eax, ebx
+    1: 34: 0x14000105f: mov ebp, eax
+    1: 35: 0x140001061: not ebp
+    1: 36: 0x140001063: and ebp, 0x4a7f7b0d
+    1: 37: 0x140001069: and eax, 0xb58084f2
+    1: 38: 0x14000106e: or eax, ebp
+    1: 39: 0x140001070: mov ebx, eax
+    1: 40: 0x140001072: not ebx
+    1: 41: 0x140001074: or ebx, 0x4a7f7b0d
+    1: 42: 0x14000107a: and edx, 0xfa340a53
+    1: 43: 0x140001080: and edi, 0x5cbf5ac
+    1: 44: 0x140001086: or edi, edx
+    1: 45: 0x140001088: mov edx, edi
+    1: 46: 0x14000108a: xor edx, 0x5cbf5ac
+    1: 47: 0x140001090: xor edi, 0x80000a01
+    1: 48: 0x140001096: and edi, 0x85c0fa25
+    1: 49: 0x14000109c: mov ebp, edx
+    1: 50: 0x14000109e: and ebp, 0x7a3f05da
+    1: 51: 0x1400010a4: or ebp, edi
+    1: 52: 0x1400010a6: xor ebp, 0x30407ed7
+    1: 53: 0x1400010ac: and edx, 0xb58084f2
+    1: 54: 0x1400010b2: or edx, ebp
+    1: 55: 0x1400010b4: mov ebp, edx
+    1: 56: 0x1400010b6: not ebp
+    1: 57: 0x1400010b8: and ebp, 0x179ba8ee
+    1: 58: 0x1400010be: and edx, 0xe8645711
+    1: 59: 0x1400010c4: or edx, ebp
+    1: 60: 0x1400010c6: mov edi, edx
+    1: 61: 0x1400010c8: xor edi, 0x88205710
+    1: 62: 0x1400010ce: xor edx, 0x179ba8ee
+    1: 63: 0x1400010d4: mov ebp, ebx
+    1: 64: 0x1400010d6: or ebp, edx
+    1: 65: 0x1400010d8: mov esi, ebp
+    1: 66: 0x1400010da: not esi
+    1: 67: 0x1400010dc: and ebx, 0x61d6a869
+    1: 68: 0x1400010e2: and eax, 0x94000492
+    1: 69: 0x1400010e7: or eax, ebx
+    1: 70: 0x1400010e9: and edx, 0x61d6a869
+    1: 71: 0x1400010ef: and edi, 0x9e295796
+    1: 72: 0x1400010f5: or edi, edx
+    1: 73: 0x1400010f7: xor edi, eax
+    1: 74: 0x1400010f9: mov eax, edi
+    1: 75: 0x1400010fb: not eax
+    1: 76: 0x1400010fd: mov edx, ebp
+    1: 77: 0x1400010ff: and edx, 0x59eb798d
+    1: 78: 0x140001105: and esi, 0xa4008472
+    1: 79: 0x14000110b: or esi, edx
+    1: 80: 0x14000110d: or ebp, eax
+    1: 81: 0x14000110f: and eax, 0x59eb798d
+    1: 82: 0x140001114: and edi, 0xa6148672
+    1: 83: 0x14000111a: or edi, eax
+    1: 84: 0x14000111c: xor edi, esi
+    1: 85: 0x14000111e: not ebp
+    1: 86: 0x140001120: or ebp, edi
+    1: 87: 0x140001122: mov ebx, ebp
+    1: 88: 0x140001124: mov eax, ebp
+    1: 89: 0x140001126: xor eax, 0x4a7f7b0d
+    1: 90: 0x14000112b: and eax, ebp
+    1: 91: 0x14000112d: not ebp
+    1: 92: 0x14000112f: and ebp, 0x447f13c7
+    1: 93: 0x140001135: and ebx, 0xbb80ec38
+    1: 94: 0x14000113b: or ebx, ebp
+    1: 95: 0x14000113d: mov edx, ebx
+    1: 96: 0x14000113f: xor edx, 0x2808
+    1: 97: 0x140001145: xor ebx, 0x407f1305
+    1: 98: 0x14000114b: or ebx, 0xb58084f2
+    1: 99: 0x140001151: mov ebp, eax
+    1: 100: 0x140001153: not ebp
+    1: 101: 0x140001155: mov edi, ebx
+    1: 102: 0x140001157: and edi, 0xcfd3c4e7
+    1: 103: 0x14000115d: and edx, 0x2c3b08
+    1: 104: 0x140001163: or edx, edi
+    1: 105: 0x140001165: or ebx, ebp
+    1: 106: 0x140001167: and ebp, 0xcfd3c4e7
+    1: 107: 0x14000116d: and eax, 0x302c3b18
+    1: 108: 0x140001172: or eax, ebp
+    1: 109: 0x140001174: xor eax, edx
+    1: 110: 0x140001176: not ebx
+    1: 111: 0x140001178: or ebx, eax
+    1: 112: 0x14000117a: mov r11d, ebx
+    1: 113: 0x14000117d: not r11d
+    1: 114: 0x140001180: mov eax, r11d
+    1: 115: 0x140001183: and eax, 0x55cc412c
+    1: 116: 0x140001188: mov r13d, ebx
+    1: 117: 0x14000118b: and r13d, 0xaa33bed3
+    1: 118: 0x140001192: or r13d, eax
+    1: 119: 0x140001195: mov eax, r13d
+    1: 120: 0x140001198: xor eax, 0xa50
+    1: 121: 0x14000119d: xor r13d, 0x51cc0128
+    1: 122: 0x1400011a4: or r13d, 0x2e224487
+    1: 123: 0x1400011ab: mov edx, ebx
+    1: 124: 0x1400011ad: xor edx, 0xd1ddbb78
+    1: 125: 0x1400011b3: and edx, ebx
+    1: 126: 0x1400011b5: mov ebp, edx
+    1: 127: 0x1400011b7: not ebp
+    1: 128: 0x1400011b9: mov esi, r13d
+    1: 129: 0x1400011bc: and esi, 0xe97ff4af
+    1: 130: 0x1400011c2: and eax, 0x10800b50
+    1: 131: 0x1400011c7: or eax, esi
+    1: 132: 0x1400011c9: or r13d, ebp
+    1: 133: 0x1400011cc: and ebp, 0xe97ff4af
+    1: 134: 0x1400011d2: and edx, 0x16800b50
+    1: 135: 0x1400011d8: or edx, ebp
+    1: 136: 0x1400011da: xor edx, eax
+    1: 137: 0x1400011dc: not r13d
+    1: 138: 0x1400011df: or r13d, edx
+    1: 139: 0x1400011e2: mov eax, r13d
+    1: 140: 0x1400011e5: not eax
+    1: 141: 0x1400011e7: and eax, 0x9f037b35
+    1: 142: 0x1400011ec: and r13d, 0x60fc84ca
+    1: 143: 0x1400011f3: or r13d, eax
+    1: 144: 0x1400011f6: mov r9d, r13d
+    1: 145: 0x1400011f9: xor r9d, 0xb1213fb2
+    1: 146: 0x140001200: mov r10d, r13d
+    1: 147: 0x140001203: xor r10d, 0x4edec04d
+    1: 148: 0x14000120a: mov eax, r10d
+    1: 149: 0x14000120d: and eax, 0x14558de
+    1: 150: 0x140001212: mov edx, r9d
+    1: 151: 0x140001215: and edx, 0xfebaa721
+    1: 152: 0x14000121b: or edx, eax
+    1: 153: 0x14000121d: mov eax, edx
+    1: 154: 0x14000121f: xor eax, r10d
+    1: 155: 0x140001222: and eax, edx
+    1: 156: 0x140001224: mov edx, r11d
+    1: 157: 0x140001227: and edx, 0xd13723dc
+    1: 158: 0x14000122d: and ebx, 0x2ec8dc23
+    1: 159: 0x140001233: or ebx, edx
+    1: 160: 0x140001235: xor ebx, 0x2f8d84fd
+    1: 161: 0x14000123b: xor r11d, ebx
+    1: 162: 0x14000123e: and r11d, ebx
+    1: 163: 0x140001241: mov ebx, eax
+    1: 164: 0x140001243: mov ebp, eax
+    1: 165: 0x140001245: xor ebp, 0xd3cd3434
+    1: 166: 0x14000124b: and ebp, eax
+    1: 167: 0x14000124d: not eax
+    1: 168: 0x14000124f: and eax, 0xb9dd48aa
+    1: 169: 0x140001254: and ebx, 0x4622b755
+    1: 170: 0x14000125a: or ebx, eax
+    1: 171: 0x14000125c: mov r14d, ebx
+    1: 172: 0x14000125f: xor r14d, 0x4622b755
+    1: 173: 0x140001266: mov r15d, r11d
+    1: 174: 0x140001269: not r15d
+    1: 175: 0x14000126c: xor ebx, 0xb9dd48aa
+    1: 176: 0x140001272: mov esi, r14d
+    1: 177: 0x140001275: and esi, 0xd3cd3434
+    1: 178: 0x14000127b: mov eax, r11d
+    1: 179: 0x14000127e: xor eax, 0xd3cd3434
+    1: 180: 0x140001283: mov edx, eax
+    1: 181: 0x140001285: and edx, r15d
+    1: 182: 0x140001288: and eax, r11d
+    1: 183: 0x14000128b: mov r12d, esi
+    1: 184: 0x14000128e: and r12d, ebp
+    1: 185: 0x140001291: xor ebp, esi
+    1: 186: 0x140001293: or ebp, r12d
+    1: 187: 0x140001296: mov esi, edx
+    1: 188: 0x140001298: not esi
+    1: 189: 0x14000129a: mov edi, eax
+    1: 190: 0x14000129c: not edi
+    1: 191: 0x14000129e: mov r12d, esi
+    1: 192: 0x1400012a1: and r12d, 0xf694d070
+    1: 193: 0x1400012a8: and edx, 0x96b2f8f
+    1: 194: 0x1400012ae: or edx, r12d
+    1: 195: 0x1400012b1: or esi, edi
+    1: 196: 0x1400012b3: and edi, 0xf694d070
+    1: 197: 0x1400012b9: and eax, 0x96b2f8f
+    1: 198: 0x1400012be: or eax, edi
+    1: 199: 0x1400012c0: xor eax, edx
+    1: 200: 0x1400012c2: not esi
+    1: 201: 0x1400012c4: or esi, eax
+    1: 202: 0x1400012c6: mov eax, ebp
+    1: 203: 0x1400012c8: not eax
+    1: 204: 0x1400012ca: and eax, esi
+    1: 205: 0x1400012cc: not esi
+    1: 206: 0x1400012ce: and esi, ebp
+    1: 207: 0x1400012d0: or esi, eax
+    1: 208: 0x1400012d2: mov eax, ebx
+    1: 209: 0x1400012d4: and eax, 0x7cc6fec5
+    1: 210: 0x1400012d9: and r14d, 0x8339013a
+    1: 211: 0x1400012e0: or r14d, eax
+    1: 212: 0x1400012e3: or ebx, r11d
+    1: 213: 0x1400012e6: and r11d, 0x7cc6fec5
+    1: 214: 0x1400012ed: and r15d, 0x8339013a
+    1: 215: 0x1400012f4: or r15d, r11d
+    1: 216: 0x1400012f7: xor r15d, r14d
+    1: 217: 0x1400012fa: not ebx
+    1: 218: 0x1400012fc: or ebx, r15d
+    1: 219: 0x1400012ff: mov eax, ebx
+    1: 220: 0x140001301: not eax
+    1: 221: 0x140001303: and eax, 0xb1b54362
+    1: 222: 0x140001308: and ebx, 0x4e4abc9d
+    1: 223: 0x14000130e: or ebx, eax
+    1: 224: 0x140001310: mov eax, ebx
+    1: 225: 0x140001312: xor eax, 0x4a48008d
+    1: 226: 0x140001317: xor ebx, 0xb1b54362
+    1: 227: 0x14000131d: mov edx, esi
+    1: 228: 0x14000131f: not edx
+    1: 229: 0x140001321: mov ebp, edx
+    1: 230: 0x140001323: and ebp, 0x497fe52
+    1: 231: 0x140001329: and esi, 0xfb6801ad
+    1: 232: 0x14000132f: or esi, ebp
+    1: 233: 0x140001331: or edx, ebx
+    1: 234: 0x140001333: and ebx, 0x497fe52
+    1: 235: 0x140001339: and eax, 0xfb6801ad
+    1: 236: 0x14000133e: or eax, ebx
+    1: 237: 0x140001340: xor eax, esi
+    1: 238: 0x140001342: not edx
+    1: 239: 0x140001344: or edx, eax
+    1: 240: 0x140001346: mov r11d, edx
+    1: 241: 0x140001349: xor r11d, 0x14558df
+    1: 242: 0x140001350: and r11d, edx
+    1: 243: 0x140001353: not edx
+    1: 244: 0x140001355: and edx, 0x14558df
+    1: 245: 0x14000135b: mov eax, edx
+    1: 246: 0x14000135d: and eax, r11d
+    1: 247: 0x140001360: xor r11d, edx
+    1: 248: 0x140001363: or r11d, eax
+    1: 249: 0x140001366: mov eax, r10d
+    1: 250: 0x140001369: and eax, 0xc6d28585
+    1: 251: 0x14000136e: xor r13d, 0x77f3ba37
+    1: 252: 0x140001375: and r13d, r9d
+    1: 253: 0x140001378: mov edx, eax
+    1: 254: 0x14000137a: and edx, r13d
+    1: 255: 0x14000137d: xor r13d, eax
+    1: 256: 0x140001380: or r13d, edx
+    1: 257: 0x140001383: mov eax, r13d
+    1: 258: 0x140001386: not eax
+    1: 259: 0x140001388: and eax, 0xc6d28584
+    1: 260: 0x14000138d: and r13d, 0x392d7a7b
+    1: 261: 0x140001394: or r13d, eax
+    1: 262: 0x140001397: and r9d, 0x7be57a1b
+    1: 263: 0x14000139e: mov eax, r10d
+    1: 264: 0x1400013a1: and eax, 0x841a85e4
+    1: 265: 0x1400013a6: or eax, r9d
+    1: 266: 0x1400013a9: xor eax, 0x841a85e5
+    1: 267: 0x1400013ae: and r10d, 0xfffffffe
+    1: 268: 0x1400013b2: or r10d, eax
+    1: 269: 0x1400013b5: mov eax, r10d
+    1: 270: 0x1400013b8: not eax
+    1: 271: 0x1400013ba: mov esi, r13d
+    1: 272: 0x1400013bd: not esi
+    1: 273: 0x1400013bf: mov ebp, esi
+    1: 274: 0x1400013c1: and ebp, 0x4cd9b3fd
+    1: 275: 0x1400013c7: and r13d, 0xb3264c02
+    1: 276: 0x1400013ce: or r13d, ebp
+    1: 277: 0x1400013d1: or esi, r10d
+    1: 278: 0x1400013d4: and r10d, 0x4cd9b3fd
+    1: 279: 0x1400013db: and eax, 0xb3264c02
+    1: 280: 0x1400013e0: or eax, r10d
+    1: 281: 0x1400013e3: xor eax, r13d
+    1: 282: 0x1400013e6: not esi
+    1: 283: 0x1400013e8: or esi, eax
+    1: 284: 0x1400013ea: mov eax, esi
+    1: 285: 0x1400013ec: not eax
+    1: 286: 0x1400013ee: mov ebp, esi
+    1: 287: 0x1400013f0: xor ebp, 0xa252c075
+    1: 288: 0x1400013f6: and ebp, esi
+    1: 289: 0x1400013f8: or esi, 0x5dad3f8a
+    1: 290: 0x1400013fe: mov ebx, ebp
+    1: 291: 0x140001400: not ebx
+    1: 292: 0x140001402: mov edi, esi
+    1: 293: 0x140001404: and edi, 0x8d19141c
+    1: 294: 0x14000140a: and eax, 0x2242c061
+    1: 295: 0x14000140f: or eax, edi
+    1: 296: 0x140001411: or esi, ebx
+    1: 297: 0x140001413: and ebx, 0x8d19141c
+    1: 298: 0x140001419: and ebp, 0x72e6ebe3
+    1: 299: 0x14000141f: or ebp, ebx
+    1: 300: 0x140001421: xor ebp, eax
+    1: 301: 0x140001423: not esi
+    1: 302: 0x140001425: or esi, ebp
+    1: 303: 0x140001427: mov eax, esi
+    1: 304: 0x140001429: not eax
+    1: 305: 0x14000142b: and eax, 0x5dad3f8a
+    1: 306: 0x140001430: and esi, 0xa252c075
+    1: 307: 0x140001436: or esi, eax
+    1: 308: 0x140001438: mov eax, esi
+    1: 309: 0x14000143a: not eax
+    1: 310: 0x14000143c: mov ebp, r11d
+    1: 311: 0x14000143f: xor ebp, eax
+    1: 312: 0x140001441: and ebp, r11d
+    1: 313: 0x140001444: mov ebx, r11d
+    1: 314: 0x140001447: not ebx
+    1: 315: 0x140001449: and ebx, 0xd93b4b9b
+    1: 316: 0x14000144f: and r11d, 0x26c4b464
+    1: 317: 0x140001456: or r11d, ebx
+    1: 318: 0x140001459: and eax, 0xd93b4b9b
+    1: 319: 0x14000145e: and esi, 0x26c4b464
+    1: 320: 0x140001464: or esi, eax
+    1: 321: 0x140001466: xor esi, r11d
+    1: 322: 0x140001469: mov eax, ebp
+    1: 323: 0x14000146b: and eax, esi
+    1: 324: 0x14000146d: xor esi, ebp
+    1: 325: 0x14000146f: or esi, eax
+    1: 326: 0x140001471: mov ebp, esi
+    1: 327: 0x140001473: not ebp
+    1: 328: 0x140001475: mov eax, esi
+    1: 329: 0x140001477: mov ebx, ebp
+    1: 330: 0x140001479: and ebx, 0x2de3405
+    1: 331: 0x14000147f: and esi, 0xfd21cbfa
+    1: 332: 0x140001485: or esi, ebx
+    1: 333: 0x140001487: not esi
+    1: 334: 0x140001489: or esi, ebp
+    1: 335: 0x14000148b: and ebp, 0xfabae400
+    1: 336: 0x140001491: and eax, 0x5451bff
+    1: 337: 0x140001496: or eax, ebp
+    1: 338: 0x140001498: mov ebp, eax
+    1: 339: 0x14000149a: not ebp
+    1: 340: 0x14000149c: and ebp, 0x30698274
+    1: 341: 0x1400014a2: and eax, 0xcf967d8b
+    1: 342: 0x1400014a7: or eax, ebp
+    1: 343: 0x1400014a9: mov ebp, eax
+    1: 344: 0x1400014ab: xor ebp, 0x12c8001
+    1: 345: 0x1400014b1: xor eax, 0xcad36674
+    1: 346: 0x1400014b6: and ebp, 0xcb7ce261
+    1: 347: 0x1400014bc: mov ebx, eax
+    1: 348: 0x1400014be: and ebx, 0x34831d9e
+    1: 349: 0x1400014c4: or ebx, ebp
+    1: 350: 0x1400014c6: xor ebx, 0x365d299b
+    1: 351: 0x1400014cc: and eax, 0xfd21cbfa
+    1: 352: 0x1400014d1: or eax, ebx
+    1: 353: 0x1400014d3: mov ebp, eax
+    1: 354: 0x1400014d5: not ebp
+    1: 355: 0x1400014d7: and ebp, 0x4ca3ea87
+    1: 356: 0x1400014dd: and eax, 0xb35c1578
+    1: 357: 0x1400014e2: or eax, ebp
+    1: 358: 0x1400014e4: mov ebp, eax
+    1: 359: 0x1400014e6: xor ebp, 0x11581440
+    1: 360: 0x1400014ec: mov edx, esi
+    1: 361: 0x1400014ee: not edx
+    1: 362: 0x1400014f0: xor eax, 0x4ca3ea87
+    1: 363: 0x1400014f5: mov r9d, eax
+    1: 364: 0x1400014f8: or r9d, esi
+    1: 365: 0x1400014fb: mov ebx, r9d
+    1: 366: 0x1400014fe: not ebx
+    1: 367: 0x140001500: and eax, 0xae84abb8
+    1: 368: 0x140001505: and ebp, 0x517b5447
+    1: 369: 0x14000150b: or ebp, eax
+    1: 370: 0x14000150d: and esi, 0xae84abb8
+    1: 371: 0x140001513: and edx, 0x517b5447
+    1: 372: 0x140001519: or edx, esi
+    1: 373: 0x14000151b: xor edx, ebp
+    1: 374: 0x14000151d: mov eax, edx
+    1: 375: 0x14000151f: not eax
+    1: 376: 0x140001521: mov ebp, r9d
+    1: 377: 0x140001524: and ebp, 0x39e7878
+    1: 378: 0x14000152a: and ebx, 0xfc618787
+    1: 379: 0x140001530: or ebx, ebp
+    1: 380: 0x140001532: or r9d, eax
+    1: 381: 0x140001535: and eax, 0x39e7878
+    1: 382: 0x14000153a: and edx, 0xfc618787
+    1: 383: 0x140001540: or edx, eax
+    1: 384: 0x140001542: xor edx, ebx
+    1: 385: 0x140001544: not r9d
+    1: 386: 0x140001547: or r9d, edx
+    1: 387: 0x14000154a: mov eax, r9d
+    1: 388: 0x14000154d: not eax
+    1: 389: 0x14000154f: mov edx, eax
+    1: 390: 0x140001551: and edx, 0x477eff8d
+    1: 391: 0x140001557: mov ebx, r9d
+    1: 392: 0x14000155a: and ebx, 0xb8810072
+    1: 393: 0x140001560: or ebx, edx
+    1: 394: 0x140001562: mov edx, ebx
+    1: 395: 0x140001564: xor edx, 0x98010050
+    1: 396: 0x14000156a: xor ebx, 0x1008988
+    1: 397: 0x140001570: or eax, 0x210089aa
+    1: 398: 0x140001575: or ebx, 0x462401
+    1: 399: 0x14000157b: and ebx, 0x2146adab
+    1: 400: 0x140001581: and edx, 0xdc214250
+    1: 401: 0x140001587: or edx, ebx
+    1: 402: 0x140001589: and eax, 0x2146adab
+    1: 403: 0x14000158e: and r9d, 0x2981004
+    1: 404: 0x140001595: or r9d, eax
+    1: 405: 0x140001598: xor r9d, edx
+    1: 406: 0x14000159b: mov eax, r9d
+    1: 407: 0x14000159e: not eax
+    1: 408: 0x1400015a0: mov edx, eax
+    1: 409: 0x1400015a2: and edx, 0xf51dd4b5
+    1: 410: 0x1400015a8: mov edi, r9d
+    1: 411: 0x1400015ab: and edi, 0xae22b4a
+    1: 412: 0x1400015b1: or edi, edx
+    1: 413: 0x1400015b3: mov ebp, edi
+    1: 414: 0x1400015b5: xor ebp, 0x142
+    1: 415: 0x1400015bb: xor edi, 0x30000414
+    1: 416: 0x1400015c1: or edi, 0x2455808
+    1: 417: 0x1400015c7: mov ebx, eax
+    1: 418: 0x1400015c9: or ebx, 0x38820614
+    1: 419: 0x1400015cf: and edi, 0x3ac75e1c
+    1: 420: 0x1400015d5: and ebp, 0xc01081c3
+    1: 421: 0x1400015db: or ebp, edi
+    1: 422: 0x1400015dd: and ebx, 0x3ac75e1c
+    1: 423: 0x1400015e3: mov edx, r9d
+    1: 424: 0x1400015e6: and edx, 0x5282020
+    1: 425: 0x1400015ec: or edx, ebx
+    1: 426: 0x1400015ee: xor edx, ebp
+    1: 427: 0x1400015f0: mov ebp, edx
+    1: 428: 0x1400015f2: not ebp
+    1: 429: 0x1400015f4: and ebp, 0x16f821dd
+    1: 430: 0x1400015fa: and edx, 0xe907de22
+    1: 431: 0x140001600: or edx, ebp
+    1: 432: 0x140001602: mov ebp, edx
+    1: 433: 0x140001604: xor ebp, 0x46aa20a
+    1: 434: 0x14000160a: xor edx, 0x119559f5
+    1: 435: 0x140001610: mov ebx, edx
+    1: 436: 0x140001612: and ebx, 0xea115430
+    1: 437: 0x140001618: and ebp, 0x15eeabcf
+    1: 438: 0x14000161e: or ebp, ebx
+    1: 439: 0x140001620: and r9d, 0xea115430
+    1: 440: 0x140001627: and eax, 0x15eeabcf
+    1: 441: 0x14000162c: or eax, r9d
+    1: 442: 0x14000162f: xor eax, ebp
+    1: 443: 0x140001631: not eax
+    1: 444: 0x140001633: or eax, edx
+    1: 445: 0x140001635: cmp eax, -1
+    1: 446: 0x140001638: setne r10b
+    1: 447: 0x14000163c: sete r9b
+    1: 448: 0x140001640: cmp r8d, 0xa
+    1: 449: 0x140001644: setl dil
+    1: 450: 0x140001648: cmp r8d, 9
+    1: 451: 0x14000164c: setg r8b
+    1: 452: 0x140001650: mov ebp, r8d
+    1: 453: 0x140001653: xor bpl, dil
+    1: 454: 0x140001656: mov eax, ebp
+    1: 455: 0x140001658: xor al, 1
+    1: 456: 0x14000165a: mov r11d, r9d
+    1: 457: 0x14000165d: xor r11b, r10b
+    1: 458: 0x140001660: mov esi, r11d
+    1: 459: 0x140001663: xor sil, 1
+    1: 460: 0x140001667: mov edx, ebp
+    1: 461: 0x140001669: and dl, r8b
+    1: 462: 0x14000166c: mov ebx, ebp
+    1: 463: 0x14000166e: xor bl, r8b
+    1: 464: 0x140001671: or bl, dl
+    1: 465: 0x140001673: xor bl, 1
+    1: 466: 0x140001676: or al, r8b
+    1: 467: 0x140001679: or bpl, dil
+    1: 468: 0x14000167c: mov edx, eax
+    1: 469: 0x14000167e: xor dl, bpl
+    1: 470: 0x140001681: or bpl, al
+    1: 471: 0x140001684: xor bpl, 1
+    1: 472: 0x140001688: or bpl, dl
+    1: 473: 0x14000168b: mov eax, ebx
+    1: 474: 0x14000168d: xor al, bpl
+    1: 475: 0x140001690: or bpl, bl
+    1: 476: 0x140001693: xor bpl, 1
+    1: 477: 0x140001697: or bpl, al
+    1: 478: 0x14000169a: xor bpl, 1
+    1: 479: 0x14000169e: mov edx, eax
+    1: 480: 0x1400016a0: and dl, bpl
+    1: 481: 0x1400016a3: xor bpl, al
+    1: 482: 0x1400016a6: or bpl, dl
+    1: 483: 0x1400016a9: mov edx, r11d
+    1: 484: 0x1400016ac: and dl, sil
+    1: 485: 0x1400016af: mov eax, r11d
+    1: 486: 0x1400016b2: xor al, dl
+    1: 487: 0x1400016b4: xor dl, 1
+    1: 488: 0x1400016b7: or dl, sil
+    1: 489: 0x1400016ba: xor dl, 1
+    1: 490: 0x1400016bd: or dl, al
+    1: 491: 0x1400016bf: mov r15d, edx
+    1: 492: 0x1400016c2: xor r15b, 1
+    1: 493: 0x1400016c6: mov r12d, edx
+    1: 494: 0x1400016c9: and r12b, r15b
+    1: 495: 0x1400016cc: mov r14d, r12d
+    1: 496: 0x1400016cf: and r14b, dl
+    1: 497: 0x1400016d2: xor r12b, dl
+    1: 498: 0x1400016d5: or dl, r15b
+    1: 499: 0x1400016d8: and sil, dl
+    1: 500: 0x1400016db: xor dl, 1
+    1: 501: 0x1400016de: mov ebx, edx
+    1: 502: 0x1400016e0: xor bl, r11b
+    1: 503: 0x1400016e3: and bl, dl
+    1: 504: 0x1400016e5: and dl, r11b
+    1: 505: 0x1400016e8: and r11b, r9b
+    1: 506: 0x1400016eb: or dl, sil
+    1: 507: 0x1400016ee: mov esi, ebx
+    1: 508: 0x1400016f0: and sil, dl
+    1: 509: 0x1400016f3: xor dl, bl
+    1: 510: 0x1400016f5: or dl, sil
+    1: 511: 0x1400016f8: mov ebx, r11d
+    1: 512: 0x1400016fb: xor bl, 1
+    1: 513: 0x1400016fe: or bl, r11b
+    1: 514: 0x140001701: xor bl, 1
+    1: 515: 0x140001704: mov esi, r11d
+    1: 516: 0x140001707: and sil, bl
+    1: 517: 0x14000170a: xor bl, r11b
+    1: 518: 0x14000170d: or bl, sil
+    1: 519: 0x140001710: mov eax, edx
+    1: 520: 0x140001712: xor al, 1
+    1: 521: 0x140001714: and dl, al
+    1: 522: 0x140001716: mov r11d, eax
+    1: 523: 0x140001719: and r11b, dl
+    1: 524: 0x14000171c: xor dl, al
+    1: 525: 0x14000171e: mov esi, ebx
+    1: 526: 0x140001720: xor sil, 1
+    1: 527: 0x140001724: and sil, bl
+    1: 528: 0x140001727: or dl, r11b
+    1: 529: 0x14000172a: xor sil, 1
+    1: 530: 0x14000172e: mov eax, ebx
+    1: 531: 0x140001730: xor al, sil
+    1: 532: 0x140001733: or sil, bl
+    1: 533: 0x140001736: xor sil, 1
+    1: 534: 0x14000173a: or sil, al
+    1: 535: 0x14000173d: xor sil, dl
+    1: 536: 0x140001740: or r12b, r14b
+    1: 537: 0x140001743: xor r12b, r10b
+    1: 538: 0x140001746: mov eax, r15d
+    1: 539: 0x140001749: and al, r9b
+    1: 540: 0x14000174c: xor r15b, r9b
+    1: 541: 0x14000174f: or r15b, al
+    1: 542: 0x140001752: xor r15b, 1
+    1: 543: 0x140001756: mov eax, r12d
+    1: 544: 0x140001759: and al, r15b
+    1: 545: 0x14000175c: xor r15b, r12b
+    1: 546: 0x14000175f: or r15b, al
+    1: 547: 0x140001762: mov edx, r15d
+    1: 548: 0x140001765: xor dl, 1
+    1: 549: 0x140001768: mov eax, edx
+    1: 550: 0x14000176a: and al, r15b
+    1: 551: 0x14000176d: xor dl, al
+    1: 552: 0x14000176f: xor al, 1
+    1: 553: 0x140001771: or al, r15b
+    1: 554: 0x140001774: xor al, 1
+    1: 555: 0x140001776: or al, dl
+    1: 556: 0x140001778: mov edx, esi
+    1: 557: 0x14000177a: xor dl, 1
+    1: 558: 0x14000177d: mov ebx, esi
+    1: 559: 0x14000177f: and bl, dl
+    1: 560: 0x140001781: xor bl, 1
+    1: 561: 0x140001784: mov r11d, ebx
+    1: 562: 0x140001787: xor r11b, dl
+    1: 563: 0x14000178a: or bl, dl
+    1: 564: 0x14000178c: xor bl, 1
+    1: 565: 0x14000178f: or bl, r11b
+    1: 566: 0x140001792: xor bl, al
+    1: 567: 0x140001794: mov edx, esi
+    1: 568: 0x140001796: xor dl, al
+    1: 569: 0x140001798: or al, sil
+    1: 570: 0x14000179b: xor al, 1
+    1: 571: 0x14000179d: or al, dl
+    1: 572: 0x14000179f: xor al, 1
+    1: 573: 0x1400017a1: mov edx, ebx
+    1: 574: 0x1400017a3: and dl, al
+    1: 575: 0x1400017a5: xor al, bl
+    1: 576: 0x1400017a7: or al, dl
+    1: 577: 0x1400017a9: mov r11d, ebp
+    1: 578: 0x1400017ac: xor r11b, 1
+    1: 579: 0x1400017b0: mov ebx, eax
+    1: 580: 0x1400017b2: xor bl, 1
+    1: 581: 0x1400017b5: mov edx, ebx
+    1: 582: 0x1400017b7: and dl, al
+    1: 583: 0x1400017b9: xor bl, dl
+    1: 584: 0x1400017bb: xor dl, 1
+    1: 585: 0x1400017be: or dl, al
+    1: 586: 0x1400017c0: xor dl, 1
+    1: 587: 0x1400017c3: or dl, bl
+    1: 588: 0x1400017c5: mov eax, edx
+    1: 589: 0x1400017c7: xor al, 1
+    1: 590: 0x1400017c9: mov ebx, ebp
+    1: 591: 0x1400017cb: or bl, r11b
+    1: 592: 0x1400017ce: xor r11b, bl
+    1: 593: 0x1400017d1: xor r11b, 1
+    1: 594: 0x1400017d5: or bl, bpl
+    1: 595: 0x1400017d8: xor bl, 1
+    1: 596: 0x1400017db: or bl, r11b
+    1: 597: 0x1400017de: and dl, al
+    1: 598: 0x1400017e0: xor dl, 1
+    1: 599: 0x1400017e3: mov r11d, edx
+    1: 600: 0x1400017e6: xor r11b, al
+    1: 601: 0x1400017e9: or dl, al
+    1: 602: 0x1400017eb: xor dl, 1
+    1: 603: 0x1400017ee: or dl, r11b
+    1: 604: 0x1400017f1: mov r11d, ebx
+    1: 605: 0x1400017f4: xor r11b, 1
+    1: 606: 0x1400017f8: mov ebp, edx
+    1: 607: 0x1400017fa: xor bpl, 1
+    1: 608: 0x1400017fe: mov eax, edx
+    1: 609: 0x140001800: and al, bpl
+    1: 610: 0x140001803: mov esi, eax
+    1: 611: 0x140001805: xor sil, 1
+    1: 612: 0x140001809: xor al, dl
+    1: 613: 0x14000180b: or sil, bpl
+    1: 614: 0x14000180e: xor sil, 1
+    1: 615: 0x140001812: or sil, al
+    1: 616: 0x140001815: and r11b, sil
+    1: 617: 0x140001818: xor sil, 1
+    1: 618: 0x14000181c: and sil, bl
+    1: 619: 0x14000181f: or sil, r11b
+    1: 620: 0x140001822: mov r11d, r8d
+    1: 621: 0x140001825: mov eax, r8d
+    1: 622: 0x140001828: xor r8b, r10b
+    1: 623: 0x14000182b: and r10b, dil
+    1: 624: 0x14000182e: and r11b, r9b
+    1: 625: 0x140001831: or r11b, r10b
+    1: 626: 0x140001834: xor al, r9b
+    1: 627: 0x140001837: or dil, r9b
+    1: 628: 0x14000183a: xor dil, 1
+    1: 629: 0x14000183e: or dil, r8b
+    1: 630: 0x140001841: mov ebx, eax
+    1: 631: 0x140001843: xor bl, dil
+    1: 632: 0x140001846: or dil, al
+    1: 633: 0x140001849: xor dil, 1
+    1: 634: 0x14000184d: or dil, bl
+    1: 635: 0x140001850: mov ebx, edi
+    1: 636: 0x140001852: xor bl, 1
+    1: 637: 0x140001855: mov eax, r11d
+    1: 638: 0x140001858: xor al, 1
+    1: 639: 0x14000185a: and al, r11b
+    1: 640: 0x14000185d: and dil, bl
+    1: 641: 0x140001860: mov r8d, eax
+    1: 642: 0x140001863: and r8b, r11b
+    1: 643: 0x140001866: xor al, r11b
+    1: 644: 0x140001869: or al, r8b
+    1: 645: 0x14000186c: mov r8d, edi
+    1: 646: 0x14000186f: and r8b, bl
+    1: 647: 0x140001872: xor dil, bl
+    1: 648: 0x140001875: or dil, r8b
+    1: 649: 0x140001878: mov edx, eax
+    1: 650: 0x14000187a: xor dl, 1
+    1: 651: 0x14000187d: and dl, dil
+    1: 652: 0x140001880: xor dil, 1
+    1: 653: 0x140001884: and dil, al
+    1: 654: 0x140001887: or dil, dl
+    1: 655: 0x14000188a: mov eax, r11d
+    1: 656: 0x14000188d: xor al, bl
+    1: 657: 0x14000188f: or bl, r11b
+    1: 658: 0x140001892: xor bl, 1
+    1: 659: 0x140001895: or bl, al
+    1: 660: 0x140001897: xor dil, 1
+    1: 661: 0x14000189b: mov eax, edi
+    1: 662: 0x14000189d: xor al, bl
+    1: 663: 0x14000189f: or dil, bl
+    1: 664: 0x1400018a2: xor dil, 1
+    1: 665: 0x1400018a6: or dil, al
+    1: 666: 0x1400018a9: mov eax, edi
+    1: 667: 0x1400018ab: xor al, 1
+    1: 668: 0x1400018ad: and al, dil
+    1: 669: 0x1400018b0: xor al, 1
+    1: 670: 0x1400018b2: mov edx, edi
+    1: 671: 0x1400018b4: xor dl, al
+    1: 672: 0x1400018b6: or al, dil
+    1: 673: 0x1400018b9: xor al, 1
+    1: 674: 0x1400018bb: or al, dl
+    1: 675: 0x1400018bd: mov r9d, eax
+    1: 676: 0x1400018c0: xor r9b, 1
+    1: 677: 0x1400018c4: and r9b, al
+    1: 678: 0x1400018c7: xor r9b, 1
+    1: 679: 0x1400018cb: mov edx, eax
+    1: 680: 0x1400018cd: xor dl, r9b
+    1: 681: 0x1400018d0: or r9b, al
+    1: 682: 0x1400018d3: xor r9b, 1
+    1: 683: 0x1400018d7: or r9b, dl
+    1: 684: 0x1400018da: mov r8d, r9d
+    1: 685: 0x1400018dd: xor r8b, 1
+    1: 686: 0x1400018e1: mov edx, esi
+    1: 687: 0x1400018e3: xor dl, 1
+    1: 688: 0x1400018e6: mov eax, edx
+    1: 689: 0x1400018e8: and al, sil
+    1: 690: 0x1400018eb: xor al, 1
+    1: 691: 0x1400018ed: mov ebx, esi
+    1: 692: 0x1400018ef: xor bl, al
+    1: 693: 0x1400018f1: or al, sil
+    1: 694: 0x1400018f4: xor al, 1
+    1: 695: 0x1400018f6: or al, bl
+    1: 696: 0x1400018f8: or dl, sil
+    1: 697: 0x1400018fb: mov r11d, edx
+    1: 698: 0x1400018fe: mov ebx, eax
+    1: 699: 0x140001900: xor bl, dl
+    1: 700: 0x140001902: and bl, al
+    1: 701: 0x140001904: and dl, al
+    1: 702: 0x140001906: mov r10d, eax
+    1: 703: 0x140001909: xor r10b, 1
+    1: 704: 0x14000190d: xor r11b, 1
+    1: 705: 0x140001911: mov esi, r8d
+    1: 706: 0x140001914: or sil, r9b
+    1: 707: 0x140001917: mov eax, esi
+    1: 708: 0x140001919: xor al, 1
+    1: 709: 0x14000191b: and r11b, r10b
+    1: 710: 0x14000191e: or dl, r11b
+    1: 711: 0x140001921: xor bl, 1
+    1: 712: 0x140001924: xor dl, 1
+    1: 713: 0x140001927: mov r11d, ebx
+    1: 714: 0x14000192a: xor r11b, dl
+    1: 715: 0x14000192d: or dl, bl
+    1: 716: 0x14000192f: xor dl, 1
+    1: 717: 0x140001932: or dl, r11b
+    1: 718: 0x140001935: mov ebx, r9d
+    1: 719: 0x140001938: and bl, r8b
+    1: 720: 0x14000193b: mov r11d, ebx
+    1: 721: 0x14000193e: and r11b, r9b
+    1: 722: 0x140001941: mov edi, ebx
+    1: 723: 0x140001943: xor dil, r9b
+    1: 724: 0x140001946: or dil, r11b
+    1: 725: 0x140001949: xor dil, al
+    1: 726: 0x14000194c: xor sil, r8b
+    1: 727: 0x14000194f: or al, r9b
+    1: 728: 0x140001952: xor al, 1
+    1: 729: 0x140001954: or al, sil
+    1: 730: 0x140001957: xor al, 1
+    1: 731: 0x140001959: mov r9d, edi
+    1: 732: 0x14000195c: and r9b, al
+    1: 733: 0x14000195f: xor al, dil
+    1: 734: 0x140001962: or al, r9b
+    1: 735: 0x140001965: xor al, dl
+    1: 736: 0x140001967: mov edx, r8d
+    1: 737: 0x14000196a: and dl, bl
+    1: 738: 0x14000196c: xor bl, r8b
+    1: 739: 0x14000196f: or bl, dl
+    1: 740: 0x140001971: xor bl, r10b
+    1: 741: 0x140001974: mov edx, r10d
+    1: 742: 0x140001977: and dl, r8b
+    1: 743: 0x14000197a: xor r10b, r8b
+    1: 744: 0x14000197d: or r10b, dl
+    1: 745: 0x140001980: xor bl, 1
+    1: 746: 0x140001983: mov edx, ebx
+    1: 747: 0x140001985: xor dl, r10b
+    1: 748: 0x140001988: or bl, r10b
+    1: 749: 0x14000198b: xor bl, 1
+    1: 750: 0x14000198e: or bl, dl
+    1: 751: 0x140001990: xor bl, al
+    1: 752: 0x140001992: and al, bl
+    1: 753: 0x140001994: mov edx, eax
+    1: 754: 0x140001996: xor dl, bl
+    1: 755: 0x140001998: not dl
+    1: 756: 0x14000199a: test dl, 1
+    1: 757: 0x14000199d: jne 0x1400019b2
+
+[*] Tried to recover Opaque Predicate/Edges in 1.4350s
+[*] Edges: 1
+(0x1400019b2) 
+
+    2: 758: 0x1400019b2: test ecx, ecx
+    2: 759: 0x1400019b4: jle 0x140001a02
+
+[*] Tried to recover Opaque Predicate/Edges in 0.3560s
+[*] Edges: 2
+(0x140001a02) (0x1400019b6) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.3560s
+[*] Edges: 2
+(0x140001a02) (0x1400019b6) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.3570s
+[*] Edges: 2
+(0x140001a02) (0x1400019b6) 
+[!] We got 2 edges ... verify if this is ok! ( 1 - 0 )
+
+    3: 760: 0x140001a02: pop rbx
+    3: 761: 0x140001a03: pop rbp
+    3: 762: 0x140001a04: pop rdi
+    3: 763: 0x140001a05: pop rsi
+    3: 764: 0x140001a06: pop r12
+    3: 765: 0x140001a08: pop r13
+    3: 766: 0x140001a0a: pop r14
+    3: 767: 0x140001a0c: pop r15
+    3: 768: 0x140001a0e: ret 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0380s
+[*] Edges: 0
+
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0370s
+[*] Edges: 0
+
+
+    4: 769: 0x1400019b6: lea edx, dword ptr [rcx + 1]
+    4: 770: 0x1400019b9: mov ebx, 1
+    4: 771: 0x1400019be: mov ebp, 1
+    4: 772: 0x1400019c3: nop word ptr cs:[rax + rax]
+    4: 773: 0x1400019d0: mov eax, 0x9c29d29e
+    4: 774: 0x1400019d5: sub eax, ebx
+    4: 775: 0x1400019d7: mov edi, 0x24ed358
+    4: 776: 0x1400019dc: sub edi, eax
+    4: 777: 0x1400019de: neg ecx
+    4: 778: 0x1400019e0: not ecx
+    4: 779: 0x1400019e2: mov ebx, ebp
+    4: 780: 0x1400019e4: neg ebp
+    4: 781: 0x1400019e6: sub edi, ebp
+    4: 782: 0x1400019e8: mov ebp, 0x7378ae93
+    4: 783: 0x1400019ed: sub ebp, edi
+    4: 784: 0x1400019ef: mov eax, 0xd53add9
+    4: 785: 0x1400019f4: sub eax, ebp
+    4: 786: 0x1400019f6: add edx, -1
+    4: 787: 0x1400019f9: mov ebp, eax
+    4: 788: 0x1400019fb: cmp edx, 1
+    4: 789: 0x1400019fe: jg 0x1400019d0
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0850s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+[!] We got 2 edges ... verify if this is ok! ( 2 - 0 )
+
+[!] Splitting the basic block 0x1400019b6 at 0x1400019d0
+
+    4: 790: 0x140001a00: jmp 0x140001a02
+
+    5: 791: 0x1400019b6: lea edx, dword ptr [rcx + 1]
+    5: 792: 0x1400019b9: mov ebx, 1
+    5: 793: 0x1400019be: mov ebp, 1
+    5: 794: 0x1400019c3: nop word ptr cs:[rax + rax]
+
+    6: 795: 0x1400019d0: mov eax, 0x9c29d29e
+    6: 796: 0x1400019d5: sub eax, ebx
+    6: 797: 0x1400019d7: mov edi, 0x24ed358
+    6: 798: 0x1400019dc: sub edi, eax
+    6: 799: 0x1400019de: neg ecx
+    6: 800: 0x1400019e0: not ecx
+    6: 801: 0x1400019e2: mov ebx, ebp
+    6: 802: 0x1400019e4: neg ebp
+    6: 803: 0x1400019e6: sub edi, ebp
+    6: 804: 0x1400019e8: mov ebp, 0x7378ae93
+    6: 805: 0x1400019ed: sub ebp, edi
+    6: 806: 0x1400019ef: mov eax, 0xd53add9
+    6: 807: 0x1400019f4: sub eax, ebp
+    6: 808: 0x1400019f6: add edx, -1
+    6: 809: 0x1400019f9: mov ebp, eax
+    6: 810: 0x1400019fb: cmp edx, 1
+    6: 811: 0x1400019fe: jg 0x1400019d0
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0870s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0870s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+
+[*] Tried to recover Opaque Predicate/Edges in 0.0860s
+[*] Edges: 2
+(0x1400019d0) (0x140001a00) 
+[!] We got 2 edges ... verify if this is ok! ( 3 - 0 )
+
+[!] Loop detected to the beginning of basic block 0x140001a02
+
+[!] Loop detected to the beginning of basic block 0x1400019d0
+
+[!] Loop detected to the beginning of basic block 0x140001a00
+[*] Building the control flow graph ...
+[*] Time taken to recover the function : 4.2040s
+[*] Applying post translation optimization ...
+[!] Could not find SymbolicState CallInst![!] No stack slots found!
+[*] Time taken to optimize the function: 5.0450s
+[*] Applying custom post translation optimization ...
+[*] Detected Argument Count: 1
+[!] Done!
+[*] Creating Gadgets ...
+[*] Writing patched binary to test_.exe
+[!] Done!
+[*] Writing LLVM IR to lifted.ll ... Done!
+[*] Recovered Basic Blocks : 6
+[*] Basic Blocks in optimized lifted Function : 5
+[*] Recovered Opaque Predicates : 1
